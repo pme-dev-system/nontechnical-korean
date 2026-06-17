@@ -1,0 +1,24 @@
+{
+  "slug": "endpoint",
+  "title_en": "Endpoint",
+  "title_ko": "엔드포인트",
+  "category_en": "APIs & Connections",
+  "category_ko": "API와 연결",
+  "kicker_ko": "엔드포인트란 — 쉬운 말로",
+  "deck_ko": "API 안의 특정 주소 하나예요.",
+  "analogy_ko": "API가 건물이라면, 엔드포인트는 그 안의 특정 문이에요. 문마다 하는 일이 달라요.",
+  "body_html": "<p>누군가 처음 \"orders 엔드포인트에 요청해\"라고 말했을 때, 저는 아는 척 고개를 끄덕였어요. 사실 무슨 말인지 몰랐거든요. 어딘가를 가리키는 것 같았는데, 알고 보니 그게 맞았어요.</p>\n<p>이렇게 생각해 보세요. <a class='dict-xref' href='/term/api/'>API</a>는 건물 전체예요. <strong>엔드포인트는 그 건물 안의 특정 문 하나인데, 문마다 딱 하나의 <a class='dict-xref' href='/term/job/'>작업</a>만 해요.</strong> \"API 전체\"에 들어가는 게 아니라, 원하는 것에 맞는 특정 문으로 가서 두드리는 거예요.</p>\n<ul>\n<li><em>내 주문 조회</em>용 문 하나.</li>\n<li><em>상품 등록</em>용 문 하나.</li>\n<li><em>이메일 발송</em>용 문 하나.</li>\n<li><em>고객 삭제</em>용 문 하나.</li>\n</ul>\n<p>같은 건물, 문은 여러 개, 각 문에는 라벨이 붙어 있고, 각 문은 하나의 일만 처리해요.</p>\n<p><strong>엔드포인트가 실제로 어떻게 생겼냐고요?</strong> 그냥 웹 주소예요. 회사의 API 주소 뒤에 짧은 꼬리를 붙인 형태죠.</p>\n<pre><code class='language-text'>/orders\n/customers\n/products\n</code></pre>\n<p>각 꼬리가 다른 문이에요. <code>/orders</code>는 주문 문, <code>/customers</code>는 고객 문. 같은 건물, 요청에 따라 다른 문으로 가요. 코드나 문서에서 이 슬래시들을 보면, 그게 전부예요. 문에 붙은 라벨일 뿐이에요.</p>\n<p><strong>개발자가 \"orders 엔드포인트에 요청해\"라고 말할 때의 의미:</strong> orders라는 라벨이 붙은 문을 두드려서 그 뒤에 있는 것을 달라고 요청한다는 뜻이에요. 그 이상도 이하도 아니에요.</p>\n<p>AI도 \"Shopify\" 전체를 한 덩어리로 처리하지 않아요. 복도를 걸어가면서 특정 문을 하나씩 두드려요. 예를 들어 \"지난 주에 구매한 고객 전체에게 이메일 보내기\"는 세 번의 요청으로 이루어져요.</p>\n<ol>\n<li><p><strong>주문 문:</strong> 지난 주에 누가 샀나요?</p>\n</li>\n<li><p><strong>고객 문:</strong> 그들의 이메일 주소는요?</p>\n</li>\n<li><p><strong>이메일 문:</strong> 메시지를 보내요.</p>\n</li>\n</ol>\n<p><strong>건물 하나, 문은 여러 개. 엔드포인트는 지금 필요한 바로 그 문이에요.</strong></p>",
+  "related": [
+    {
+      "slug": "api",
+      "title_ko": "API"
+    },
+    {
+      "slug": "job",
+      "title_ko": "작업(Job)"
+    }
+  ],
+  "prev": "webhook",
+  "next": "rest-api",
+  "img": "/dictionary/img/endpoint.svg"
+}

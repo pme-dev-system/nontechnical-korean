@@ -1,0 +1,40 @@
+{
+  "slug": "pull-request",
+  "title_en": "Pull Request",
+  "title_ko": "풀 리퀘스트",
+  "category_en": "Code & Collaboration",
+  "category_ko": "코드와 협업",
+  "kicker_ko": "풀 리퀘스트란 — 쉬운 말로",
+  "deck_ko": "검토를 요청하기 위해 올리는 변경 제안이에요.",
+  "analogy_ko": "남의 Google Docs 단락을 직접 고치는 대신 댓글로 수정을 제안하고, 상대방이 수락할 때까지 기다리는 것과 같아요.",
+  "body_html": "<p>남의 Google Docs 단락을 직접 고치는 대신 줄을 선택하고 수정 제안을 남긴 뒤 상대방이 수락 버튼을 누르기를 기다린 적 있으세요? 실제 문서에는 손대지 않은 채 변경을 제안하고, 결정권을 상대에게 넘기는 거죠.</p>\n<p>풀 리퀘스트가 바로 그거예요. 소프트웨어 버전으로요.</p>\n<p>브랜치를 기억하시나요? 동작 중인 버전을 건드리지 않고 위험한 아이디어를 따로 <a class='dict-xref' href='/term/build-compile'>빌드</a>하는 평행 우주 말이에요. 어느 시점이 되면 그 <a class='dict-xref' href='/term/branch'>브랜치</a>가 완성되고, 실제 코드베이스(거의 항상 \"main\"이라 불리는 버전)에 합쳐야 해요. 그냥 밀어 넣는 게 아니에요. 손을 드는 거예요. <strong>\"내 브랜치에 이걸 만들었어요. 줄 단위로 무엇을 바꿨는지 여기 있어요. 반영하기 전에 한 번 봐주세요.\"</strong> 그 손 드는 행위가 풀 리퀘스트예요. 줄여서 PR이라고 해요.</p>\n<p><strong>왜 바로 <a class='dict-xref' href='/term/merge-merge-conflict'>머지</a>하지 않을까요?</strong> \"내가 뭔가 바꿨다\"와 \"검토를 위해 공개적으로 변경을 제안한다\"는 완전히 다른 일이기 때문이에요. 그 간극이 소프트웨어가 끊임없이 망가지지 않는 이유예요.</p>\n<p>PR은 실제 사용자에게 닿기 전에 안전 점검이 이루어지는 곳이에요.</p>\n<ol>\n<li><p><strong>사람이 읽어요.</strong> 팀원들이 걱정되는 줄에 바로 댓글을 달아요. \"왜 이걸 지웠어요?\" \"이러면 결제가 깨질 것 같아요.\" 맞을 때까지 주고받는 거예요.</p>\n</li>\n<li><p><strong>테스트가 자동으로 돌아가요.</strong> PR을 여는 순간 프로젝트는 자동으로 체크를 실행해 뭔가 깨졌는지 확인해요. 초록불이면 진행이에요.</p>\n</li>\n<li><p><strong>승인이 나야 머지돼요.</strong> 그게 핵심이에요. 변경은 승인될 때까지 대기실에서 완전히 공개된 채로 머물러요.</p>\n</li>\n</ol>\n<p><strong>낯선 사람이 자신이 소유하지 않은 <a class='dict-xref' href='/term/tool-function-calling'>도구</a>를 개선하는 방식도 이거예요.</strong> <a class='dict-xref' href='/term/github'>GitHub</a>에서 프로젝트를 찾아 복사하고, 불편하던 <a class='dict-xref' href='/term/bug'>버그</a>를 고친 뒤, 원본 프로젝트에 PR을 올려요. 프로젝트 관리자가 읽고 괜찮으면 머지해요. 그 낯선 사람은 비밀번호도, 특별한 권한도 없었어요. PR이 정문이었고 코드 리뷰가 문지기였던 거예요. 뭔가 깨진 걸 보면 고치고 PR을 보내면 돼요.</p>\n<p>기억해 두실 것은 이거예요. PR은 관료적 절차가 아니라 기록이에요. 몇 달 뒤 누구든 그 변경을 꺼내 보면 <em>무엇이</em> 바뀌었는지, <em>누가</em> 승인했는지, <em>왜</em> 그랬는지 확인할 수 있어요. AI <a class='dict-xref' href='/term/agent'>에이전트</a>가 무언가를 만들어줄 때도 PR을 열 수 있어요. 그러면 main에 반영되기 전에 우리가나 팀원이 결과물을 한번 훑어볼 수 있죠.</p>\n<p><strong>수정을 제안하세요. 상대방이 수락하게 하세요. <em>그때</em> 비로소 진짜가 돼요.</strong></p>",
+  "related": [
+    {
+      "slug": "agent",
+      "title_ko": "에이전트"
+    },
+    {
+      "slug": "branch",
+      "title_ko": "브랜치"
+    },
+    {
+      "slug": "github",
+      "title_ko": "GitHub"
+    },
+    {
+      "slug": "open-source",
+      "title_ko": "오픈 소스"
+    },
+    {
+      "slug": "tool-function-calling",
+      "title_ko": "도구 / 함수 호출"
+    },
+    {
+      "slug": "build-compile",
+      "title_ko": "빌드 / 컴파일"
+    }
+  ],
+  "prev": "github",
+  "next": "open-source",
+  "img": "/dictionary/img/pull-request.svg"
+}

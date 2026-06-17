@@ -1,0 +1,40 @@
+{
+  "slug": "temperature",
+  "title_en": "Temperature",
+  "title_ko": "Temperature(온도)",
+  "category_en": "More",
+  "category_ko": "더 알아보기",
+  "kicker_ko": "temperature란 — 쉬운 말로",
+  "deck_ko": "AI 플레이그라운드마다 숨겨진 다이얼 하나가, AI가 꼼꼼한 회계사처럼 행동할지 재즈 뮤지션처럼 행동할지를 결정해요.",
+  "analogy_ko": "레시피를 정확히 따를지, 즉흥으로 요리할지를 조절하는 셰프의 슬라이더예요.",
+  "body_html": "<p>AI 플레이그라운드마다 다이얼이 하나 있어요. AI가 꼼꼼한 회계사처럼 행동할지, 재즈 뮤지션처럼 행동할지를 결정하는 다이얼이에요. 대부분의 사람은 건드리지 않아요. 그게 뭘 하는지 아무도 알려주지 않았으니까요.</p>\n<p>AI가 사용하는 작은 벽돌, 토큰을 떠올려보세요. AI는 다음 벽돌을 예측하는 방식으로 작동해요. 다음에 올 수 있는 모든 단어 중 각각의 확률을 순위로 매기고, 거기서 단어를 골라요. <strong>Temperature는 그 순위에서 얼마나 과감하게 고를지를 조절하는 다이얼이에요.</strong></p>\n<p><strong>셰프의 레시피 슬라이더.</strong> 슬라이더를 가진 셰프를 상상해보세요. 한쪽 끝은 \"레시피를 정확히 따른다\", 반대쪽 끝은 \"즉흥으로 요리한다\"예요.</p>\n<ul>\n<li>슬라이더를 <strong>낮추면</strong>(영에 가깝게) 셰프는 레시피를 그램 단위로 따라요. 항상 가장 확률 높은 단어를 골라요. 예측 가능하고, 일관되고, 약간 지루해요. 같은 질문을 두 번 해도 거의 같은 답이 나와요.</li>\n<li>슬라이더를 <strong>올리면</strong> 셰프는 즉흥 연주를 시작해요. 뻔한 단어를 건너뛰고 덜 확률적인 단어를 집어들기도 해요. 더 놀랍고, 더 창의적이고, 더 다양해요. 그리고 이상한 말을 할 가능성도 높아져요.</li>\n</ul>\n<p>Temperature는 창의성과 일관성 사이의 슬라이더예요. AI를 더 똑똑하게 만들거나 멍청하게 만드는 게 아니에요. AI가 이미 알고 있는 것에서 얼마나 대담하게 고르는지를 바꾸는 거예요.</p>\n<p><strong>어느 방향으로 돌려야 하는지, 실제로 유용한 부분:</strong></p>\n<ul>\n<li><strong>낮게</strong>: <em>매번 동일한 정답</em>이 필요할 때요. 데이터 추출, 분류, 문서에서 숫자 뽑기, 코드 작성, 또는 다음 단계에서 기계가 읽을 엄격한 <a class='dict-xref' href='/term/json'>JSON</a> 생성. 청구서 읽는 AI에게 영감은 필요 없어요.</li>\n<li><strong>높게</strong>: <em>다양성과 의외성</em>이 필요할 때요. 이름 브레인스토밍, 열 가지 다른 훅 초안 작성, 각도 탐색, 창의적 카피. 다이얼을 올려야 매번 같은 무난한 답에서 벗어날 수 있어요.</li>\n</ul>\n<p><strong>대부분의 사람이 빠지는 함정:</strong> AI가 반복적이라며 탓하는데, 해결책은 다이얼을 <em>올리는</em> 거예요. 또는 AI가 제멋대로 뭔가를 지어낸다며 탓하는데, 해결책은 다이얼을 <em>낮추는</em> 거예요. 문제는 처음부터 다이얼이었어요. 그리고 이게 <a class='dict-xref' href='/term/hallucination'>환각(hallucination)</a>과 연결돼요. Temperature를 높이면 환각이 <em>더</em> 잘 생겨요. \"덜 뻔한 단어를 집어들어라\"가 정확히 AI가 사실에서 멀어지는 순간이거든요.</p>\n<p>이건 <a class='dict-xref' href='/term/api'>API</a> 플레이그라운드에서 계속 마주치는 두 번째 개념이에요. <a class='dict-xref' href='/term/rate-limit'>레이트 리밋(rate limit)</a>은 따라야 하는 것이고, Temperature는 조정하는 거예요. 대부분의 채팅 앱은 이걸 숨기고 적당한 중간값을 자동으로 설정해요. 직접 무언가를 만드는 순간, 이건 가장 먼저 이해해야 할 다이얼이에요.</p>\n<p><strong>Temperature는 즉흥 연주 다이얼이에요.</strong> 낮추면 매번 같은 정답. 올리면 열 가지 다른 답. <a class='dict-xref' href='/term/job'>작업(job)</a>에 맞게 다이얼을 맞춰보세요.</p>",
+  "related": [
+    {
+      "slug": "api",
+      "title_ko": "API"
+    },
+    {
+      "slug": "hallucination",
+      "title_ko": "환각"
+    },
+    {
+      "slug": "job",
+      "title_ko": "작업"
+    },
+    {
+      "slug": "json",
+      "title_ko": "JSON"
+    },
+    {
+      "slug": "rate-limit",
+      "title_ko": "레이트 리밋"
+    },
+    {
+      "slug": "eval-benchmark",
+      "title_ko": "평가 / 벤치마크"
+    }
+  ],
+  "prev": "fine-tuning",
+  "next": "dependency-package",
+  "img": "/dictionary/img/temperature.svg"
+}

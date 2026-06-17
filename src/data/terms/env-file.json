@@ -1,0 +1,40 @@
+{
+  "slug": "env-file",
+  "title_en": "Env File",
+  "title_ko": ".env 파일",
+  "category_en": "APIs & Connections",
+  "category_ko": "API와 연결",
+  "kicker_ko": ".env 파일이란 — 쉬운 말로",
+  "deck_ko": "비밀 키를 코드 밖에 보관하는 파일이에요.",
+  "analogy_ko": "코드는 무대 대본이고, .env 파일은 배우들의 실명과 주소가 적힌 잠긴 서랍이에요.",
+  "body_html": "<p>하루 종일 공개 코드를 뒤지며 유출된 비밀 키를 찾는 봇들이 있어요. 키를 찾으면 몇 분 안에 당신 계정으로 돈을 쓰기 시작하죠. .env 파일은 그 목록에 올라가지 않게 해주는 장치예요.</p>\n<p>이 파일이 해결하는 문제를 먼저 볼게요. 코드가 실행되려면 민감한 정보가 필요해요.</p>\n<ul>\n<li><a class='dict-xref' href='/term/api'>API</a> 키 (앱의 서비스를 사용할 수 있다는 증명)</li>\n<li>비밀번호</li>\n<li><a class='dict-xref' href='/term/database'>데이터베이스</a> 로그인 정보</li>\n</ul>\n<p>그런데 코드 자체는 종종 공개돼요. <a class='dict-xref' href='/term/github'>GitHub</a>에 올라가면 전 세계 누구나 볼 수 있거든요. 비밀번호를 코드에 직접 적어두는 건 집 열쇠를 현관문에 테이프로 붙이고 주소를 인터넷에 올리는 것과 같아요.</p>\n<p>그래서 비밀 정보는 코드에 넣지 않아요. 코드 옆에 별도 파일로 두고, 절대 공유하지 않는 거예요. 그 파일이 <strong>.env</strong>예요. \"닷 env\"라고 읽으며, environment(환경)의 줄임말이에요.</p>\n<p><strong>잠긴 서랍.</strong></p>\n<p>연극으로 생각해볼게요. 대본이 있고, 배우들의 실명과 집 주소가 적힌 명단이 있어요.</p>\n<ul>\n<li><em>대본</em>은 모두에게 나눠줘요. 코드가 그래요. 공개해도 되거든요.</li>\n<li><em>실명과 주소</em>는 무대 뒤 잠긴 서랍에 보관해요. .env가 그렇죠. 건물 밖에서는 아무도 볼 수 없어요.</li>\n</ul>\n<p>코드에는 실제 비밀번호가 들어 있지 않아요. 대신 이런 지시가 들어 있죠. \"서랍에서 비밀번호를 가져와라.\" .env 파일이 바로 그 서랍이에요. <strong>코드는 <a class='dict-xref' href='/term/secret'>비밀</a>을 가리키고, .env가 비밀 그 자체예요.</strong></p>\n<p><strong>안전할 뿐 아니라 실용적이에요.</strong></p>\n<p>비밀 정보가 코드 밖에 있으면, 동일한 코드를 어디서든 쓸 수 있어요. 서랍 안에 뭘 넣느냐만 바꾸면 되니까요.</p>\n<ol>\n<li><p>내 노트북에서는 서랍에 <a class='dict-xref' href='/term/test-unit-test'>테스트</a>용 키를 넣어요.</p>\n</li>\n<li><p>팀원 노트북에서는 팀원의 키를 넣고요.</p>\n</li>\n<li><p>실제 운영 <a class='dict-xref' href='/term/server'>서버</a>에서는 실제 운영 키를 넣어요.</p>\n</li>\n</ol>\n<p>대본은 같고, 공연장마다 서랍만 달라요. 어떤 비밀을 쓸지 바꾸려고 코드를 건드릴 필요가 없어요. 그게 핵심이에요.</p>\n<p><strong>반드시 지켜야 할 한 가지 규칙.</strong></p>\n<p>이것만 기억해 두세요.</p>\n<blockquote>\n<p>.env 파일은 절대 GitHub에 커밋하거나 올리지 않아요.</p>\n</blockquote>\n<p>키 유출은 가장 흔한 실수이고, 대가도 커요. 다행히 도구들이 이를 막아줘요. <strong>.gitignore</strong>라는 파일에 .env를 한 줄 추가하면, 버전 관리 시스템이 그 파일을 아예 없는 것처럼 취급해서 저장하거나 올리지 않아요. 한 번 설정하면 끝이에요.</p>\n<pre><code class='language-text'># .gitignore\n.env\n</code></pre>\n<p>처음 접하면 헷갈리는 점이 하나 있어요. .env 앞의 점(.)은 이 파일을 <em>숨김 파일</em>로 만들어요. 폴더를 열어봐도 기본적으로는 보이지 않아요. 숨김 파일을 보려면 이렇게 하세요.</p>\n<ul>\n<li><strong>Mac:</strong> Finder에서 <code>Cmd + Shift + .</code>(마침표 키)를 눌러요.</li>\n<li><strong>Windows:</strong> 파일 탐색기 → 보기 → \"숨긴 항목\"을 켜면 돼요.</li>\n</ul>\n<p>이 파일들을 직접 만들 필요는 거의 없어요. AI가 프로젝트를 설정할 때 .env와 .gitignore를 자동으로 만들고 키를 제자리에 넣어줘요. 이 파일들이 뭔지 알아두는 이유는, <a class='dict-xref' href='/term/agent'>에이전트</a>가 \"env 파일에 넣겠습니다\"라고 했을 때 무슨 뜻인지 이해하기 위해서예요.</p>\n<p><strong>키는 서랍에. 서랍은 코드 밖에.</strong></p>",
+  "related": [
+    {
+      "slug": "api",
+      "title_ko": "API"
+    },
+    {
+      "slug": "database",
+      "title_ko": "데이터베이스"
+    },
+    {
+      "slug": "server",
+      "title_ko": "서버"
+    },
+    {
+      "slug": "agent",
+      "title_ko": "에이전트"
+    },
+    {
+      "slug": "github",
+      "title_ko": "GitHub"
+    },
+    {
+      "slug": "claude-md",
+      "title_ko": "CLAUDE.md"
+    }
+  ],
+  "prev": "http-methods",
+  "next": "claude-md",
+  "img": "/dictionary/img/env-file.svg"
+}

@@ -1,0 +1,199 @@
+@import "tailwindcss";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+/* ── 에이투지체(AtoZ) : 한글·라틴 단일 보이스 ───────────────────── */
+@font-face { font-family: "AtoZ"; font-weight: 100; font-display: swap; src: url("/fonts/AtoZ-Thin.ttf") format("truetype"); }
+@font-face { font-family: "AtoZ"; font-weight: 200; font-display: swap; src: url("/fonts/AtoZ-ExtraLight.ttf") format("truetype"); }
+@font-face { font-family: "AtoZ"; font-weight: 300; font-display: swap; src: url("/fonts/AtoZ-Light.ttf") format("truetype"); }
+@font-face { font-family: "AtoZ"; font-weight: 400; font-display: swap; src: url("/fonts/AtoZ-Regular.ttf") format("truetype"); }
+@font-face { font-family: "AtoZ"; font-weight: 500; font-display: swap; src: url("/fonts/AtoZ-Medium.ttf") format("truetype"); }
+@font-face { font-family: "AtoZ"; font-weight: 600; font-display: swap; src: url("/fonts/AtoZ-SemiBold.ttf") format("truetype"); }
+@font-face { font-family: "AtoZ"; font-weight: 700; font-display: swap; src: url("/fonts/AtoZ-Bold.ttf") format("truetype"); }
+@font-face { font-family: "AtoZ"; font-weight: 800; font-display: swap; src: url("/fonts/AtoZ-ExtraBold.ttf") format("truetype"); }
+@font-face { font-family: "AtoZ"; font-weight: 900; font-display: swap; src: url("/fonts/AtoZ-Black.ttf") format("truetype"); }
+
+:root {
+  /* 따뜻한 종이 뉴트럴 (oklch, hue를 강조색 쪽으로 살짝 틴트) */
+  --paper:    oklch(0.973 0.009 78);
+  --paper-2:  oklch(0.945 0.013 76);
+  --surface:  oklch(0.995 0.004 80);
+  --ink:      oklch(0.245 0.021 52);
+  --ink-soft: oklch(0.405 0.018 52);
+  --ink-mute: oklch(0.565 0.014 58);
+  --line:     oklch(0.905 0.012 74);
+  --line-2:   oklch(0.845 0.015 70);
+
+  /* 시그니처 단일 강조 — 테라코타 */
+  --accent:      oklch(0.585 0.138 41);
+  --accent-deep: oklch(0.485 0.130 39);
+  --accent-tint: oklch(0.585 0.138 41 / 0.12);
+
+  --font: "AtoZ", "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --mono: "AtoZ", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --maxw: 70rem;
+  --readw: 40rem;
+  --pad: clamp(1.15rem, 5vw, 3.5rem);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+body {
+  font-family: var(--font);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.72;
+  letter-spacing: -0.006em;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /* 종이 질감: 아주 옅은 가로 괘선 느낌은 배제, 미세 vignette만 */
+  background-image: radial-gradient(120% 80% at 50% -10%, oklch(0.99 0.006 80) 0%, var(--paper) 55%);
+  background-attachment: fixed;
+}
+::selection { background: var(--accent); color: var(--surface); }
+a { color: inherit; text-decoration: none; }
+
+.wrap { width: 100%; max-width: var(--maxw); margin-inline: auto; padding-inline: var(--pad); }
+
+/* ── 상단 마스트헤드 ──────────────────────────────────────── */
+.mast {
+  position: sticky; top: 0; z-index: 50;
+  background: color-mix(in oklch, var(--paper) 82%, transparent);
+  backdrop-filter: saturate(1.3) blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.mast__row { display: flex; align-items: center; justify-content: space-between; height: 58px; gap: 1rem; }
+.mast__brand { display: flex; align-items: baseline; gap: .5rem; }
+.mast__mark { font-weight: 900; font-size: 1.04rem; letter-spacing: -0.04em; }
+.mast__mark em { color: var(--accent); font-style: normal; }
+.mast__tag { font-size: .76rem; color: var(--ink-mute); font-weight: 500; }
+.mast__count { font-size: .76rem; color: var(--ink-mute); font-variant-numeric: tabular-nums; }
+.mast__count b { color: var(--ink); font-weight: 700; }
+
+/* ── 히어로(에디토리얼, 좌측정렬·비대칭) ─────────────────────── */
+.hero { padding-top: clamp(3.2rem, 10vw, 7rem); padding-bottom: clamp(2.4rem, 6vw, 4rem); }
+.hero__eyebrow {
+  font-size: .8rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--accent-deep); display: inline-flex; align-items: center; gap: .6rem;
+}
+.hero__eyebrow::before { content: ""; width: 26px; height: 2px; background: var(--accent); display: inline-block; }
+.hero__title {
+  font-size: clamp(2.6rem, 8vw, 5.4rem); font-weight: 900; line-height: 0.98;
+  letter-spacing: -0.05em; margin-top: 1.1rem; max-width: 16ch;
+}
+.hero__title .soft { color: var(--ink-mute); font-weight: 300; }
+.hero__lead {
+  font-size: clamp(1.05rem, 2.3vw, 1.3rem); color: var(--ink-soft); font-weight: 400;
+  margin-top: 1.5rem; max-width: 40ch; line-height: 1.65;
+}
+.hero__rule { height: 1px; background: var(--line-2); margin-top: 2.6rem; }
+
+/* 카테고리 인덱스(히어로 하단, 번호 매긴 목록) */
+.nav-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .2rem 2rem; margin-top: 1.6rem; }
+.nav-index__item {
+  display: flex; align-items: baseline; gap: .7rem; padding: .55rem 0;
+  border-bottom: 1px solid transparent; transition: border-color .18s ease;
+}
+.nav-index__item:hover { border-bottom-color: var(--line-2); }
+.nav-index__no { font-variant-numeric: tabular-nums; font-size: .72rem; color: var(--ink-mute); font-weight: 600; width: 1.4rem; }
+.nav-index__dot { width: 7px; height: 7px; border-radius: 50%; transform: translateY(-1px); }
+.nav-index__ko { font-weight: 700; letter-spacing: -0.02em; }
+.nav-index__n { margin-left: auto; font-size: .76rem; color: var(--ink-mute); font-variant-numeric: tabular-nums; }
+.nav-index__item:hover .nav-index__ko { color: var(--accent-deep); }
+
+/* ── 카테고리 섹션 + 용어 인덱스 행(카드 그리드 탈피) ───────────── */
+.cat { padding-block: clamp(2.4rem, 5vw, 3.6rem); border-top: 1px solid var(--line); }
+.cat__head { display: grid; grid-template-columns: auto 1fr; align-items: end; gap: .5rem 1.1rem; margin-bottom: 1.4rem; }
+.cat__no {
+  font-size: clamp(2.4rem, 6vw, 3.6rem); font-weight: 900; line-height: .8;
+  color: var(--paper-2); -webkit-text-stroke: 1px var(--line-2); letter-spacing: -0.04em;
+  font-variant-numeric: tabular-nums; grid-row: span 2;
+}
+.cat__title { font-size: clamp(1.4rem, 3.4vw, 2rem); font-weight: 800; letter-spacing: -0.03em; display: flex; align-items: center; gap: .6rem; }
+.cat__title .swatch { width: 11px; height: 11px; border-radius: 3px; }
+.cat__blurb { color: var(--ink-mute); font-size: .92rem; align-self: start; }
+
+.entries { border-top: 1px solid var(--line); }
+.entry {
+  display: grid; grid-template-columns: 2.2rem 1fr auto; align-items: baseline;
+  gap: 0 1rem; padding: 1.05rem .6rem 1.05rem .2rem;
+  border-bottom: 1px solid var(--line); position: relative;
+  transition: background-color .16s ease, padding-left .18s ease;
+}
+.entry:hover { background: var(--accent-tint); padding-left: .8rem; }
+.entry__no { font-variant-numeric: tabular-nums; font-size: .78rem; color: var(--ink-mute); font-weight: 600; }
+.entry__main { min-width: 0; }
+.entry__title {
+  font-size: 1.18rem; font-weight: 700; letter-spacing: -0.025em;
+  display: inline-flex; align-items: baseline; gap: .55rem; flex-wrap: wrap;
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-size: 0% 2px; background-position: 0 100%; background-repeat: no-repeat;
+  transition: background-size .25s cubic-bezier(.22,1,.36,1), color .16s ease;
+  padding-bottom: 2px;
+}
+.entry:hover .entry__title { background-size: 100% 2px; color: var(--accent-deep); }
+.entry__en { font-size: .76rem; color: var(--ink-mute); font-weight: 500; letter-spacing: .01em; }
+.entry__deck { font-size: .92rem; color: var(--ink-soft); margin-top: .25rem; line-height: 1.5; max-width: 56ch; }
+.entry__cat { display: inline-flex; align-items: center; gap: .4rem; font-size: .74rem; color: var(--ink-mute); white-space: nowrap; align-self: center; }
+.entry__cat .dot { width: 7px; height: 7px; border-radius: 50%; }
+.entry__arrow { color: var(--ink-mute); opacity: 0; transform: translateX(-4px); transition: opacity .18s ease, transform .18s ease; align-self: center; font-weight: 700; }
+.entry:hover .entry__arrow { opacity: 1; transform: translateX(0); color: var(--accent); }
+@media (max-width: 600px) { .entry__cat { display: none; } .entry { grid-template-columns: 1.8rem 1fr; } }
+
+/* ── 용어 상세(에디토리얼 아티클) ─────────────────────────────── */
+.detail { padding-top: clamp(1.8rem, 4vw, 3rem); padding-bottom: 5rem; }
+.crumbs { font-size: .82rem; color: var(--ink-mute); display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; }
+.crumbs a:hover { color: var(--accent-deep); }
+.detail__cat { display: inline-flex; align-items: center; gap: .5rem; font-size: .8rem; font-weight: 600; margin-top: 1.6rem; color: var(--ink-soft); }
+.detail__cat .dot { width: 8px; height: 8px; border-radius: 50%; }
+.detail__title { font-size: clamp(2.4rem, 7vw, 4rem); font-weight: 900; letter-spacing: -0.045em; line-height: 1.02; margin-top: .55rem; }
+.detail__en { font-size: .92rem; color: var(--ink-mute); font-weight: 500; margin-top: .6rem; letter-spacing: .02em; }
+.detail__deck { font-size: clamp(1.15rem, 2.6vw, 1.42rem); color: var(--ink-soft); font-weight: 500; margin-top: 1.3rem; max-width: var(--readw); line-height: 1.55; }
+
+/* 비유 — 풀쿼트 트리트먼트 */
+.analogy { max-width: var(--readw); margin-top: 2.2rem; padding-left: 1.4rem; border-left: 3px solid var(--accent); }
+.analogy__label { font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent-deep); }
+.analogy__text { font-size: clamp(1.1rem, 2.4vw, 1.3rem); color: var(--ink); line-height: 1.5; margin-top: .5rem; font-weight: 500; }
+
+/* 본문 산문 */
+.prose { max-width: var(--readw); margin-top: 2.6rem; font-size: 1.05rem; line-height: 1.82; color: var(--ink-soft); }
+.prose p { margin-bottom: 1.15rem; }
+.prose strong { color: var(--ink); font-weight: 700; }
+.prose ol, .prose ul { margin: 0 0 1.25rem; padding-left: 1.3rem; }
+.prose li { margin-bottom: .55rem; }
+.prose li p { margin-bottom: .3rem; }
+.prose code { font-family: var(--mono); font-size: .9em; background: var(--paper-2); padding: .1em .38em; border-radius: 5px; color: var(--accent-deep); font-weight: 600; }
+.prose a.dict-xref { color: var(--ink); font-weight: 600; box-shadow: inset 0 -2px 0 var(--line-2); transition: box-shadow .16s ease; }
+.prose a.dict-xref:hover { box-shadow: inset 0 -2px 0 var(--accent); }
+
+/* 관련 + pager */
+.related { max-width: var(--readw); margin-top: 3rem; padding-top: 1.7rem; border-top: 1px solid var(--line); }
+.related__label { font-size: .74rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-mute); }
+.related__list { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .85rem; }
+.related__item { font-size: .9rem; font-weight: 600; padding: .4rem .8rem; border: 1px solid var(--line-2); border-radius: 999px; transition: border-color .15s ease, color .15s ease, transform .15s ease; }
+.related__item:hover { border-color: var(--accent); color: var(--accent-deep); transform: translateY(-1px); }
+
+.pager { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: var(--readw); margin-top: 2.4rem; }
+.pager a { padding: 1rem 1.1rem; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); transition: border-color .16s ease, transform .16s ease; }
+.pager a:hover { border-color: var(--accent); transform: translateY(-2px); }
+.pager__dir { font-size: .72rem; color: var(--ink-mute); font-weight: 600; }
+.pager__t { font-weight: 700; margin-top: .2rem; letter-spacing: -0.02em; }
+.pager--next { text-align: right; }
+
+/* 카테고리 페이지 헤더 */
+.cathead { padding-top: clamp(2.4rem, 5vw, 4rem); }
+.cathead__no { font-size: clamp(3rem, 9vw, 5rem); font-weight: 900; color: var(--paper-2); -webkit-text-stroke: 1.5px var(--line-2); line-height: .8; font-variant-numeric: tabular-nums; }
+.cathead__title { font-size: clamp(2rem, 6vw, 3rem); font-weight: 900; letter-spacing: -0.04em; margin-top: .4rem; display: flex; align-items: center; gap: .7rem; }
+.cathead__title .swatch { width: 14px; height: 14px; border-radius: 4px; }
+.cathead__blurb { color: var(--ink-soft); margin-top: .7rem; font-size: 1.05rem; }
+
+/* 푸터 */
+.foot { border-top: 1px solid var(--line); padding-block: 2.6rem; margin-top: 1rem; color: var(--ink-mute); font-size: .84rem; }
+.foot__row { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; align-items: baseline; }
+.foot a { font-weight: 600; color: var(--ink-soft); box-shadow: inset 0 -1px 0 var(--line-2); }
+.foot a:hover { color: var(--accent-deep); box-shadow: inset 0 -1px 0 var(--accent); }

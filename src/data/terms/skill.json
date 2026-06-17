@@ -1,0 +1,40 @@
+{
+  "slug": "skill",
+  "title_en": "Skill",
+  "title_ko": "스킬",
+  "category_en": "Building With AI",
+  "category_ko": "AI로 만들기",
+  "kicker_ko": "스킬이란 — 쉬운 말로",
+  "deck_ko": "AI가 필요할 때 꺼내 쓰는, 저장된 작업 절차예요.",
+  "analogy_ko": "매트릭스에서 Neo가 케이블을 꽂자마자 '쿵후를 알아'라고 했던 것처럼, AI는 스킬 파일을 로드하는 순간 그 일을 할 줄 알게 돼요.",
+  "body_html": "<p><a class='dict-extlink' href='https://en.wikipedia.org/wiki/The_Matrix' rel='noopener noreferrer' target='_blank'>매트릭스</a>에서 Neo가 싸워야 할 때 뒤통수에 케이블을 꽂고 '쿵후' 파일을 바로 뇌에 로드하는 장면, 기억하세요? 눈을 깜빡이고 나서 한마디 해요. \"쿵후를 알아.\" 수년 훈련 없이, 필요한 순간에 파일 하나가 로드된 거예요.</p>\n<p>스킬이 정확히 그거예요.</p>\n<p>AI가 <a class='dict-xref' href='/term/job'>일</a>이 생길 때만 불러오고, 끝나면 내려놓는 지시 묶음이에요. 항상 방 안에 쌓아두는 게 아니에요. 나머지 것들을 어지럽히지도 않고요. 필요한 순간에만 등장하고, 필요 없으면 사라져요.</p>\n<p><strong>일상에서도 이미 이걸 하고 계세요.</strong></p>\n<p>강아지 맡길 때 한 장짜리 메모를 남긴 적 있으세요? 옆에서 일일이 설명하지 않고, 한 번 적어두는 거예요:</p>\n<ul>\n<li>7시에 밥, 반 스쿱.</li>\n<li>낮 12시에 산책, 왼쪽으로 끄는 버릇 있음.</li>\n<li>간식은 위 서랍 안.</li>\n<li>동물병원 번호는 냉장고에.</li>\n</ul>\n<p>그 메모가 강아지 돌봄 스킬이에요. 내가 없어도 <em>내 방식 그대로</em> 일이 돌아가도록 <a class='dict-xref' href='/term/process'>절차</a>를 한 번만 적어둔 거죠. 다음 사람도 메모를 열고, 일을 하고, 메모를 닫아요. 대화가 끝나도 지식은 남아요.</p>\n<p><strong>AI에도 같은 방식을 써요.</strong></p>\n<p>Shopify 스토어를 위한 스킬을 하나 만들었다고 해볼게요. 막연한 감이 아니라 실제 절차를 담은 거예요:</p>\n<ol>\n<li><p>랜딩 페이지를 어떻게 설계하는지.</p></li>\n<li><p>상품을 어떻게 배치하는지.</p></li>\n<li><p>페이지가 실제로 전환되도록 섹션을 어떻게 구성하는지.</p></li>\n</ol>\n<p>이제 <em>\"새 상품 페이지 <a class='dict-xref' href='/term/build-compile'>만들어줘</a>\"</em>라고 하면, <a class='dict-xref' href='/term/agent'>에이전트</a>가 그 스킬을 불러와 <strong>우리</strong> 방식으로 만들어줘요. AI가 그냥 짐작했을 일반적인 방식이 아니에요. 채팅을 열 때마다 우리 전략 전체를 다시 설명하지 않아도 돼요. 한 번 가르쳤고, 선반에 올려뒀으니까요.</p>\n<p>매번 같은 방식으로 하는 일이라면 뭐든 스킬로 만들 수 있어요:</p>\n<ul>\n<li>뉴스레터 발행.</li>\n<li>사이트 업데이트.</li>\n<li>주간 보고서 포맷 잡기.</li>\n<li>지난 달 수치 뽑아서 정리하기.</li>\n</ul>\n<p>머릿속에 '이건 항상 이렇게 해'라고 자리잡은 것이라면, 스킬로 옮길 수 있어요.</p>\n<p><strong>많은 분들이 놓치는 부분이 있어요.</strong> 스킬은 모든 지시를 프롬프트에 한꺼번에 쑤셔넣고 항상 켜두는 것과 달라요. 항상 켜진 것들은 필요 여부와 상관없이 공간(<a class='dict-xref' href='/term/context-window'>컨텍스트 윈도우</a>)을 채우거든요. 스킬은 선반에 있다가 필요한 순간에만 들어와요. 나머지 95% 시간 동안 공간이 깔끔하게 유지되고요.</p>\n<p>차이를 가장 깔끔하게 표현하면 이래요:</p>\n<p><strong><a class='dict-xref' href='/term/system-prompt'>시스템 프롬프트</a>는 AI가 항상 갖고 있는 정체성이에요. 스킬은 필요한 순간까지 선반에 놓인, AI가 할 줄 아는 일이고요.</strong></p>\n<p>한 번 가르치고, 스킬로 저장해두세요. 그 다음부터 같은 일을 다시 설명할 필요가 없어요.</p>",
+  "related": [
+    {
+      "slug": "context-window",
+      "title_ko": "컨텍스트 윈도우"
+    },
+    {
+      "slug": "agent",
+      "title_ko": "에이전트"
+    },
+    {
+      "slug": "system-prompt",
+      "title_ko": "시스템 프롬프트"
+    },
+    {
+      "slug": "slash-command",
+      "title_ko": "슬래시 명령"
+    },
+    {
+      "slug": "vibe-coding",
+      "title_ko": "바이브 코딩"
+    },
+    {
+      "slug": "process",
+      "title_ko": "프로세스"
+    }
+  ],
+  "prev": "system-prompt",
+  "next": "session",
+  "img": "/dictionary/img/skill.svg"
+}

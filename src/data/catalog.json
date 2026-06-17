@@ -1,0 +1,702 @@
+[
+  {
+    "slug": "api",
+    "title": "API",
+    "category": "The Basics",
+    "deck": "TLDR:How your AI talks to other apps.",
+    "img_url": "/dictionary/img/day-01.jpg"
+  },
+  {
+    "slug": "agent",
+    "title": "Agent",
+    "category": "Building With AI",
+    "deck": "TLDR:An AI that takes actions, not just answers.",
+    "img_url": "/dictionary/img/day-10.jpg"
+  },
+  {
+    "slug": "agents-sdk",
+    "title": "Agents SDK",
+    "category": "Building With AI",
+    "deck": "TLDR:A starter kit for building your own AI worker.",
+    "img_url": "/dictionary/img/day-37.jpg"
+  },
+  {
+    "slug": "async",
+    "title": "Async",
+    "category": "How Developers Think",
+    "deck": "TLDR:Work that runs without waiting in line.",
+    "img_url": "/dictionary/img/day-48.jpg"
+  },
+  {
+    "slug": "branch",
+    "title": "Branch",
+    "category": "Code & Collaboration",
+    "deck": "TLDR:A safe copy to try changes on.",
+    "img_url": "/dictionary/img/day-17.jpg"
+  },
+  {
+    "slug": "bug",
+    "title": "Bug",
+    "category": "Shipping & Running",
+    "deck": "TLDR:When something in software breaks, everyone calls it a bug.",
+    "img_url": "/dictionary/img/day-91.jpg"
+  },
+  {
+    "slug": "build-compile",
+    "title": "Build / Compile",
+    "category": "More",
+    "deck": "TLDR:\"The build failed.\" For the longest time I didn't even know \"build\" was a step.",
+    "img_url": "/dictionary/img/day-75.jpg"
+  },
+  {
+    "slug": "cdn",
+    "title": "CDN",
+    "category": "Shipping & Running",
+    "deck": "TLDR:Copies of your site kept close to every visitor.",
+    "img_url": "/dictionary/img/day-50.jpg"
+  },
+  {
+    "slug": "ci-cd",
+    "title": "CI/CD",
+    "category": "Shipping & Running",
+    "deck": "TLDR:Imagine every time you finished a change, a robot automatically grabbed it, ran every test, built the app, and shipped it, all without you touching a thing.",
+    "img_url": "/dictionary/img/day-97.jpg"
+  },
+  {
+    "slug": "claude-md",
+    "title": "CLAUDE.md",
+    "category": "Building With AI",
+    "deck": "TLDR:The house rules your AI reads before it starts.",
+    "img_url": "/dictionary/img/day-29.jpg"
+  },
+  {
+    "slug": "cli",
+    "title": "CLI",
+    "category": "The Basics",
+    "deck": "TLDR:Talk straight to the kitchen, no clicking.",
+    "img_url": "/dictionary/img/day-03.jpg"
+  },
+  {
+    "slug": "cors",
+    "title": "CORS",
+    "category": "More",
+    "deck": "TLDR:The most baffling error a new builder ever hits reads \"blocked by CORS policy.\" It sounds like you did something illegal.",
+    "img_url": "/dictionary/img/day-73.jpg"
+  },
+  {
+    "slug": "cache",
+    "title": "Cache",
+    "category": "Shipping & Running",
+    "deck": "TLDR:The chef could reach into the walk-in refrigerator every single time she needs garlic.",
+    "img_url": "/dictionary/img/day-61.jpg"
+  },
+  {
+    "slug": "commit",
+    "title": "Commit",
+    "category": "Code & Collaboration",
+    "deck": "TLDR:A labeled snapshot you can return to.",
+    "img_url": "/dictionary/img/day-16.jpg"
+  },
+  {
+    "slug": "compaction",
+    "title": "Compaction",
+    "category": "How AI Works",
+    "deck": "TLDR:Summarizing the chat so it keeps fitting.",
+    "img_url": "/dictionary/img/day-14.jpg"
+  },
+  {
+    "slug": "computer-use",
+    "title": "Computer Use",
+    "category": "Building With AI",
+    "deck": "TLDR:AI that clicks and types like a person.",
+    "img_url": "/dictionary/img/day-36.jpg"
+  },
+  {
+    "slug": "container-docker",
+    "title": "Container / Docker",
+    "category": "More",
+    "deck": "TLDR:\"But it works on my machine\" is the oldest excuse in software.",
+    "img_url": "/dictionary/img/day-78.jpg"
+  },
+  {
+    "slug": "context-window",
+    "title": "Context Window",
+    "category": "How AI Works",
+    "deck": "TLDR:How much your AI can hold in mind at once.",
+    "img_url": "/dictionary/img/day-06.jpg"
+  },
+  {
+    "slug": "cookie",
+    "title": "Cookie",
+    "category": "APIs & Connections",
+    "deck": "TLDR:You've clicked \"accept cookies\" thousands of times without anyone ever telling you what you were agreeing to.",
+    "img_url": "/dictionary/img/day-90.jpg"
+  },
+  {
+    "slug": "cron-job",
+    "title": "Cron Job",
+    "category": "Shipping & Running",
+    "deck": "TLDR:An alarm clock that runs tasks on a schedule.",
+    "img_url": "/dictionary/img/day-34.jpg"
+  },
+  {
+    "slug": "dns",
+    "title": "DNS",
+    "category": "Shipping & Running",
+    "deck": "TLDR:The internet's phone book for site names.",
+    "img_url": "/dictionary/img/day-49.jpg"
+  },
+  {
+    "slug": "dry",
+    "title": "DRY",
+    "category": "How Developers Think",
+    "deck": "TLDR:Write it once, reuse it everywhere.",
+    "img_url": "/dictionary/img/day-42.jpg"
+  },
+  {
+    "slug": "daemon",
+    "title": "Daemon",
+    "category": "Shipping & Running",
+    "deck": "TLDR:Not demon.",
+    "img_url": "/dictionary/img/day-57.jpg"
+  },
+  {
+    "slug": "database",
+    "title": "Database",
+    "category": "The Basics",
+    "deck": "TLDR:A giant spreadsheet your software can talk to.",
+    "img_url": "/dictionary/img/day-04.jpg"
+  },
+  {
+    "slug": "dependency-package",
+    "title": "Dependency / Package",
+    "category": "More",
+    "deck": "TLDR:Open source is why your favorite apps aren't built from scratch.",
+    "img_url": "/dictionary/img/day-81.jpg"
+  },
+  {
+    "slug": "deploy",
+    "title": "Deploy",
+    "category": "Shipping & Running",
+    "deck": "TLDR:Push your work live for the world to use.",
+    "img_url": "/dictionary/img/day-32.jpg"
+  },
+  {
+    "slug": "edge",
+    "title": "Edge",
+    "category": "Shipping & Running",
+    "deck": "TLDR:Running code close to your users, not far away.",
+    "img_url": "/dictionary/img/day-53.jpg"
+  },
+  {
+    "slug": "embedding",
+    "title": "Embedding",
+    "category": "How AI Works",
+    "deck": "TLDR:Meaning turned into numbers a computer can compare.",
+    "img_url": "/dictionary/img/day-39.jpg"
+  },
+  {
+    "slug": "encryption",
+    "title": "Encryption",
+    "category": "APIs & Connections",
+    "deck": "TLDR:You send a credit card number across the internet and it passes through who knows how many machines on the way to the store.",
+    "img_url": "/dictionary/img/day-98.jpg"
+  },
+  {
+    "slug": "endpoint",
+    "title": "Endpoint",
+    "category": "APIs & Connections",
+    "deck": "TLDR:One specific address on an API.",
+    "img_url": "/dictionary/img/day-25.jpg"
+  },
+  {
+    "slug": "env-file",
+    "title": "Env File",
+    "category": "APIs & Connections",
+    "deck": "TLDR:Where your secret keys live, out of the code.",
+    "img_url": "/dictionary/img/day-28.jpg"
+  },
+  {
+    "slug": "eval-benchmark",
+    "title": "Eval / Benchmark",
+    "category": "Building With AI",
+    "deck": "TLDR:How do you actually know if one AI is better than another, or if the change you just made to your prompt helped or quietly made things worse?",
+    "img_url": "/dictionary/img/day-87.jpg"
+  },
+  {
+    "slug": "feature-flag",
+    "title": "Feature Flag",
+    "category": "More",
+    "deck": "TLDR:A feature flag is a switch inside your live app that turns a feature on or off without shipping new code.",
+    "img_url": "/dictionary/img/day-83.jpg"
+  },
+  {
+    "slug": "fine-tuning",
+    "title": "Fine-tuning",
+    "category": "More",
+    "deck": "TLDR:RAG is the open-book exam, where the AI looks things up before it answers.",
+    "img_url": "/dictionary/img/day-79.jpg"
+  },
+  {
+    "slug": "fork",
+    "title": "Fork",
+    "category": "Code & Collaboration",
+    "deck": "TLDR:Take someone's open-source project, the code anyone can read and use, and make your own full copy to do whatever you want with, independent of the original.",
+    "img_url": "/dictionary/img/day-95.jpg"
+  },
+  {
+    "slug": "frontend-backend",
+    "title": "Frontend & Backend",
+    "category": "The Basics",
+    "deck": "TLDR:What you see, and what does the work.",
+    "img_url": "/dictionary/img/day-02.jpg"
+  },
+  {
+    "slug": "git-version-control",
+    "title": "Git / Version Control",
+    "category": "Code & Collaboration",
+    "deck": "TLDR:Save points for your code.",
+    "img_url": "/dictionary/img/day-15.jpg"
+  },
+  {
+    "slug": "github",
+    "title": "GitHub",
+    "category": "Code & Collaboration",
+    "deck": "TLDR:Where your code lives and gets shared.",
+    "img_url": "/dictionary/img/day-18.jpg"
+  },
+  {
+    "slug": "guardrails",
+    "title": "Guardrails",
+    "category": "Building With AI",
+    "deck": "TLDR:The scariest thing about handing a task to an AI is the small chance it does something you never wanted: says something off-brand, leaks information, follows a stranger's instructions, takes an…",
+    "img_url": "/dictionary/img/day-88.jpg"
+  },
+  {
+    "slug": "http-methods",
+    "title": "HTTP Methods",
+    "category": "APIs & Connections",
+    "deck": "TLDR:Get, create, update, delete. The verbs of the web.",
+    "img_url": "/dictionary/img/day-27.jpg"
+  },
+  {
+    "slug": "hallucination",
+    "title": "Hallucination",
+    "category": "How AI Works",
+    "deck": "TLDR:When AI sounds confident and is just wrong.",
+    "img_url": "/dictionary/img/day-07.jpg"
+  },
+  {
+    "slug": "harness",
+    "title": "Harness",
+    "category": "Building With AI",
+    "deck": "TLDR:The car built around the AI engine.",
+    "img_url": "/dictionary/img/day-35.jpg"
+  },
+  {
+    "slug": "headless",
+    "title": "Headless",
+    "category": "Shipping & Running",
+    "deck": "TLDR:Software that runs with no screen, nobody watching.",
+    "img_url": "/dictionary/img/day-33.jpg"
+  },
+  {
+    "slug": "inference",
+    "title": "Inference",
+    "category": "How AI Works",
+    "deck": "TLDR:You hear this word everywhere once you're working with AI.",
+    "img_url": "/dictionary/img/day-85.jpg"
+  },
+  {
+    "slug": "json",
+    "title": "JSON",
+    "category": "More",
+    "deck": "TLDR:Almost every time two pieces of software pass information to each other, it's written on the same little note card.",
+    "img_url": "/dictionary/img/day-65.jpg"
+  },
+  {
+    "slug": "job",
+    "title": "Job",
+    "category": "Shipping & Running",
+    "deck": "TLDR:One specific piece of work.",
+    "img_url": "/dictionary/img/day-59.jpg"
+  },
+  {
+    "slug": "kiss",
+    "title": "KISS",
+    "category": "How Developers Think",
+    "deck": "TLDR:Keep it simple. Skip the clever version.",
+    "img_url": "/dictionary/img/day-44.jpg"
+  },
+  {
+    "slug": "latency",
+    "title": "Latency",
+    "category": "Shipping & Running",
+    "deck": "TLDR:You click something and there's a beat, a small hang, before anything happens.",
+    "img_url": "/dictionary/img/day-93.jpg"
+  },
+  {
+    "slug": "localhost",
+    "title": "Localhost",
+    "category": "The Basics",
+    "deck": "TLDR:A private website that runs only on your machine.",
+    "img_url": "/dictionary/img/day-31.jpg"
+  },
+  {
+    "slug": "log",
+    "title": "Log",
+    "category": "More",
+    "deck": "TLDR:Picture a receipt printer that never stops.",
+    "img_url": "/dictionary/img/day-84.jpg"
+  },
+  {
+    "slug": "mcp",
+    "title": "MCP (Model Context Protocol)",
+    "category": "Building With AI",
+    "deck": "TLDR:A universal port for your AI's tools.",
+    "img_url": "/dictionary/img/day-22.jpg"
+  },
+  {
+    "slug": "markdown",
+    "title": "Markdown",
+    "category": "Code & Collaboration",
+    "deck": "TLDR:Plain text that formats itself.",
+    "img_url": "/dictionary/img/day-21.jpg"
+  },
+  {
+    "slug": "merge-merge-conflict",
+    "title": "Merge / Merge Conflict",
+    "category": "Code & Collaboration",
+    "deck": "TLDR:I didn't know what a branch or a merge conflict was until I started working with outside developers.",
+    "img_url": "/dictionary/img/day-94.jpg"
+  },
+  {
+    "slug": "multimodal",
+    "title": "Multimodal",
+    "category": "How AI Works",
+    "deck": "TLDR:For most of their history, the AI models you chat with could only read and write.",
+    "img_url": "/dictionary/img/day-89.jpg"
+  },
+  {
+    "slug": "oauth-agent-identity",
+    "title": "OAuth / Agent Identity",
+    "category": "Building With AI",
+    "deck": "TLDR:A valet key for your accounts, not the master key.",
+    "img_url": "/dictionary/img/day-41.jpg"
+  },
+  {
+    "slug": "object-storage",
+    "title": "Object Storage",
+    "category": "Shipping & Running",
+    "deck": "TLDR:A giant bucket for files on the internet.",
+    "img_url": "/dictionary/img/day-51.jpg"
+  },
+  {
+    "slug": "open-source",
+    "title": "Open Source",
+    "category": "Code & Collaboration",
+    "deck": "TLDR:Code anyone can read, use, and improve.",
+    "img_url": "/dictionary/img/day-20.jpg"
+  },
+  {
+    "slug": "patch",
+    "title": "Patch",
+    "category": "Shipping & Running",
+    "deck": "TLDR:You fixed the bug.",
+    "img_url": "/dictionary/img/day-92.jpg"
+  },
+  {
+    "slug": "permission-scope",
+    "title": "Permission Scope",
+    "category": "More",
+    "deck": "TLDR:A valet key starts the car and opens the driver's door.",
+    "img_url": "/dictionary/img/day-68.jpg"
+  },
+  {
+    "slug": "process",
+    "title": "Process",
+    "category": "Shipping & Running",
+    "deck": "TLDR:There's a PDF on your desktop right now.",
+    "img_url": "/dictionary/img/day-56.jpg"
+  },
+  {
+    "slug": "prompt-caching",
+    "title": "Prompt Caching",
+    "category": "How AI Works",
+    "deck": "TLDR:Pay once to read it, reuse it cheaply.",
+    "img_url": "/dictionary/img/day-09.jpg"
+  },
+  {
+    "slug": "prompt-injection",
+    "title": "Prompt Injection",
+    "category": "More",
+    "deck": "TLDR:Your AI reads everything you point it at.",
+    "img_url": "/dictionary/img/day-71.jpg"
+  },
+  {
+    "slug": "pull-request",
+    "title": "Pull Request",
+    "category": "Code & Collaboration",
+    "deck": "TLDR:A proposed change, put up for review.",
+    "img_url": "/dictionary/img/day-19.jpg"
+  },
+  {
+    "slug": "queue",
+    "title": "Queue",
+    "category": "Shipping & Running",
+    "deck": "TLDR:Your agents can work fast.",
+    "img_url": "/dictionary/img/day-58.jpg"
+  },
+  {
+    "slug": "rag",
+    "title": "RAG",
+    "category": "More",
+    "deck": "TLDR:There are two ways to take a test.",
+    "img_url": "/dictionary/img/day-69.jpg"
+  },
+  {
+    "slug": "rest-api",
+    "title": "REST API",
+    "category": "APIs & Connections",
+    "deck": "TLDR:The common rulebook most APIs follow.",
+    "img_url": "/dictionary/img/day-26.jpg"
+  },
+  {
+    "slug": "rate-limit",
+    "title": "Rate Limit",
+    "category": "More",
+    "deck": "TLDR:Sooner or later your AI comes back with 429 Too Many Requests, and it feels like you broke something expensive.",
+    "img_url": "/dictionary/img/day-72.jpg"
+  },
+  {
+    "slug": "reasoning",
+    "title": "Reasoning",
+    "category": "How AI Works",
+    "deck": "TLDR:For a while, AI answered like a kid blurting out the first thing that popped into their head.",
+    "img_url": "/dictionary/img/day-86.jpg"
+  },
+  {
+    "slug": "refactoring",
+    "title": "Refactoring",
+    "category": "How Developers Think",
+    "deck": "TLDR:Tidying the code without changing what it does.",
+    "img_url": "/dictionary/img/day-45.jpg"
+  },
+  {
+    "slug": "rollback",
+    "title": "Rollback",
+    "category": "More",
+    "deck": "TLDR:Shipping the broken version is not the disaster.",
+    "img_url": "/dictionary/img/day-77.jpg"
+  },
+  {
+    "slug": "runtime",
+    "title": "Runtime",
+    "category": "Shipping & Running",
+    "deck": "TLDR:Your code is not the program.",
+    "img_url": "/dictionary/img/day-55.jpg"
+  },
+  {
+    "slug": "sdk",
+    "title": "SDK",
+    "category": "APIs & Connections",
+    "deck": "TLDR:A toolkit for building on a service.",
+    "img_url": "/dictionary/img/day-23.jpg"
+  },
+  {
+    "slug": "ssh",
+    "title": "SSH",
+    "category": "Shipping & Running",
+    "deck": "TLDR:Not screen sharing.",
+    "img_url": "/dictionary/img/day-62.jpg"
+  },
+  {
+    "slug": "sandbox",
+    "title": "Sandbox",
+    "category": "Building With AI",
+    "deck": "TLDR:The scariest part of letting an AI agent loose on your computer is the small voice asking what happens if it does something dumb.",
+    "img_url": "/dictionary/img/day-99.jpg"
+  },
+  {
+    "slug": "schema",
+    "title": "Schema",
+    "category": "More",
+    "deck": "TLDR:Picture a printed order form with labeled boxes, and each box is a specific shape.",
+    "img_url": "/dictionary/img/day-64.jpg"
+  },
+  {
+    "slug": "secret",
+    "title": "Secret",
+    "category": "More",
+    "deck": "TLDR:Some of the strings of characters your software uses are harmless name-tags.",
+    "img_url": "/dictionary/img/day-67.jpg"
+  },
+  {
+    "slug": "server",
+    "title": "Server",
+    "category": "The Basics",
+    "deck": "TLDR:A computer that never closes.",
+    "img_url": "/dictionary/img/day-05.jpg"
+  },
+  {
+    "slug": "serverless",
+    "title": "Serverless",
+    "category": "Shipping & Running",
+    "deck": "TLDR:Rent computing by the moment, no server to babysit.",
+    "img_url": "/dictionary/img/day-52.jpg"
+  },
+  {
+    "slug": "session",
+    "title": "Session",
+    "category": "How AI Works",
+    "deck": "TLDR:One continuous conversation with your AI.",
+    "img_url": "/dictionary/img/day-13.jpg"
+  },
+  {
+    "slug": "skill",
+    "title": "Skill",
+    "category": "Building With AI",
+    "deck": "TLDR:A saved SOP your AI can follow on demand.",
+    "img_url": "/dictionary/img/day-12.jpg"
+  },
+  {
+    "slug": "slash-command",
+    "title": "Slash Command",
+    "category": "Building With AI",
+    "deck": "TLDR:A keyboard shortcut for a whole prompt.",
+    "img_url": "/dictionary/img/day-30.jpg"
+  },
+  {
+    "slug": "stack-trace",
+    "title": "Stack Trace",
+    "category": "More",
+    "deck": "TLDR:When your code crashes, it doesn't just die quietly.",
+    "img_url": "/dictionary/img/day-82.jpg"
+  },
+  {
+    "slug": "staging-vs-production",
+    "title": "Staging vs Production",
+    "category": "More",
+    "deck": "TLDR:Deploy is the house doors swinging open and the audience walking in.",
+    "img_url": "/dictionary/img/day-76.jpg"
+  },
+  {
+    "slug": "state",
+    "title": "State",
+    "category": "Shipping & Running",
+    "deck": "TLDR:When you're mid-sentence in a draft email and your browser crashes, the draft is gone.",
+    "img_url": "/dictionary/img/day-60.jpg"
+  },
+  {
+    "slug": "system-prompt",
+    "title": "System Prompt",
+    "category": "Building With AI",
+    "deck": "TLDR:The standing instructions your AI always follows.",
+    "img_url": "/dictionary/img/day-11.jpg"
+  },
+  {
+    "slug": "technical-debt",
+    "title": "Technical Debt",
+    "category": "How Developers Think",
+    "deck": "TLDR:Shortcuts now that you pay for later.",
+    "img_url": "/dictionary/img/day-46.jpg"
+  },
+  {
+    "slug": "temperature",
+    "title": "Temperature",
+    "category": "More",
+    "deck": "TLDR:There's a single dial in every AI playground that decides whether your AI behaves like a buttoned-up accountant or a jazz musician.",
+    "img_url": "/dictionary/img/day-80.jpg"
+  },
+  {
+    "slug": "test-unit-test",
+    "title": "Test / Unit Test",
+    "category": "Shipping & Running",
+    "deck": "TLDR:How do you know the code you wrote still works, not just today, but after the next change, and the change after that?",
+    "img_url": "/dictionary/img/day-96.jpg"
+  },
+  {
+    "slug": "the-cloud",
+    "title": "The Cloud",
+    "category": "Shipping & Running",
+    "deck": "TLDR:The hundredth word, and one everyone says without quite being able to picture it.",
+    "img_url": "/dictionary/img/day-100.jpg"
+  },
+  {
+    "slug": "token",
+    "title": "Token",
+    "category": "How AI Works",
+    "deck": "TLDR:The unit AI reads and writes in.",
+    "img_url": "/dictionary/img/day-08.jpg"
+  },
+  {
+    "slug": "tool-function-calling",
+    "title": "Tool / Function Calling",
+    "category": "More",
+    "deck": "TLDR:The line between a chatbot and an agent is tools.",
+    "img_url": "/dictionary/img/day-70.jpg"
+  },
+  {
+    "slug": "trace",
+    "title": "Trace",
+    "category": "More",
+    "deck": "TLDR:Something in your app is slow, and \"the app is slow\" tells you nothing useful.",
+    "img_url": "/dictionary/img/day-63.jpg"
+  },
+  {
+    "slug": "type-type-error",
+    "title": "Type / Type Error",
+    "category": "More",
+    "deck": "TLDR:Half the time your build dies, it's not some deep bug.",
+    "img_url": "/dictionary/img/day-74.jpg"
+  },
+  {
+    "slug": "vector-database",
+    "title": "Vector Database",
+    "category": "How AI Works",
+    "deck": "TLDR:Storage that finds things by meaning, not exact words.",
+    "img_url": "/dictionary/img/day-40.jpg"
+  },
+  {
+    "slug": "vibe-coding",
+    "title": "Vibe Coding",
+    "category": "Building With AI",
+    "deck": "TLDR:Building by describing it, letting AI write the code.",
+    "img_url": "/dictionary/img/day-47.jpg"
+  },
+  {
+    "slug": "voice-agents",
+    "title": "Voice Agents",
+    "category": "Building With AI",
+    "deck": "TLDR:An agent you just talk to out loud.",
+    "img_url": "/dictionary/img/day-38.jpg"
+  },
+  {
+    "slug": "webhook",
+    "title": "Webhook",
+    "category": "APIs & Connections",
+    "deck": "TLDR:An app that pings you the moment something happens.",
+    "img_url": "/dictionary/img/day-24.jpg"
+  },
+  {
+    "slug": "worker",
+    "title": "Worker",
+    "category": "Shipping & Running",
+    "deck": "TLDR:A small program that runs one job on demand.",
+    "img_url": "/dictionary/img/day-54.jpg"
+  },
+  {
+    "slug": "yagni",
+    "title": "YAGNI",
+    "category": "How Developers Think",
+    "deck": "TLDR:Don't build what you don't need yet.",
+    "img_url": "/dictionary/img/day-43.jpg"
+  },
+  {
+    "slug": "yaml",
+    "title": "YAML",
+    "category": "More",
+    "deck": "TLDR:JSON is easy for machines and a little hostile to humans.",
+    "img_url": "/dictionary/img/day-66.jpg"
+  }
+]

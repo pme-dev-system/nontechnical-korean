@@ -1,0 +1,40 @@
+{
+  "slug": "merge-merge-conflict",
+  "title_en": "Merge / Merge Conflict",
+  "title_ko": "머지 / 머지 컨플릭트",
+  "category_en": "Code & Collaboration",
+  "category_ko": "코드와 협업",
+  "kicker_ko": "define merge-merge-conflict --plain-english",
+  "deck_ko": "브랜치나 머지 컨플릭트가 뭔지 몰랐는데, 외부 개발자와 함께 일하면서 알게 됐어요.",
+  "analogy_ko": "두 사람이 Google Docs의 같은 문장을 동시에 다르게 고쳤을 때, 기계가 펜을 돌려주며 선택을 맡기는 순간이에요.",
+  "body_html": "<p><a class='dict-xref' href='/term/branch'>브랜치</a>나 머지 컨플릭트가 뭔지 몰랐어요. 외부 개발자와 함께 일하기 시작하면서 알게 됐고, 지금은 새로운 것을 <a class='dict-xref' href='/term/build-compile'>만들</a> 때마다 항상 써요.</p>\n<p>실제로 어떻게 쓰이는지 보면 이렇습니다. 새로운 기능을 만들고 싶을 때 <code>main</code>에서 브랜치를 따요. main은 프로젝트의 공식 작동 버전이고, 모두가 이것을 기준으로 작업해요. 브랜치는 내가 혼자 쓰는 사본이에요. 옆으로 빼놓은 공간에서 새 기능을 만들고, 제대로 동작하는지 확인한 뒤, 다른 사람들이 의존하는 코드에는 손대지 않아요. 다 됐으면 다시 <code>main</code>에 합쳐요. <strong>머지가 바로 그거예요. 내 브랜치의 작업을 메인 버전에 접어 넣고, 두 줄기의 작업을 하나로 합치는 것.</strong></p>\n<p>대부분의 머지는 조용히 끝나요. <a class='dict-xref' href='/term/git-version-control'>Git</a>(이 모든 버전을 추적하는 도구)은 내가 바꾼 부분과 다른 사람이 바꾼 부분을 보고, 서로 다른 곳을 건드렸다면 혼자 알아서 합쳐줘요. 문제가 생기는 건 두 사람이 똑같은 자리를 서로 다른 방식으로 고쳤을 때뿐이에요.</p>\n<p>Google Docs로 생각하면 확 와닿아요. 동료와 같은 문서에 접속해 있다고 상상해보세요. 당신이 도입부를 고치고 그 동료가 결론을 수정한다면 문제없어요. 두 편집이 그냥 반영돼요. 하지만 둘 다 완전히 같은 문장을 동시에 다르게 다시 썼다면, 어느 버전이 이길지 누군가는 결정해야 하죠. 머지 컨플릭트는 바로 그 순간이에요. Git은 추측을 거부해요. 그 자리를 표시하고, 두 버전을 나란히 보여주면서(\"이게 네 것, 이게 저 사람 것\") 사람이 선택하기를 기다려요.</p>\n<p>머지 컨플릭트는 충돌이나 <a class='dict-xref' href='/term/bug'>버그</a>가 아니에요. <strong>기계가 혼자 내리지 않는 딱 하나의 결정이에요. 계산으로 나오는 정답이 없기 때문이에요.</strong> 두 사람이 같은 자리에 서로 다른 것을 원했고, 누군가는 골라야 하는 거예요.</p>\n<p>실제로 마주치는 맥락은 이렇습니다. <a class='dict-xref' href='/term/pull-request'>풀 리퀘스트</a>는 \"내 브랜치를 <code>main</code>에 머지해주세요\"라는 공식 요청이에요. 그 초록 버튼을 누르는 것이 머지를 시작해요. <a class='dict-xref' href='/term/github'>GitHub</a>에서 보이는 \"this branch has conflicts that must be resolved\"라는 메시지는 단순히 이런 뜻이에요. 두 편집이 충돌했고, 머지를 끝내기 전에 네가 해결해야 해요. AI가 \"머지 컨플릭트가 생겼어요\"라고 말할 때, 어려운 문제에 막힌 게 아니에요. 혼자 답할 수 없는 질문 하나를 당신에게 돌려주는 거예요. 당신 버전이요, 아니면 상대방 버전이요?</p>\n<p><strong>머지는 두 브랜치를 하나로 접는 것이고, 대부분은 그냥 돼요.</strong> 머지 컨플릭트는 두 사람이 Google Docs의 같은 문장을 서로 다르게 다시 쓴 것처럼, 기계가 멈추고 펜을 당신에게 건네주는 순간이에요.</p>",
+  "related": [
+    {
+      "slug": "git-version-control",
+      "title_ko": "Git / 버전 관리"
+    },
+    {
+      "slug": "branch",
+      "title_ko": "브랜치"
+    },
+    {
+      "slug": "github",
+      "title_ko": "GitHub"
+    },
+    {
+      "slug": "pull-request",
+      "title_ko": "풀 리퀘스트"
+    },
+    {
+      "slug": "build-compile",
+      "title_ko": "빌드 / 컴파일"
+    },
+    {
+      "slug": "bug",
+      "title_ko": "버그"
+    }
+  ],
+  "prev": "latency",
+  "next": "fork",
+  "img": "/dictionary/img/merge-merge-conflict.svg"
+}

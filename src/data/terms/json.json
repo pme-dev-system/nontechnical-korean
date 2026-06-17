@@ -1,0 +1,40 @@
+{
+  "slug": "json",
+  "title_en": "JSON",
+  "title_ko": "JSON",
+  "category_en": "More",
+  "category_ko": "더 알아보기",
+  "kicker_ko": "JSON이란 — 쉬운 말로",
+  "deck_ko": "두 소프트웨어가 정보를 주고받을 때, 거의 언제나 같은 형식의 메모 카드에 적어 전달해요.",
+  "analogy_ko": "JSON은 소프트웨어들이 서로 주고받는 메모 카드예요. 왼쪽에 이름, 오른쪽에 값, 그게 전부예요.",
+  "body_html": "<p>두 소프트웨어가 정보를 주고받을 때, 거의 언제나 같은 형식의 메모 카드에 적어 전달해요. 그 카드가 JSON이에요. 알아채지 못했을 뿐, 이미 수년간 JSON에 둘러싸여 있었던 거예요.</p>\n<p><strong>JSON은 소프트웨어가 구조화된 정보를 기록하는 표준 방식이에요.</strong> 어려운 이름을 벗겨내면 그냥 이름-값 쌍의 목록이에요. 왼쪽에 이름, 오른쪽에 값, 이것들이 묶여 있는 형태죠.</p>\n<p>예시를 보면 바로 이해가 돼요:</p>\n<pre><code class='language-json'>{\n  \"name\": \"Cat\",\n  \"city\": \"Austin\",\n  \"orders\": 3\n}\n</code></pre>\n<p>메모 카드 읽듯이 읽으면 돼요. 이름은 \"Cat\", 도시는 \"Austin\", 주문 수는 3. 사람도 한눈에 읽을 수 있고, 세상 모든 프로그래밍 언어도 읽을 수 있어요. 바로 이 마지막 부분이 핵심이에요. JSON은 소프트웨어 세계에서 공통 언어에 가장 가까운 존재예요. 한 언어로 만든 <a class='dict-xref' href='/term/tool-function-calling/'>도구</a>가 다른 언어로 만든 도구에 메모 카드를 건네면, 그냥 작동하거든요.</p>\n<p><strong>이미 끊임없이 JSON을 받아왔어요.</strong> AI가 앱 창에서 무언가를 가져올 때, 돌아오는 데이터는 거의 항상 JSON이에요. 조회한 주문, 찾은 고객 정보, 검색 결과, 날씨 데이터. 이 모든 것이 이 작은 카드들에 실려 와요.</p>\n<p>두 가지를 연결해 두면 확실히 기억하기 쉬워요:</p>\n<ul>\n<li><strong><a class='dict-xref' href='/term/schema/'>스키마</a>는 빈 양식이고, JSON은 그 양식에 실제로 작성한 카드 한 장이에요.</strong> 스키마는 무엇이 허용되는지 정의하고, JSON은 그 안에 실제 답을 적은 거예요.</li>\n<li><strong><a class='dict-xref' href='/term/markdown/'>Markdown</a>이 사람이 읽기 좋게 만든 평문이라면, JSON은 기계가 읽기 좋게 만든 평문이에요.</strong> 둘 다 몇 가지 기호가 붙은 텍스트일 뿐이에요. Markdown의 기호는 사람 눈에 잘 보이도록 만들고, JSON의 중괄호와 따옴표는 프로그램이 잘 읽도록 만들어요.</li>\n</ul>\n<p><strong>개발자가 아닌 사람이 JSON을 알면 좋은 이유가 있어요.</strong> 어떤 도구의 내부를 들여다보거나, 파일을 내보내거나, <a class='dict-xref' href='/term/api/'>API</a>가 돌려준 결과를 열어보거나, 설정 파일을 열면 반드시 이 중괄호가 나타나요. 처음엔 당황스러워 보이지만, 금세 그냥 이름 붙은 목록임을 알 수 있어요. AI가 \"JSON 형식으로 데이터를 드릴게요\"라고 하면, \"사람 손을 거치지 않아도 다른 도구가 바로 가져다 쓸 수 있는 형태로 드릴게요\"라는 뜻이에요.</p>\n<p><strong>JSON은 이름-값 쌍으로 이루어진 메모 카드예요.</strong> 앱이 다른 앱과 대화할 때, 그 뒤에는 거의 항상 JSON이 오가고 있답니다.</p>",
+  "related": [
+    {
+      "slug": "api",
+      "title_ko": "API"
+    },
+    {
+      "slug": "markdown",
+      "title_ko": "Markdown"
+    },
+    {
+      "slug": "schema",
+      "title_ko": "스키마"
+    },
+    {
+      "slug": "yaml",
+      "title_ko": "YAML"
+    },
+    {
+      "slug": "tool-function-calling",
+      "title_ko": "도구 / 함수 호출"
+    },
+    {
+      "slug": "temperature",
+      "title_ko": "온도(Temperature)"
+    }
+  ],
+  "prev": "schema",
+  "next": "yaml",
+  "img": "/dictionary/img/json.svg"
+}
