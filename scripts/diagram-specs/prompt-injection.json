@@ -1,0 +1,26 @@
+{
+  "header": "AI는 읽은 내용 속 몰래 끼운 지시도 따라요.",
+  "subcaption": "AI는 당신의 지시와 숨겨진 지시를 구별하지 못해요.",
+  "nodes": [
+    {
+      "title": "개발자",
+      "sub": "진짜 지시",
+      "icon": "user",
+      "accent": false
+    },
+    {
+      "title": "AI 에이전트",
+      "sub": "읽고 판단",
+      "icon": "gear",
+      "accent": true
+    },
+    {
+      "title": "외부 콘텐츠",
+      "sub": "숨겨진 쪽지",
+      "icon": "doc",
+      "accent": false
+    }
+  ],
+  "steps": ["지시 전달", "읽기 수행"],
+  "ret": null
+}

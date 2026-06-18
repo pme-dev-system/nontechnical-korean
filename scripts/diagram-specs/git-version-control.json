@@ -1,0 +1,11 @@
+{
+  "header": "세이브 포인트를 찍어두면, 언제든 돌아올 수 있어요.",
+  "subcaption": "코드의 저장 지점 — 버전마다 스냅샷을 기억해요.",
+  "nodes": [
+    {"title": "작업 중", "sub": "코드 수정", "icon": "code", "accent": false},
+    {"title": "Git 커밋", "sub": "스냅샷 저장", "icon": "branch", "accent": true},
+    {"title": "히스토리", "sub": "전체 기록", "icon": "layers", "accent": false}
+  ],
+  "steps": ["변경 저장", "버전 쌓기"],
+  "ret": {"label": "문제 발생 시 복원"}
+}

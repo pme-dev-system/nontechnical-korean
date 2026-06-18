@@ -1,0 +1,28 @@
+{
+  "header": "소프트웨어가 쿼리로 물으면, 데이터베이스가 즉시 답해요.",
+  "subcaption": "소프트웨어가 끊임없이 말을 거는 스프레드시트예요.",
+  "nodes": [
+    {
+      "title": "내 앱",
+      "sub": "소프트웨어",
+      "icon": "app",
+      "accent": false
+    },
+    {
+      "title": "백엔드",
+      "sub": "처리 서버",
+      "icon": "server",
+      "accent": false
+    },
+    {
+      "title": "데이터베이스",
+      "sub": "거대한 스프레드시트",
+      "icon": "db",
+      "accent": true
+    }
+  ],
+  "steps": ["쿼리 요청", "조회 · 저장"],
+  "ret": {
+    "label": "결과 · 정해진 형식으로 반환"
+  }
+}

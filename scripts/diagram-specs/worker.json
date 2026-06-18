@@ -1,0 +1,26 @@
+{
+  "header": "큐에서 일감을 받아 조용히 처리합니다",
+  "subcaption": "라인 쿡처럼 한 가지 일만 집중해서 해냅니다",
+  "nodes": [
+    {
+      "title": "큐",
+      "sub": "작업 대기줄",
+      "icon": "queue",
+      "accent": false
+    },
+    {
+      "title": "워커",
+      "sub": "일감 처리기",
+      "icon": "gear",
+      "accent": true
+    },
+    {
+      "title": "결과",
+      "sub": "처리 완료",
+      "icon": "check",
+      "accent": false
+    }
+  ],
+  "steps": ["일감 꺼내기", "처리 후 반환"],
+  "ret": null
+}

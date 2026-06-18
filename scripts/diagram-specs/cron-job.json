@@ -1,0 +1,11 @@
+{
+  "header": "시각을 맞춰두면, 알아서 반복 실행돼요.",
+  "subcaption": "정해진 시각에 작업을 자동으로 실행하는 알람 시계예요.",
+  "nodes": [
+    {"title": "스케줄", "sub": "시각 설정", "icon": "clock", "accent": false},
+    {"title": "크론 잡", "sub": "자동 트리거", "icon": "gear", "accent": true},
+    {"title": "작업 실행", "sub": "백업·보고서 등", "icon": "check", "accent": false}
+  ],
+  "steps": ["시각 도달", "실행"],
+  "ret": {"label": "주기마다 반복 실행"}
+}

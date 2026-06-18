@@ -1,0 +1,11 @@
+{
+  "header": "AI가 먼저 읽는 고정 지침이에요.",
+  "subcaption": "핸드북이 직원의 행동을 빚어내듯이요.",
+  "nodes": [
+    { "title": "핸드북", "sub": "사규 작성", "icon": "doc", "accent": false },
+    { "title": "시스템 프롬프트", "sub": "보이지 않는 단락", "icon": "gear", "accent": true },
+    { "title": "답변 생성", "sub": "행동이 결정됨", "icon": "bolt", "accent": false }
+  ],
+  "steps": ["AI가 먼저 읽음", "지침대로 작동"],
+  "ret": null
+}

@@ -1,0 +1,36 @@
+{
+  "header": "말을 걸면 알아서 처리해 드려요",
+  "subcaption": "귀→두뇌→입, 드라이브스루처럼 한 번에 해결돼요",
+  "nodes": [
+    {
+      "title": "귀(음성 입력)",
+      "sub": "말을 텍스트로",
+      "icon": "user",
+      "accent": false
+    },
+    {
+      "title": "음성 에이전트",
+      "sub": "이해·판단·실행",
+      "icon": "bolt",
+      "accent": true
+    },
+    {
+      "title": "실제 처리",
+      "sub": "예약·결제·조회",
+      "icon": "gear",
+      "accent": false
+    },
+    {
+      "title": "입(음성 출력)",
+      "sub": "결과를 목소리로",
+      "icon": "check",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "변환",
+    "실행",
+    "응답"
+  ],
+  "ret": null
+}

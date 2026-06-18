@@ -1,0 +1,11 @@
+{
+  "header": "구멍 난 자리만 꿰매는 작은 수정이에요.",
+  "subcaption": "버그를 고쳐 그 부분만 배포해요.",
+  "nodes": [
+    {"title": "소프트웨어", "sub": "구멍 난 옷", "icon": "code", "accent": false},
+    {"title": "패치", "sub": "헝겊 한 조각", "icon": "file-img", "accent": true},
+    {"title": "배포", "sub": "수선 완료", "icon": "check", "accent": false}
+  ],
+  "steps": ["수정 생성", "적용 · 배포"],
+  "ret": null
+}

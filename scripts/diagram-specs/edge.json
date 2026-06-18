@@ -1,0 +1,28 @@
+{
+  "header": "가까운 곳에서 바로 처리해 드려요.",
+  "subcaption": "사용자 근처 엣지 서버가 요청을 직접 처리해요.",
+  "nodes": [
+    {
+      "title": "사용자",
+      "sub": "어느 나라든",
+      "icon": "user",
+      "accent": false
+    },
+    {
+      "title": "엣지",
+      "sub": "가까운 지점",
+      "icon": "globe",
+      "accent": true
+    },
+    {
+      "title": "원본 서버",
+      "sub": "중앙 본부",
+      "icon": "server",
+      "accent": false
+    }
+  ],
+  "steps": ["요청", "필요 시 전달"],
+  "ret": {
+    "label": "즉시 응답 · 가장 가까운 곳에서"
+  }
+}

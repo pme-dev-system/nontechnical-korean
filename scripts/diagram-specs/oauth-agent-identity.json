@@ -1,0 +1,28 @@
+{
+  "header": "발렛 키만 건네세요 — 마스터 키는 절대 아니에요.",
+  "subcaption": "내 계정의 대리 키예요 — 범위가 제한돼요.",
+  "nodes": [
+    {
+      "title": "내 앱",
+      "sub": "손님",
+      "icon": "app",
+      "accent": false
+    },
+    {
+      "title": "OAuth",
+      "sub": "신뢰 중간자",
+      "icon": "shield",
+      "accent": true
+    },
+    {
+      "title": "토큰",
+      "sub": "발렛 전용 키",
+      "icon": "key",
+      "accent": false
+    }
+  ],
+  "steps": ["신원 요청", "제한된 통행증 발급"],
+  "ret": {
+    "label": "토큰 전달 · 범위 내 작업만"
+  }
+}

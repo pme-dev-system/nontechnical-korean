@@ -1,0 +1,11 @@
+{
+  "header": "데이터를 뒤섞어 열쇠 없이는 읽을 수 없게 해요.",
+  "subcaption": "가로채도 잡음만 보여요. 열쇠가 있어야 원본이 보여요.",
+  "nodes": [
+    {"title": "원본 데이터", "sub": "평문", "icon": "doc", "accent": false},
+    {"title": "암호화", "sub": "자물쇠 통과", "icon": "lock", "accent": true},
+    {"title": "수신자", "sub": "열쇠 보유", "icon": "key", "accent": false}
+  ],
+  "steps": ["뒤섞기", "복호화"],
+  "ret": null
+}

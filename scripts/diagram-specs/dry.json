@@ -1,0 +1,11 @@
+{
+  "header": "한 곳에만 두고, 모두가 그곳을 가리켜요.",
+  "subcaption": "한 번 작성하고, 어디서나 재사용하는 원칙이에요.",
+  "nodes": [
+    {"title": "여러 곳", "sub": "결제·이메일·앱 등", "icon": "layers", "accent": false},
+    {"title": "DRY", "sub": "단일 출처", "icon": "folder", "accent": true},
+    {"title": "수정 완료", "sub": "전체 반영", "icon": "check", "accent": false}
+  ],
+  "steps": ["참조", "변경 1회"],
+  "ret": null
+}

@@ -1,0 +1,29 @@
+{
+  "header": "SDK는 미리 재단된 부품 상자입니다",
+  "subcaption": "원자재 대신 IKEA 박스를 여세요",
+  "nodes": [
+    {
+      "title": "개발자",
+      "sub": "기능 추가 필요",
+      "icon": "user",
+      "accent": false
+    },
+    {
+      "title": "SDK",
+      "sub": "도구 모음 박스",
+      "icon": "box",
+      "accent": true
+    },
+    {
+      "title": "완성 기능",
+      "sub": "3줄로 연결",
+      "icon": "check",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "박스 열기",
+    "조립 완료"
+  ],
+  "ret": null
+}

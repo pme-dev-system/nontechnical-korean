@@ -1,0 +1,29 @@
+{
+  "header": "격리된 공간에서 안전하게 실행됩니다",
+  "subcaption": "엉망이 나도 진짜 컴퓨터는 안전합니다",
+  "nodes": [
+    {
+      "title": "AI 에이전트",
+      "sub": "실행 주체",
+      "icon": "gear",
+      "accent": false
+    },
+    {
+      "title": "샌드박스",
+      "sub": "격리 공간",
+      "icon": "box",
+      "accent": true
+    },
+    {
+      "title": "진짜 컴퓨터",
+      "sub": "벽 너머 보호",
+      "icon": "shield",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "안에서 실행",
+    "차단·격리"
+  ],
+  "ret": null
+}

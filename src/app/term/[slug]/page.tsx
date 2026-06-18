@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-import { allSlugs, getTerm } from "@/lib/terms";
+import { allSlugs, getTerm, diagramFor } from "@/lib/terms";
 import { catByEn } from "@/lib/categories";
 
 export function generateStaticParams() {
@@ -33,6 +33,7 @@ export default async function TermPage({
   const cat = catByEn(term.category_en);
   const prev = term.prev ? getTerm(term.prev) : undefined;
   const next = term.next ? getTerm(term.next) : undefined;
+  const diagram = diagramFor(term.slug);
 
   return (
     <>
@@ -57,6 +58,13 @@ export default async function TermPage({
             <span className="analogy__label">한 줄 비유</span>
             <p className="analogy__text">{term.analogy_ko}</p>
           </aside>
+        ) : null}
+
+        {diagram ? (
+          <figure className="figure">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className="figure__img" src={diagram} alt={`${term.title_ko} 개념 다이어그램`} loading="lazy" />
+          </figure>
         ) : null}
 
         <article className="prose" dangerouslySetInnerHTML={{ __html: term.body_html }} />

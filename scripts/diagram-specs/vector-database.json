@@ -1,0 +1,36 @@
+{
+  "header": "의미로 찾는 저장소입니다",
+  "subcaption": "흥얼거려도 맞는 레코드를 꺼내드려요",
+  "nodes": [
+    {
+      "title": "질문 입력",
+      "sub": "단어가 달라도",
+      "icon": "user",
+      "accent": false
+    },
+    {
+      "title": "벡터 변환",
+      "sub": "의미 좌표화",
+      "icon": "layers",
+      "accent": false
+    },
+    {
+      "title": "벡터 데이터베이스",
+      "sub": "가까운 점 탐색",
+      "icon": "db",
+      "accent": true
+    },
+    {
+      "title": "관련 결과",
+      "sub": "의미 기반 반환",
+      "icon": "search",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "변환",
+    "검색",
+    "반환"
+  ],
+  "ret": null
+}

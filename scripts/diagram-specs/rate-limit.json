@@ -1,0 +1,11 @@
+{
+  "header": "빠르게 두드리면, 잠깐 기다려야 해요.",
+  "subcaption": "시간당 요청 수에 상한을 두는 규칙이에요.",
+  "nodes": [
+    {"title": "요청자", "sub": "에이전트·앱", "icon": "app", "accent": false},
+    {"title": "레이트 리밋", "sub": "시식 담당자", "icon": "filter", "accent": true},
+    {"title": "서버", "sub": "AI 서비스", "icon": "server", "accent": false}
+  ],
+  "steps": ["요청 전달", "허용 통과"],
+  "ret": {"label": "429 · 잠시 후 재시도"}
+}

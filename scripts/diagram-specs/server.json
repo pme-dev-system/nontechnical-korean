@@ -1,0 +1,26 @@
+{
+  "header": "잠들지 않는 요청 처리기예요",
+  "subcaption": "브라우저 요청을 받아 응답을 돌려보내요",
+  "nodes": [
+    {
+      "title": "사용자",
+      "sub": "URL 입력",
+      "icon": "user",
+      "accent": false
+    },
+    {
+      "title": "서버",
+      "sub": "24시간 대기",
+      "icon": "server",
+      "accent": true
+    },
+    {
+      "title": "응답 반환",
+      "sub": "화면에 그려짐",
+      "icon": "globe",
+      "accent": false
+    }
+  ],
+  "steps": ["요청 전송", "처리 후 반환"],
+  "ret": null
+}

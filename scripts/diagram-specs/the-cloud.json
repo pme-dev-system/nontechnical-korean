@@ -1,0 +1,38 @@
+{
+  "header": "남의 컴퓨터를 인터넷으로 빌려 쓰는 것입니다",
+  "subcaption": "창고 속 서버를 조각 단위로 빌리는 방식입니다",
+  "nodes": [
+    {
+      "title": "내 기기",
+      "sub": "요청을 보냅니다",
+      "icon": "user",
+      "accent": false
+    },
+    {
+      "title": "인터넷",
+      "sub": "연결 통로입니다",
+      "icon": "globe",
+      "accent": false
+    },
+    {
+      "title": "클라우드",
+      "sub": "창고 속 서버입니다",
+      "icon": "cloud",
+      "accent": true
+    },
+    {
+      "title": "결과 전달",
+      "sub": "처리 후 반환됩니다",
+      "icon": "bolt",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "전송",
+    "처리 요청",
+    "응답"
+  ],
+  "ret": {
+    "label": "결과가 내 기기로 돌아옵니다"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "header": "홀이 주문받고, 주방이 실제로 일해요.",
+  "subcaption": "눈에 보이는 것과 실제로 일하는 것이에요.",
+  "nodes": [
+    { "title": "사용자", "sub": "손님", "icon": "user", "accent": false },
+    { "title": "프론트엔드", "sub": "홀 · 화면", "icon": "app", "accent": false },
+    { "title": "백엔드", "sub": "주방 · 처리", "icon": "server", "accent": true },
+    { "title": "데이터베이스", "sub": "재료 창고", "icon": "db", "accent": false }
+  ],
+  "steps": ["클릭 · 요청", "처리 위임", "데이터 조회"],
+  "ret": { "label": "결과 · 화면에 표시" }
+}

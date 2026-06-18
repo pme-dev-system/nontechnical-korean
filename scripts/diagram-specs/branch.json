@@ -1,0 +1,11 @@
+{
+  "header": "원본은 그대로, 복사본에서 마음껏 실험해요.",
+  "subcaption": "변경을 안전하게 시도할 수 있는 복사본이에요.",
+  "nodes": [
+    {"title":"main","sub":"운영 중인 원본","icon":"branch","accent":false},
+    {"title":"브랜치","sub":"복사본·실험 공간","icon":"layers","accent":true},
+    {"title":"머지","sub":"성공 시 반영","icon":"check","accent":false}
+  ],
+  "steps": ["브랜치 생성","실험 완료"],
+  "ret": null
+}

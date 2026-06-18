@@ -1,0 +1,11 @@
+{
+  "header": "가까운 창고에서 꺼내 주니, 빠르게 도착해요.",
+  "subcaption": "방문자 가까이에 복사해 둔 사이트 사본이에요.",
+  "nodes": [
+    {"title":"원본 서버","sub":"빵집 본점","icon":"server","accent":false},
+    {"title":"CDN","sub":"동네 냉동창고","icon":"cloud","accent":true},
+    {"title":"사용자","sub":"가까운 방문자","icon":"user","accent":false}
+  ],
+  "steps": ["콘텐츠 복사","즉시 전달"],
+  "ret": {"label":"캐시 만료 시 갱신 요청"}
+}

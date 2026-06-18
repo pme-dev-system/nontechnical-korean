@@ -1,0 +1,29 @@
+{
+  "header": "요청 하나를 처음부터 끝까지 따라갑니다",
+  "subcaption": "어느 단계에서 시간이 사라졌는지 찾아냅니다",
+  "nodes": [
+    {
+      "title": "요청 접수",
+      "sub": "카운터 입장",
+      "icon": "user",
+      "accent": false
+    },
+    {
+      "title": "트레이스",
+      "sub": "전 구간 추적",
+      "icon": "search",
+      "accent": true
+    },
+    {
+      "title": "병목 발견",
+      "sub": "느린 구간 특정",
+      "icon": "check",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "티켓 따라가기",
+    "시간 측정"
+  ],
+  "ret": null
+}

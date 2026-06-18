@@ -1,0 +1,12 @@
+{
+  "header": "제안하고 수락받아야 비로소 반영돼요.",
+  "subcaption": "검토를 요청하기 위해 올리는 변경 제안이에요.",
+  "nodes": [
+    {"title":"브랜치","sub":"내 작업 공간","icon":"branch","accent":false},
+    {"title":"PR","sub":"변경 제안 제출","icon":"doc","accent":true},
+    {"title":"리뷰어","sub":"팀원·관리자","icon":"users","accent":false},
+    {"title":"main","sub":"실제 코드베이스","icon":"code","accent":false}
+  ],
+  "steps": ["PR 열기","검토·승인","머지"],
+  "ret": null
+}

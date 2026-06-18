@@ -1,0 +1,26 @@
+{
+  "header": "일어날 때마다 한 줄씩, 절대 수정 없이 쌓여요.",
+  "subcaption": "타임스탬프가 붙은 영수증 테이프처럼 기록해요.",
+  "nodes": [
+    {
+      "title": "소프트웨어",
+      "sub": "이벤트 발생",
+      "icon": "gear",
+      "accent": false
+    },
+    {
+      "title": "로그",
+      "sub": "영수증 테이프",
+      "icon": "doc",
+      "accent": true
+    },
+    {
+      "title": "저장소",
+      "sub": "파일·서버",
+      "icon": "db",
+      "accent": false
+    }
+  ],
+  "steps": ["한 줄 추가", "영구 보관"],
+  "ret": null
+}

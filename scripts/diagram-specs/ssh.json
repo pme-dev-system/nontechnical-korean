@@ -1,0 +1,31 @@
+{
+  "header": "다른 컴퓨터에 문자로 명령을 내리는 수단이에요",
+  "subcaption": "화면 공유 없이 원격 기계를 제어합니다",
+  "nodes": [
+    {
+      "title": "내 노트북",
+      "sub": "명령 입력",
+      "icon": "terminal",
+      "accent": false
+    },
+    {
+      "title": "SSH",
+      "sub": "보안 연결",
+      "icon": "lock",
+      "accent": true
+    },
+    {
+      "title": "원격 컴퓨터",
+      "sub": "명령 실행",
+      "icon": "server",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "명령 전송",
+    "실행 요청"
+  ],
+  "ret": {
+    "label": "결과를 텍스트로 돌려받아요"
+  }
+}

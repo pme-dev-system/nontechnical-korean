@@ -1,0 +1,26 @@
+{
+  "header": "내 기기에서 올리면, 클라우드 차고에 안전하게 보관돼요.",
+  "subcaption": "코드가 저장되고 공유되는 온라인 공간이에요.",
+  "nodes": [
+    {
+      "title": "내 기기",
+      "sub": "Git 스냅샷",
+      "icon": "terminal",
+      "accent": false
+    },
+    {
+      "title": "GitHub",
+      "sub": "클라우드 차고",
+      "icon": "cloud",
+      "accent": true
+    },
+    {
+      "title": "팀원들",
+      "sub": "Pull로 내려받기",
+      "icon": "users",
+      "accent": false
+    }
+  ],
+  "steps": ["Push 업로드", "Pull 공유"],
+  "ret": null
+}

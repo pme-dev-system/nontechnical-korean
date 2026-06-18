@@ -1,0 +1,28 @@
+{
+  "header": "발렛 키만 건네요. 트렁크는 잠긴 채로요.",
+  "subcaption": "필요한 최소 접근만 허용하고, 나머지는 막아요.",
+  "nodes": [
+    {
+      "title": "앱·에이전트",
+      "sub": "키를 받는 쪽",
+      "icon": "app",
+      "accent": false
+    },
+    {
+      "title": "권한 범위",
+      "sub": "발렛 키",
+      "icon": "lock",
+      "accent": true
+    },
+    {
+      "title": "리소스",
+      "sub": "허용된 문만",
+      "icon": "folder",
+      "accent": false
+    }
+  ],
+  "steps": ["범위 지정 요청", "허용된 작업만 통과"],
+  "ret": {
+    "label": "허용 범위 내 응답만 반환"
+  }
+}

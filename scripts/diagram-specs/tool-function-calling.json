@@ -1,0 +1,31 @@
+{
+  "header": "결정은 AI가, 실행은 툴이 합니다",
+  "subcaption": "모델은 지시서를 쓰고, 툴이 실제로 움직여요",
+  "nodes": [
+    {
+      "title": "AI 모델",
+      "sub": "현장 소장",
+      "icon": "gear",
+      "accent": false
+    },
+    {
+      "title": "함수 호출",
+      "sub": "작업 지시서",
+      "icon": "doc",
+      "accent": true
+    },
+    {
+      "title": "툴 실행",
+      "sub": "하청업체",
+      "icon": "bolt",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "지시서 작성",
+    "실행 요청"
+  ],
+  "ret": {
+    "label": "결과를 받아 다음 단계 결정"
+  }
+}

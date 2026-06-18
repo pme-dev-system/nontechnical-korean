@@ -1,0 +1,26 @@
+{
+  "header": "사실은 찾아보게 하고, 스타일은 구워 넣으세요.",
+  "subcaption": "기반 모델을 내 데이터로 재학습해 습관을 심어요.",
+  "nodes": [
+    {
+      "title": "기반 모델",
+      "sub": "학습 전 AI",
+      "icon": "layers",
+      "accent": false
+    },
+    {
+      "title": "파인튜닝",
+      "sub": "예시 데이터 학습",
+      "icon": "gear",
+      "accent": true
+    },
+    {
+      "title": "전문 모델",
+      "sub": "습관 내재화 AI",
+      "icon": "check",
+      "accent": false
+    }
+  ],
+  "steps": ["재학습", "완성"],
+  "ret": null
+}

@@ -1,0 +1,29 @@
+{
+  "header": "지금 필요한 것만 만드세요.",
+  "subcaption": "상상 속 기능은 짐만 늘릴 뿐이에요.",
+  "nodes": [
+    {
+      "title": "기능 요청",
+      "sub": "지금 할 일",
+      "icon": "doc",
+      "accent": false
+    },
+    {
+      "title": "YAGNI",
+      "sub": "필요 여부 판단",
+      "icon": "filter",
+      "accent": true
+    },
+    {
+      "title": "최소 구현",
+      "sub": "지금 필요한 것",
+      "icon": "check",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "필요한가?",
+    "지금만 구현"
+  ],
+  "ret": null
+}

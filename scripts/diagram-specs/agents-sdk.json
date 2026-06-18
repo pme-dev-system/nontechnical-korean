@@ -1,0 +1,26 @@
+{
+  "header": "조립 키트를 열면, 일꾼이 바로 움직여요.",
+  "subcaption": "나만의 AI 일꾼을 만드는 조립 키트예요.",
+  "nodes": [
+    {
+      "title": "내 아이디어",
+      "sub": "목적 · 임무",
+      "icon": "user",
+      "accent": false
+    },
+    {
+      "title": "에이전트 SDK",
+      "sub": "루프·도구·기억·가드레일",
+      "icon": "box",
+      "accent": true
+    },
+    {
+      "title": "AI 일꾼",
+      "sub": "목표를 향해 실행",
+      "icon": "gear",
+      "accent": false
+    }
+  ],
+  "steps": ["키트에 임무 전달", "일꾼 조립 · 작동"],
+  "ret": null
+}

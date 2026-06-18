@@ -1,0 +1,28 @@
+{
+  "header": "엔진 혼자는 못 달려요. 하네스가 달리게 해줘요.",
+  "subcaption": "AI 모델을 감싸 실제로 작동하게 만드는 틀이에요.",
+  "nodes": [
+    {
+      "title": "AI 모델",
+      "sub": "엔진(생각만 해요)",
+      "icon": "gear",
+      "accent": false
+    },
+    {
+      "title": "하네스",
+      "sub": "핸들·도구·루프",
+      "icon": "layers",
+      "accent": true
+    },
+    {
+      "title": "실제 실행",
+      "sub": "파일·검색·저장",
+      "icon": "check",
+      "accent": false
+    }
+  ],
+  "steps": ["감싸서 연결", "손을 뻗어 수행"],
+  "ret": {
+    "label": "결과를 다시 입력 · 루프 반복"
+  }
+}

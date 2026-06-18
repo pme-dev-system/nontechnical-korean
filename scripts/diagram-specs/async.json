@@ -1,0 +1,11 @@
+{
+  "header": "작업을 맡겨두고, 완료 알림을 받으면 처리해요.",
+  "subcaption": "줄 서서 기다리지 않고 실행되는 방식이에요.",
+  "nodes": [
+    {"title": "내 앱", "sub": "요청자", "icon": "app", "accent": false},
+    {"title": "비동기", "sub": "느린 작업 위임", "icon": "clock", "accent": true},
+    {"title": "결과 처리", "sub": "완료 후 실행", "icon": "check", "accent": false}
+  ],
+  "steps": ["작업 맡김", "완료 알림"],
+  "ret": null
+}

@@ -1,0 +1,12 @@
+{
+  "header": "로컬에서 만들고, 배포하면 세상이 볼 수 있어요.",
+  "subcaption": "작업물을 서버에 올려 누구나 접근 가능하게 해요.",
+  "nodes": [
+    {"title": "내 컴퓨터", "sub": "로컬 환경", "icon": "terminal", "accent": false},
+    {"title": "배포", "sub": "공개 전환", "icon": "bolt", "accent": true},
+    {"title": "서버", "sub": "실제 운영 중", "icon": "cloud", "accent": false},
+    {"title": "관객(세상)", "sub": "누구나 접근", "icon": "users", "accent": false}
+  ],
+  "steps": ["명령어 실행", "업로드·빌드", "공개 활성화"],
+  "ret": null
+}

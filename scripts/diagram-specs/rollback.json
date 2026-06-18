@@ -1,0 +1,31 @@
+{
+  "header": "60초 안에 이전 버전으로 되돌립니다",
+  "subcaption": "저장된 버전이 있으면 즉시 교체할 수 있습니다",
+  "nodes": [
+    {
+      "title": "이전 버전",
+      "sub": "정상 작동 중",
+      "icon": "layers",
+      "accent": false
+    },
+    {
+      "title": "새 버전",
+      "sub": "오류 발생",
+      "icon": "bolt",
+      "accent": false
+    },
+    {
+      "title": "롤백",
+      "sub": "즉시 전환",
+      "icon": "check",
+      "accent": true
+    }
+  ],
+  "steps": [
+    "배포",
+    "되돌리기"
+  ],
+  "ret": {
+    "label": "이전 버전으로 서비스 복원"
+  }
+}

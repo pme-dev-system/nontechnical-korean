@@ -1,0 +1,11 @@
+{
+  "header": "방이 꽉 차면 AI가 대화를 갈아버려요.",
+  "subcaption": "대화가 길어지면 앞부분을 요약해 압축해요.",
+  "nodes": [
+    { "title": "대화", "sub": "누적된 기록", "icon": "doc", "accent": false },
+    { "title": "컨텍스트", "sub": "AI의 방", "icon": "layers", "accent": false },
+    { "title": "컴팩션", "sub": "압축·요약", "icon": "filter", "accent": true }
+  ],
+  "steps": ["쌓임", "가득 차면"],
+  "ret": null
+}

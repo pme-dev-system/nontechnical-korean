@@ -1,0 +1,29 @@
+{
+  "header": "세션은 교대 근무 한 번입니다",
+  "subcaption": "대화가 끝나면 칠판이 깨끗이 지워집니다",
+  "nodes": [
+    {
+      "title": "대화 시작",
+      "sub": "빈 칠판 출근",
+      "icon": "user",
+      "accent": false
+    },
+    {
+      "title": "세션",
+      "sub": "교대 구간 전체",
+      "icon": "clock",
+      "accent": true
+    },
+    {
+      "title": "인수인계",
+      "sub": "핵심만 요약",
+      "icon": "doc",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "대화 누적",
+    "새 세션에 붙여넣기"
+  ],
+  "ret": null
+}

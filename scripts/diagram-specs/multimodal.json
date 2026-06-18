@@ -1,0 +1,26 @@
+{
+  "header": "글·사진·소리를 함께 이해하는 AI예요.",
+  "subcaption": "텍스트뿐 아니라 이미지·오디오도 받아요.",
+  "nodes": [
+    {
+      "title": "사용자",
+      "sub": "글·사진·소리",
+      "icon": "user",
+      "accent": false
+    },
+    {
+      "title": "멀티모달",
+      "sub": "여러 형식 처리",
+      "icon": "layers",
+      "accent": true
+    },
+    {
+      "title": "응답",
+      "sub": "텍스트·이미지 등",
+      "icon": "doc",
+      "accent": false
+    }
+  ],
+  "steps": ["다양한 입력", "이해·생성"],
+  "ret": null
+}

@@ -1,0 +1,11 @@
+{
+  "header": "번호표를 맡기면, 다음 방문도 같은 사람으로 알아봐요.",
+  "subcaption": "브라우저가 번호표(쿠키)를 보관하고 매번 제시해요.",
+  "nodes": [
+    {"title": "브라우저", "sub": "손님", "icon": "globe", "accent": false},
+    {"title": "쿠키", "sub": "코트 번호표", "icon": "key", "accent": true},
+    {"title": "서버", "sub": "코트 보관소", "icon": "server", "accent": false}
+  ],
+  "steps": ["번호표 발급", "번호표 확인"],
+  "ret": {"label": "재방문 시 번호표 제시"}
+}

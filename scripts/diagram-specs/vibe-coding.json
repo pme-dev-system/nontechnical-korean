@@ -1,0 +1,28 @@
+{
+  "header": "말로 설명하면 AI가 코드를 짜드려요",
+  "subcaption": "감독처럼 방향만 잡으면 결과물이 나와요",
+  "nodes": [
+    {
+      "title": "아이디어",
+      "sub": "원하는 것을 말해요",
+      "icon": "user",
+      "accent": false
+    },
+    {
+      "title": "바이브 코딩",
+      "sub": "AI가 코드를 작성해요",
+      "icon": "code",
+      "accent": true
+    },
+    {
+      "title": "결과물",
+      "sub": "눌러보고 확인해요",
+      "icon": "check",
+      "accent": false
+    }
+  ],
+  "steps": ["말로 설명", "반응·수정"],
+  "ret": {
+    "label": "마음에 들 때까지 반복해요"
+  }
+}

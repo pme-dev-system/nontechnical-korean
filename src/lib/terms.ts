@@ -82,3 +82,17 @@ export function termsInCategory(catSlug: string): Term[] {
 export function termCount(): number {
   return loadTerms().length;
 }
+
+const DIAGRAM_DIR = path.join(process.cwd(), "public", "dictionary", "diagram");
+
+// 용어별 전문 SVG 다이어그램이 있으면 그 경로를, 없으면 null.
+export function diagramFor(slug: string): string | null {
+  try {
+    if (fs.existsSync(path.join(DIAGRAM_DIR, `${slug}.svg`))) {
+      return `/dictionary/diagram/${slug}.svg`;
+    }
+  } catch {
+    // ignore
+  }
+  return null;
+}

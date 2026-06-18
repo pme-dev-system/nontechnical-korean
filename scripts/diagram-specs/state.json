@@ -1,0 +1,29 @@
+{
+  "header": "지금 이 순간 기억하는 것이에요",
+  "subcaption": "저장이 아닌 실행 중의 기억이에요",
+  "nodes": [
+    {
+      "title": "작업 시작",
+      "sub": "빈 화이트보드",
+      "icon": "doc",
+      "accent": false
+    },
+    {
+      "title": "상태",
+      "sub": "현재 기억 중",
+      "icon": "layers",
+      "accent": true
+    },
+    {
+      "title": "프로세스 종료",
+      "sub": "화이트보드 지움",
+      "icon": "clock",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "기록 중",
+    "종료 시"
+  ],
+  "ret": null
+}

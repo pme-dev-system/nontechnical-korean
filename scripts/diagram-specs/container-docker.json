@@ -1,0 +1,26 @@
+{
+  "header": "주방 전체를 상자에 싣고, 어디서나 똑같이 실행돼요.",
+  "subcaption": "환경까지 봉인해서 어디서든 동일하게 동작해요.",
+  "nodes": [
+    {
+      "title": "내 앱",
+      "sub": "코드+설정",
+      "icon": "code",
+      "accent": false
+    },
+    {
+      "title": "컨테이너",
+      "sub": "봉인된 주방",
+      "icon": "box",
+      "accent": true
+    },
+    {
+      "title": "서버",
+      "sub": "어디서든 동일",
+      "icon": "server",
+      "accent": false
+    }
+  ],
+  "steps": ["전체 봉인", "그대로 실행"],
+  "ret": null
+}

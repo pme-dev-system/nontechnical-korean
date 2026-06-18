@@ -1,0 +1,29 @@
+{
+  "header": "발자국에만 비용을 냅니다",
+  "subcaption": "요청이 올 때만 켜지고, 끝나면 꺼집니다",
+  "nodes": [
+    {
+      "title": "요청 발생",
+      "sub": "사용자 동작",
+      "icon": "user",
+      "accent": false
+    },
+    {
+      "title": "서버리스",
+      "sub": "공유 풀에서 실행",
+      "icon": "bolt",
+      "accent": true
+    },
+    {
+      "title": "함수 종료",
+      "sub": "풀로 반환",
+      "icon": "cloud",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "함수 호출",
+    "처리 완료"
+  ],
+  "ret": null
+}

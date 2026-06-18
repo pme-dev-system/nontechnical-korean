@@ -1,0 +1,28 @@
+{
+  "header": "메시지를 보낼 때마다 통행료가 쌓여요.",
+  "subcaption": "AI를 쓸 때마다 매번 내는 사용 비용이에요.",
+  "nodes": [
+    {
+      "title": "내 앱",
+      "sub": "메시지 전송",
+      "icon": "app",
+      "accent": false
+    },
+    {
+      "title": "인퍼런스",
+      "sub": "다리 건너기",
+      "icon": "bolt",
+      "accent": true
+    },
+    {
+      "title": "AI 모델",
+      "sub": "완성된 다리",
+      "icon": "cloud",
+      "accent": false
+    }
+  ],
+  "steps": ["요청 전송", "통행료 납부"],
+  "ret": {
+    "label": "응답 · 토큰 단위 반환"
+  }
+}

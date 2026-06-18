@@ -1,0 +1,26 @@
+{
+  "header": "화면도 점원도 없이, 혼자 알아서 돌아가요.",
+  "subcaption": "화면 없이 일만 하는 소프트웨어예요.",
+  "nodes": [
+    {
+      "title": "트리거",
+      "sub": "일정·이벤트",
+      "icon": "clock",
+      "accent": false
+    },
+    {
+      "title": "헤드리스",
+      "sub": "화면 없는 실행",
+      "icon": "gear",
+      "accent": true
+    },
+    {
+      "title": "결과물",
+      "sub": "처리된 산출물",
+      "icon": "check",
+      "accent": false
+    }
+  ],
+  "steps": ["자동 실행", "처리 완료"],
+  "ret": null
+}

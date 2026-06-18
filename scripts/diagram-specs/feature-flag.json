@@ -1,0 +1,26 @@
+{
+  "header": "켜고 끄는 스위치로, 재배포 없이 기능을 제어해요.",
+  "subcaption": "새 코드 배포 없이 기능을 단계적으로 열 수 있어요.",
+  "nodes": [
+    {
+      "title": "앱 코드",
+      "sub": "기능 내장됨",
+      "icon": "code",
+      "accent": false
+    },
+    {
+      "title": "피처 플래그",
+      "sub": "조광기 스위치",
+      "icon": "branch",
+      "accent": true
+    },
+    {
+      "title": "사용자",
+      "sub": "10명 → 전체",
+      "icon": "users",
+      "accent": false
+    }
+  ],
+  "steps": ["다크 배포", "단계 공개"],
+  "ret": null
+}

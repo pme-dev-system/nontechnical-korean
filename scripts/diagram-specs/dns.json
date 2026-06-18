@@ -1,0 +1,11 @@
+{
+  "header": "이름을 입력하면, 실제 주소로 바꿔드려요.",
+  "subcaption": "인터넷의 전화번호부, DNS가 번역해요.",
+  "nodes": [
+    {"title": "브라우저", "sub": "도메인 입력", "icon": "globe", "accent": false},
+    {"title": "DNS", "sub": "이름→번호 변환", "icon": "search", "accent": true},
+    {"title": "서버", "sub": "실제 IP 주소", "icon": "server", "accent": false}
+  ],
+  "steps": ["이름 조회", "주소 반환"],
+  "ret": {"label": "IP 주소 · 응답"}
+}

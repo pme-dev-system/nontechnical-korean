@@ -1,0 +1,11 @@
+{
+  "header": "이름-값 메모 카드로 소프트웨어끼리 대화해요.",
+  "subcaption": "두 소프트웨어가 정보를 주고받는 공통 형식이에요.",
+  "nodes": [
+    {"title": "내 앱", "sub": "데이터 요청", "icon": "app", "accent": false},
+    {"title": "JSON", "sub": "메모 카드 형식", "icon": "doc", "accent": true},
+    {"title": "상대 소프트웨어", "sub": "어떤 언어든 OK", "icon": "server", "accent": false}
+  ],
+  "steps": ["카드에 기록", "전달 · 해석"],
+  "ret": {"label": "응답도 JSON 카드로 반환"}
+}

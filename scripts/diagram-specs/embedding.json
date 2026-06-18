@@ -1,0 +1,28 @@
+{
+  "header": "의미를 숫자 주소로 바꾸면, 거리로 비교할 수 있어요.",
+  "subcaption": "비슷한 뜻일수록 지도 위 더 가까운 곳에 자리해요.",
+  "nodes": [
+    {
+      "title": "텍스트",
+      "sub": "단어·문장",
+      "icon": "doc",
+      "accent": false
+    },
+    {
+      "title": "임베딩",
+      "sub": "의미→좌표 변환",
+      "icon": "layers",
+      "accent": true
+    },
+    {
+      "title": "벡터 지도",
+      "sub": "숫자 좌표 공간",
+      "icon": "globe",
+      "accent": false
+    }
+  ],
+  "steps": ["변환 요청", "유사도 측정"],
+  "ret": {
+    "label": "가까운 의미 반환"
+  }
+}

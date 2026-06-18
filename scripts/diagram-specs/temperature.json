@@ -1,0 +1,36 @@
+{
+  "header": "즉흥 연주 다이얼을 조절하세요",
+  "subcaption": "낮추면 정답, 올리면 창의적 답변이 나와요",
+  "nodes": [
+    {
+      "title": "확률 순위",
+      "sub": "다음 단어 예측",
+      "icon": "layers",
+      "accent": false
+    },
+    {
+      "title": "Temperature",
+      "sub": "즉흥 다이얼",
+      "icon": "gear",
+      "accent": true
+    },
+    {
+      "title": "단어 선택",
+      "sub": "대담함 조절",
+      "icon": "filter",
+      "accent": false
+    },
+    {
+      "title": "최종 답변",
+      "sub": "일관 또는 창의",
+      "icon": "doc",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "입력",
+    "조정",
+    "출력"
+  ],
+  "ret": null
+}

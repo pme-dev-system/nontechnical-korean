@@ -1,0 +1,29 @@
+{
+  "header": "데이터 라벨이 맞지 않으면 실행이 멈춥니다",
+  "subcaption": "잘못된 재료가 잘못된 컵에 들어가는 순간 감지됩니다",
+  "nodes": [
+    {
+      "title": "데이터",
+      "sub": "값과 라벨",
+      "icon": "box",
+      "accent": false
+    },
+    {
+      "title": "타입",
+      "sub": "계량컵 라벨",
+      "icon": "filter",
+      "accent": false
+    },
+    {
+      "title": "타입 에러",
+      "sub": "불일치 감지",
+      "icon": "check",
+      "accent": true
+    }
+  ],
+  "steps": [
+    "라벨 확인",
+    "에러 차단"
+  ],
+  "ret": null
+}

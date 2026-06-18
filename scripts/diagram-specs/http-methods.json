@@ -1,0 +1,11 @@
+{
+  "header": "동사 하나로 의도를 전달해요.",
+  "subcaption": "조회·생성·수정·삭제, 네 동사가 웹을 움직여요.",
+  "nodes": [
+    {"title": "내 앱", "sub": "요청 주체", "icon": "app", "accent": false},
+    {"title": "HTTP 메서드", "sub": "GET·POST·PUT·DELETE", "icon": "code", "accent": true},
+    {"title": "서버", "sub": "데이터 처리", "icon": "server", "accent": false}
+  ],
+  "steps": ["동사 지정", "동작 수행"],
+  "ret": {"label": "결과 응답 · 상태 코드"}
+}

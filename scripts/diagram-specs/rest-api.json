@@ -1,0 +1,31 @@
+{
+  "header": "공통 규칙으로 누구나 연결되는 API 약속입니다",
+  "subcaption": "주소와 동사 조합으로 예측 가능하게 작동합니다",
+  "nodes": [
+    {
+      "title": "앱 요청",
+      "sub": "주소+동사 조합",
+      "icon": "app",
+      "accent": false
+    },
+    {
+      "title": "REST API",
+      "sub": "공통 규칙집",
+      "icon": "link",
+      "accent": true
+    },
+    {
+      "title": "서버 처리",
+      "sub": "데이터 읽고 씁니다",
+      "icon": "server",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "규칙 따라 전달",
+    "응답 전송"
+  ],
+  "ret": {
+    "label": "응답이 앱으로 돌아옵니다"
+  }
+}

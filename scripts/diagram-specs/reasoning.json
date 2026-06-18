@@ -1,0 +1,11 @@
+{
+  "header": "답하기 전에 연습지를 꺼내 단계별로 풀어봐요.",
+  "subcaption": "추론은 더 많은 토큰과 시간을 써서 정확도를 높여요.",
+  "nodes": [
+    { "title": "질문", "sub": "사용자 입력", "icon": "user", "accent": false },
+    { "title": "추론", "sub": "단계별 풀이", "icon": "layers", "accent": true },
+    { "title": "최종 답", "sub": "검증된 결과", "icon": "check", "accent": false }
+  ],
+  "steps": ["풀이 시작", "답 도출"],
+  "ret": null
+}

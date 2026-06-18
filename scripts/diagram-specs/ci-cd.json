@@ -1,0 +1,11 @@
+{
+  "header": "코드를 수정하면, 로봇이 자동으로 검사·빌드·배포해요.",
+  "subcaption": "사람이 손댈 일 없는 자동 컨베이어 벨트예요.",
+  "nodes": [
+    { "title": "코드 변경", "sub": "개발자", "icon": "code", "accent": false },
+    { "title": "CI/CD", "sub": "자동화 파이프라인", "icon": "gear", "accent": true },
+    { "title": "서비스", "sub": "사용자", "icon": "globe", "accent": false }
+  ],
+  "steps": ["머지·트리거", "검수·빌드·배포"],
+  "ret": null
+}

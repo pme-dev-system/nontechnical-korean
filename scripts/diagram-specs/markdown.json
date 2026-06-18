@@ -1,0 +1,26 @@
+{
+  "header": "기호를 치면, 앱이 알아서 예쁘게 만들어줘요.",
+  "subcaption": "버튼 없이 기호만으로 서식을 만드는 방식이에요.",
+  "nodes": [
+    {
+      "title": "원문 작성",
+      "sub": "기호 포함 텍스트",
+      "icon": "doc",
+      "accent": false
+    },
+    {
+      "title": "마크다운",
+      "sub": "#·**·- 기호 규칙",
+      "icon": "code",
+      "accent": true
+    },
+    {
+      "title": "렌더링 결과",
+      "sub": "제목·굵기·목록",
+      "icon": "layers",
+      "accent": false
+    }
+  ],
+  "steps": ["기호 입력", "변환·표시"],
+  "ret": null
+}

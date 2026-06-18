@@ -1,0 +1,11 @@
+{
+  "header": "눈에 안 보여도, 늘 거기서 일하고 있어요.",
+  "subcaption": "백그라운드에서 조용히 대기하다 신호에 즉시 반응해요.",
+  "nodes": [
+    {"title": "시스템", "sub": "구동 환경", "icon": "server", "accent": false},
+    {"title": "데몬", "sub": "야간 경비원", "icon": "gear", "accent": true},
+    {"title": "이벤트", "sub": "신호·조건 발생", "icon": "bolt", "accent": false}
+  ],
+  "steps": ["구동·상주", "감지·반응"],
+  "ret": {"label": "처리 후 다시 대기"}
+}

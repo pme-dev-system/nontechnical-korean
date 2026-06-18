@@ -1,0 +1,29 @@
+{
+  "header": "동작은 그대로, 구조만 깔끔하게 정돈해요",
+  "subcaption": "서랍을 뒤집어 정리하면 2초에 찾을 수 있어요",
+  "nodes": [
+    {
+      "title": "기존 코드",
+      "sub": "어수선한 서랍",
+      "icon": "code",
+      "accent": false
+    },
+    {
+      "title": "리팩토링",
+      "sub": "구조 재정돈",
+      "icon": "gear",
+      "accent": true
+    },
+    {
+      "title": "정돈된 코드",
+      "sub": "동작은 동일",
+      "icon": "check",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "내부 정리",
+    "결과 유지"
+  ],
+  "ret": null
+}

@@ -1,0 +1,28 @@
+{
+  "header": "브라우저가 명단을 확인한 뒤 요청을 허용해요.",
+  "subcaption": "다른 사이트 문지기가 입장 여부를 결정해요.",
+  "nodes": [
+    {
+      "title": "내 앱",
+      "sub": "브라우저 실행",
+      "icon": "app",
+      "accent": false
+    },
+    {
+      "title": "CORS",
+      "sub": "명단 확인",
+      "icon": "shield",
+      "accent": true
+    },
+    {
+      "title": "다른 서버",
+      "sub": "데이터 보유",
+      "icon": "server",
+      "accent": false
+    }
+  ],
+  "steps": ["명단 조회", "허용·차단"],
+  "ret": {
+    "label": "허용 시 데이터 반환"
+  }
+}

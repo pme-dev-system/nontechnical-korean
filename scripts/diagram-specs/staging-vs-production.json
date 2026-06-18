@@ -1,0 +1,29 @@
+{
+  "header": "리허설 통과 후 공연에 올라요",
+  "subcaption": "같은 무대, 다른 관객으로 안전하게 검증해요",
+  "nodes": [
+    {
+      "title": "내 컴퓨터",
+      "sub": "비공개 작업",
+      "icon": "terminal",
+      "accent": false
+    },
+    {
+      "title": "스테이징",
+      "sub": "드레스 리허설",
+      "icon": "layers",
+      "accent": true
+    },
+    {
+      "title": "프로덕션",
+      "sub": "실제 서비스",
+      "icon": "globe",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "올리기",
+    "통과 시"
+  ],
+  "ret": null
+}

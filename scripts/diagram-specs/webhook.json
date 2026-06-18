@@ -1,0 +1,36 @@
+{
+  "header": "일이 생기면 앱이 먼저 알려드려요",
+  "subcaption": "기다리지 않아도 되는 자동 알림 방식이에요",
+  "nodes": [
+    {
+      "title": "이벤트 발생",
+      "sub": "결제·주문 등",
+      "icon": "bolt",
+      "accent": false
+    },
+    {
+      "title": "웹훅",
+      "sub": "즉시 발동해요",
+      "icon": "link",
+      "accent": true
+    },
+    {
+      "title": "내 서버",
+      "sub": "알림 수신",
+      "icon": "server",
+      "accent": false
+    },
+    {
+      "title": "자동 처리",
+      "sub": "Slack·메일 등",
+      "icon": "gear",
+      "accent": false
+    }
+  ],
+  "steps": [
+    "신호 전송",
+    "데이터 전달",
+    "작업 실행"
+  ],
+  "ret": null
+}

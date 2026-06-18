@@ -1,0 +1,11 @@
+{
+  "header": "비밀은 서랍에, 코드는 무대에 올려요.",
+  "subcaption": "비밀 키를 코드 밖에 보관하는 파일이에요.",
+  "nodes": [
+    {"title": "코드", "sub": "공개 대본", "icon": "code", "accent": false},
+    {"title": ".env", "sub": "잠긴 서랍", "icon": "lock", "accent": true},
+    {"title": "앱 실행", "sub": "비밀값 주입", "icon": "app", "accent": false}
+  ],
+  "steps": ["비밀 요청", "값 전달"],
+  "ret": null
+}

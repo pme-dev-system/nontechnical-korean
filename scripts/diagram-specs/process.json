@@ -1,0 +1,28 @@
+{
+  "header": "파일은 대본이고, 프로세스는 살아있는 공연이에요.",
+  "subcaption": "실행하는 순간, 파일이 프로세스로 태어나요.",
+  "nodes": [
+    {
+      "title": "파일",
+      "sub": "대본 · 정적",
+      "icon": "doc",
+      "accent": false
+    },
+    {
+      "title": "프로세스",
+      "sub": "실행 인스턴스",
+      "icon": "gear",
+      "accent": true
+    },
+    {
+      "title": "자원",
+      "sub": "메모리 · CPU",
+      "icon": "server",
+      "accent": false
+    }
+  ],
+  "steps": ["실행", "점유"],
+  "ret": {
+    "label": "종료 · 파일은 그대로"
+  }
+}

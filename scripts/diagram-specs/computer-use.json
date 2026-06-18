@@ -1,0 +1,11 @@
+{
+  "header": "창구 없으면 AI가 직접 정문으로 들어가 버튼을 눌러요.",
+  "subcaption": "사람처럼 클릭하고 타이핑하는 AI예요.",
+  "nodes": [
+    { "title": "사용자", "sub": "지시하는 사람", "icon": "user", "accent": false },
+    { "title": "컴퓨터 사용", "sub": "화면 보고 클릭", "icon": "terminal", "accent": true },
+    { "title": "앱·화면", "sub": "API 없는 소프트웨어", "icon": "globe", "accent": false }
+  ],
+  "steps": ["지시", "클릭·타이핑"],
+  "ret": { "label": "결과 · 화면 변화" }
+}
