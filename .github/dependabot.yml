@@ -6,7 +6,7 @@ updates:
       interval: "weekly"
     commit-message:
       prefix: "chore(deps)"
-  # 프로젝트 타입에 맞게 추가 (npm / pip / cargo / gomod ...)
+  # プロジェクトの種類に合わせて追加(npm / pip / cargo / gomod ...)
   # - package-ecosystem: "npm"
   #   directory: "/"
   #   schedule:

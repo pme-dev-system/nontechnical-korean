@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # qa-canon MASTER gate (template -> verify_<name>.sh). nontechnical_korean
+# (日本語ローカライズ版もこの名前のまま運用する — リポジトリ名に合わせたゲート識別子)
 # OR-aggregate, fail-closed, macOS bash 3.2 safe. Exit 0 PASS / 1 FAIL.
 # Loop contract: emits machine-readable FAIL[<gate>]: <reason> lines so an agent
 # can diagnose -> fix -> re-run until exit 0 (this script is the JUDGE, not the fixer).
@@ -11,7 +12,7 @@ RC=0; FAILED=""
 log()  { printf '%s\n' "$*"; }
 fail() { RC=1; FAILED="$FAILED $1"; log "FAIL[$1]: $2"; }
 
-# --- structure: loop-engineering requires SSoT + memory + readme ---
+# --- structure: loop-engineeringにはSSoT + 記憶 + readmeが必須 ---
 for f in REQUIREMENTS.md FAILURE_LOG.md README.md; do
   [ -f "$ROOT/$f" ] || fail structure "missing $f"
 done

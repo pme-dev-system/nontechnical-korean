@@ -1,33 +1,33 @@
 {
   "slug": "cli",
   "title_en": "CLI",
-  "title_ko": "CLI",
+  "title_ja": "CLI",
   "category_en": "The Basics",
-  "category_ko": "기초",
-  "kicker_ko": "CLI란 — 쉬운 말로",
-  "deck_ko": "주방에 직통 전화를 거는 것. 클릭 없이요.",
-  "analogy_ko": "GUI가 식당 홀이라면, CLI는 주방으로 연결된 직통 전화예요.",
-  "body_html": "<p>18개월 전까지만 해도 터미널은 길을 잃었을 때나 여는 곳이었어요. 지금은 거기서 나오고 싶지 않아요.</p>\n<p>대부분의 소프트웨어는 <strong>GUI</strong>를 제공해요. Graphical user interface, 그래픽 사용자 인터페이스죠. 버튼, 아이콘, 메뉴. 클릭이 명령어 암기보다 쉬우니까 누군가 그 버튼들을 디자인해 준 거예요. 식당에 비유하면 GUI는 홀이에요. 자리에 앉아 메뉴판을 읽고 웨이터를 통해 주문하는 방식이죠. 편하지만 느리고, 메뉴에 있는 것만 시킬 수 있어요.</p>\n<p><strong>CLI는 주방으로 이어지는 직통 전화예요.</strong> Command line interface, 명령줄 인터페이스입니다. 메뉴도, 웨이터도, 홀도 없어요. 셰프에게 직접 전화해서 그들의 줄임말로 원하는 것을 정확히 말하면 바로 해줘요. 덜 예쁘지만 훨씬 빠르죠.</p>\n<p>커서가 깜빡이는 검은 창은 해커 영화 장면이 아니에요. 그냥 열려 있는 그 전화선이에요. 당신이 말을 걸기를 기다리고 있어요.</p>\n<p><strong>명령어 세 개로 시작해 보세요.</strong> Mac에서 Terminal을 열고(Spotlight에서 \"Terminal\" 검색) <a class='dict-xref' href='/term/type-type-error/'>이것들을</a> 하나씩 입력해 보세요:</p>\n<pre><code class='language-bash'>cd Documents\nls\nmkdir ideas\n</code></pre>\n<p>방금 컴퓨터에 이렇게 말한 거예요:</p>\n<ul>\n<li><code>cd Documents</code> → \"Documents 폴더로 들어가줘.\" (<a class='dict-xref' href='/term/ci-cd/'>cd</a> = change directory, 디렉터리 이동이에요.)</li>\n<li><code>ls</code> → \"여기 있는 것들 다 나열해줘.\" 파일, 폴더, 전부요.</li>\n<li><code>mkdir ideas</code> → \"ideas라는 새 폴더 만들어줘.\" (mkdir = make directory.)</li>\n</ul>\n<p>이게 전부예요. 클릭도, 드래그도 없어요. 컴퓨터가 쓰는 고유의 줄임말로 직접 말을 걸면, 엔터를 누른 순간 정확히 그대로 실행돼요.</p>\n<p>여기서부터 흥미로워져요. 거의 모든 앱에도 자체 CLI가 있어요. Shopify CLI, Stripe CLI, <a class='dict-xref' href='/term/github/'>GitHub</a> CLI. 대시보드에 로그인해서 다섯 화면을 클릭하는 대신 한 줄만 입력하면 돼요:</p>\n<pre><code class='language-bash'>shopify product create\n</code></pre>\n<p>그러면 Shopify의 <a class='dict-xref' href='/term/api/'>API</a>와 직접 통신해요. 같은 주방 전화선인데 주방이 다른 것뿐이에요. 하나에 익숙해지면 나머지도 낯설지 않아요.</p>\n<p>비개발자가 이걸 알아야 하는 이유는 두 가지예요.</p>\n<ol>\n<li><p><strong>대부분의 경우 더 빠릅니다.</strong> 대시보드에서 여섯 번 클릭하고 세 번 페이지를 넘겨야 하는 작업이 명령어 한 줄이면 끝나요. 그 줄을 한 번 알면 버튼을 다시 찾아 헤맬 필요가 없어요.</p>\n</li>\n<li><p><strong>핵심은 이거예요: AI 에이전트는 CLI 안에 살아요.</strong> 버튼은 손가락이 필요해요. 입력된 명령어는 그렇지 않아요.</p>\n</li>\n</ol>\n<p>두 번째가 전부예요. <a class='dict-xref' href='/term/agent/'>에이전트</a>는 화면을 뚫고 들어와 \"지금 구매\" 버튼을 대신 눌러줄 수 없어요. 하지만 <em>타이핑</em>으로 할 수 있는 건 에이전트도 할 수 있어요. 터미널은 AI와 컴퓨터가 같은 언어로 말하는 공간이에요. 버튼이 끼어들 자리가 없죠.</p>\n<p>결국 이 한 줄이 중요해요:</p>\n<p><strong>타이핑으로 할 수 있는 건 에이전트에게 넘길 수 있어요. 클릭이 필요한 건 여전히 당신 몫이에요.</strong></p>\n<p>명령어 백 개를 외울 필요 없어요. 위의 세 개도 기억 못 해도 괜찮아요. 잊어버리면(그럴 거예요) 그냥 물어보면 돼요: <em>\"Mac 터미널에서 파일 이름 바꾸는 명령어가 뭐야?\"</em> 그게 방법이에요. 평범한 지시를 타이핑하면 평범한 결과가 나온다는 걸 알면, CLI는 더 이상 무섭지 않아요.</p>\n<p>그 검은 창을 피해온 지 몇 년이죠. 심화 과정처럼 느껴져서요. 사실은 정반대예요. <strong>원하는 것과 컴퓨터가 실제로 그것을 하는 사이의 가장 짧은 거리예요.</strong></p>",
+  "category_ja": "基礎",
+  "kicker_ja": "CLIとは — やさしい言葉で",
+  "deck_ja": "クリックなしで、厨房に直通電話をかけるようなものです。",
+  "analogy_ja": "GUIが食堂のホールなら、CLIは厨房につながる直通電話です。",
+  "body_html": "<p>1年半前まで、ターミナルは道に迷ったときにしか開かない場所でした。今はそこから出たくないくらいです。</p>\n<p>ほとんどのソフトウェアは<strong>GUI</strong>を用意しています。Graphical User Interface、グラフィカルユーザーインターフェースのことです。ボタン、アイコン、メニュー。クリックの方がコマンドを覚えるより簡単だからこそ、誰かがそのボタンをデザインしてくれたわけです。レストランに例えるなら、GUIはホールです。席に座ってメニューを読み、ウェイターを通して注文する方式ですね。楽ですが遅いし、メニューにあるものしか頼めません。</p>\n<p><strong>CLIは厨房へ直接つながる電話です。</strong> Command Line Interface、コマンドラインインターフェースのことです。メニューも、ウェイターも、ホールもありません。シェフに直接電話をかけて、彼らの略語で欲しいものをそのまま伝えれば、すぐにやってくれます。見た目は地味ですが、ずっと速いんです。</p>\n<p>カーソルが点滅する黒い画面は、ハッカー映画のワンシーンではありません。ただ開いたままのその電話線です。あなたが話しかけるのを待っているだけです。</p>\n<p><strong>まずはコマンド3つから始めてみましょう。</strong> Macでターミナルを開いて(Spotlightで「Terminal」を検索)、<a class='dict-xref' href='/term/type-type-error/'>これら</a>を一つずつ入力してみてください。</p>\n<pre><code class='language-bash'>cd Documents\nls\nmkdir ideas\n</code></pre>\n<p>たった今、コンピュータにこう伝えたことになります。</p>\n<ul>\n<li><code>cd Documents</code> → 「Documentsフォルダに入って」。(<a class='dict-xref' href='/term/ci-cd/'>cd</a> = change directory、ディレクトリ移動のことです。)</li>\n<li><code>ls</code> → 「ここにあるものを全部並べて」。ファイルもフォルダも、すべてです。</li>\n<li><code>mkdir ideas</code> → 「ideasという新しいフォルダを作って」。(mkdir = make directory。)</li>\n</ul>\n<p>これで全部です。クリックもドラッグもありません。コンピュータ自身の略語で直接話しかければ、エンターを押した瞬間、そのとおりに実行されます。</p>\n<p>ここからが面白くなります。ほとんどのアプリには独自のCLIがあります。Shopify CLI、Stripe CLI、<a class='dict-xref' href='/term/github/'>GitHub</a> CLI。ダッシュボードにログインして5つの画面をクリックする代わりに、1行入力するだけで済みます。</p>\n<pre><code class='language-bash'>shopify product create\n</code></pre>\n<p>これでShopifyの<a class='dict-xref' href='/term/api/'>API</a>と直接やり取りします。同じ厨房への電話線でも、厨房が違うだけです。一つに慣れれば、他も見知らぬものではなくなります。</p>\n<p>非エンジニアがこれを知っておくべき理由は2つあります。</p>\n<ol>\n<li><p><strong>たいていの場合、より速いからです。</strong> ダッシュボードで6回クリックして3回ページをめくらないといけない作業が、コマンド1行で終わります。その1行を一度覚えれば、もうボタンを探し回る必要はありません。</p>\n</li>\n<li><p><strong>肝心なのはここです。AIエージェントはCLIの中で暮らしています。</strong> ボタンには指が必要です。入力されたコマンドにはそれが要りません。</p>\n</li>\n</ol>\n<p>2番目の理由がすべてです。<a class='dict-xref' href='/term/agent/'>エージェント</a>は画面を突き破って「今すぐ購入」ボタンを代わりに押してくれるわけではありません。でも<em>タイピング</em>でできることなら、エージェントにもできます。ターミナルはAIとコンピュータが同じ言葉で話す場所です。ボタンの入り込む余地がないんです。</p>\n<p>結局、大事なのはこの一言です。</p>\n<p><strong>タイピングでできることはエージェントに任せられます。クリックが必要なことは、まだあなたの仕事です。</strong></p>\n<p>コマンドを100個も暗記する必要はありません。上の3つを覚えていなくても大丈夫です。忘れたら(忘れます)、ただ聞けばいいんです。<em>「Macのターミナルでファイル名を変更するコマンドは何?」</em> それだけです。ふつうの指示をタイプすれば、ふつうの結果が返ってくると分かれば、CLIはもう怖くありません。</p>\n<p>あの黒い画面を何年も避けてきたかもしれません。上級者向けに感じられるからです。でも実際はその逆です。<strong>欲しいものと、コンピュータが実際にそれをすることの間にある、いちばん短い距離なんです。</strong></p>",
   "related": [
     {
       "slug": "api",
-      "title_ko": "API"
+      "title_ja": "API"
     },
     {
       "slug": "agent",
-      "title_ko": "에이전트"
+      "title_ja": "エージェント"
     },
     {
       "slug": "github",
-      "title_ko": "GitHub"
+      "title_ja": "GitHub"
     },
     {
       "slug": "type-type-error",
-      "title_ko": "타입 / 타입 에러"
+      "title_ja": "型 / 型エラー"
     },
     {
       "slug": "ci-cd",
-      "title_ko": "CI/CD"
+      "title_ja": "CI/CD"
     }
   ],
   "prev": "frontend-backend",

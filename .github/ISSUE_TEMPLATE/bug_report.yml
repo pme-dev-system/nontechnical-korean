@@ -1,35 +1,35 @@
 name: 🐛 Bug Report
-description: 재현 가능한 버그를 신고합니다
+description: 再現可能なバグを報告します
 title: "[bug]: "
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
-      value: "버그 신고 감사합니다. 재현 절차를 자세히 적을수록 빨리 고칠 수 있습니다."
+      value: "バグ報告ありがとうございます。再現手順を詳しく書いていただくほど早く修正できます。"
   - type: textarea
     id: what
     attributes:
-      label: 무슨 일이 일어났나요?
-      description: 기대한 동작과 실제 동작을 함께 적어주세요.
+      label: 何が起きましたか?
+      description: 期待した動作と実際の動作を一緒に書いてください。
     validations:
       required: true
   - type: textarea
     id: repro
     attributes:
-      label: 재현 절차
+      label: 再現手順
       placeholder: |
         1. ...
         2. ...
-        3. 오류 발생
+        3. エラー発生
     validations:
       required: true
   - type: input
     id: version
     attributes:
-      label: 버전
-      placeholder: "예: v1.2.3"
+      label: バージョン
+      placeholder: "例: v1.2.3"
   - type: textarea
     id: env
     attributes:
-      label: 환경
-      placeholder: "OS, 런타임 버전 등"
+      label: 環境
+      placeholder: "OS、ランタイムのバージョンなど"

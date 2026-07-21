@@ -14,22 +14,22 @@ export default function Home() {
       <SiteHeader count={total} />
       <main>
         <section className="wrap hero">
-          <span className="hero__eyebrow">AI·개발 용어 사전</span>
+          <span className="hero__eyebrow">AI・開発用語辞典</span>
           <h1 className="hero__title">
-            낯선 말을<br />
-            <span className="soft">비유 하나로</span> 이해하기
+            聞き慣れない言葉を<br />
+            <span className="soft">ひとつの例え</span>で理解する
           </h1>
           <p className="hero__lead">
-            처음 들으면 막막한 기술 용어 {total}개를, 고등학생도 알아들을 만큼
-            쉬운 비유와 예시로 풀어 썼어요. 필요한 곳부터 골라 읽으면 돼요.
+            初めて聞くと戸惑う技術用語{total}個を、専門知識がなくても
+            わかるやさしい例えと具体例で解説しました。必要なところから読めばOKです。
           </p>
           <div className="hero__rule" />
-          <nav className="nav-index" aria-label="카테고리">
+          <nav className="nav-index" aria-label="カテゴリー">
             {groups.map((g, i) => (
               <Link key={g.category.slug} href={`/category/${g.category.slug}`} className="nav-index__item">
                 <span className="nav-index__no">{String(i + 1).padStart(2, "0")}</span>
                 <span className="nav-index__dot" style={{ background: g.category.color }} aria-hidden />
-                <span className="nav-index__ko">{g.category.ko}</span>
+                <span className="nav-index__ja">{g.category.ja}</span>
                 <span className="nav-index__n">{g.terms.length}</span>
               </Link>
             ))}
@@ -44,7 +44,7 @@ export default function Home() {
                 <Link href={`/category/${g.category.slug}`}>
                   <h2 className="cat__title">
                     <span className="swatch" style={{ background: g.category.color }} aria-hidden />
-                    {g.category.ko}
+                    {g.category.ja}
                   </h2>
                 </Link>
                 <p className="cat__blurb">{g.category.blurb}</p>

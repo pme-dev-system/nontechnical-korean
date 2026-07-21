@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-# 용어별 결정론 미니멀 SVG 커버 생성기.
-# 카테고리 색 + slug 해시로 일관되면서도 서로 구분되는 추상 커버를 만든다.
-# 게이트웨이(/gi) 비의존. 흑백+단색 강조 학습 미감. 텍스트/로고 없음.
-# 실행: python3 scripts/gen_covers.py  (모든 terms/*.json 의 img 경로를 svg로 갱신)
+# 用語ごとの決定論的ミニマルSVGカバー生成器。
+# カテゴリカラー + slugハッシュで一貫性がありつつ互いに区別できる抽象カバーを作る。
+# /gi(画像生成)非依存。白黒+単色アクセントの学習向け美観。テキスト/ロゴなし。
+# 実行: python3 scripts/gen_covers.py (すべてのterms/*.jsonのimgパスをsvgに更新)
 import json, os, hashlib, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -35,38 +35,38 @@ def cover(slug, color):
     R = r(170, 260)
     motif = int(r(0, 4.999))
     el = [f'<rect width="{W}" height="{H}" fill="{BG}"/>']
-    # 공통: 큰 소프트 원(카테고리색 저투명)
+    # 共通: 大きなソフトな円(カテゴリカラー・低不透明度)
     el.append(f'<circle cx="{cx:.0f}" cy="{cy:.0f}" r="{R:.0f}" fill="{color}" fill-opacity="0.10"/>')
-    # 옅은 잉크 그리드 도트(질감)
+    # 淡いインクのグリッドドット(質感)
     dots = []
     gx0 = r(40, 80)
     for yy in range(90, H, 64):
         for xx in range(int(gx0), W, 64):
             dots.append(f'<circle cx="{xx}" cy="{yy}" r="2" fill="{INK}" fill-opacity="0.05"/>')
     el.append("".join(dots))
-    if motif == 0:  # 동심원
+    if motif == 0:  # 同心円
         for k in range(4):
             rr = R * (0.45 + 0.2 * k)
             el.append(f'<circle cx="{cx:.0f}" cy="{cy:.0f}" r="{rr:.0f}" fill="none" stroke="{color}" stroke-width="2.5" stroke-opacity="{0.6-0.1*k:.2f}"/>')
         el.append(f'<circle cx="{cx:.0f}" cy="{cy:.0f}" r="9" fill="{color}"/>')
-    elif motif == 1:  # 교차원
+    elif motif == 1:  # 交差円
         dx = r(60, 120)
         el.append(f'<circle cx="{cx-dx:.0f}" cy="{cy:.0f}" r="{R*0.62:.0f}" fill="none" stroke="{INK}" stroke-width="2" stroke-opacity="0.35"/>')
         el.append(f'<circle cx="{cx+dx:.0f}" cy="{cy:.0f}" r="{R*0.62:.0f}" fill="none" stroke="{color}" stroke-width="2.5" stroke-opacity="0.7"/>')
         el.append(f'<circle cx="{cx:.0f}" cy="{cy:.0f}" r="10" fill="{color}"/>')
-    elif motif == 2:  # 호 + 점
+    elif motif == 2:  # 弧 + 点
         a = r(0, 360)
         el.append(f'<path d="M {cx-R:.0f} {cy:.0f} A {R:.0f} {R:.0f} 0 0 1 {cx+R:.0f} {cy:.0f}" fill="none" stroke="{color}" stroke-width="3" stroke-opacity="0.7" transform="rotate({a:.0f} {cx:.0f} {cy:.0f})"/>')
         el.append(f'<circle cx="{cx:.0f}" cy="{cy:.0f}" r="{R*0.5:.0f}" fill="none" stroke="{INK}" stroke-width="1.5" stroke-opacity="0.3"/>')
         el.append(f'<circle cx="{cx+R:.0f}" cy="{cy:.0f}" r="8" fill="{color}" transform="rotate({a:.0f} {cx:.0f} {cy:.0f})"/>')
-    elif motif == 3:  # 대각선 + 원
+    elif motif == 3:  # 対角線 + 円
         a = r(-30, 30)
         for k in range(3):
             off = (k - 1) * 46
             el.append(f'<line x1="{cx-R*1.1:.0f}" y1="{cy+off:.0f}" x2="{cx+R*1.1:.0f}" y2="{cy+off:.0f}" stroke="{INK}" stroke-width="2" stroke-opacity="0.12" transform="rotate({a:.0f} {cx:.0f} {cy:.0f})"/>')
         el.append(f'<circle cx="{cx:.0f}" cy="{cy:.0f}" r="{R*0.55:.0f}" fill="none" stroke="{color}" stroke-width="3" stroke-opacity="0.7"/>')
         el.append(f'<circle cx="{cx:.0f}" cy="{cy:.0f}" r="9" fill="{color}"/>')
-    else:  # 회전 사각 중첩
+    else:  # 回転する正方形の重なり
         a = r(0, 45)
         for k in range(3):
             s = R * (0.5 + 0.28 * k)

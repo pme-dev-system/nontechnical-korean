@@ -17,8 +17,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const term = getTerm(slug);
-  if (!term) return { title: "찾을 수 없는 용어" };
-  return { title: `${term.title_ko} (${term.title_en})`, description: term.deck_ko };
+  if (!term) return { title: "見つからない用語" };
+  return { title: `${term.title_ja} (${term.title_en})`, description: term.deck_ja };
 }
 
 export default async function TermPage({
@@ -40,30 +40,30 @@ export default async function TermPage({
       <SiteHeader />
       <main className="wrap detail">
         <nav className="crumbs">
-          <Link href="/">홈</Link>
+          <Link href="/">ホーム</Link>
           <span aria-hidden>·</span>
-          <Link href={`/category/${cat.slug}`}>{cat.ko}</Link>
+          <Link href={`/category/${cat.slug}`}>{cat.ja}</Link>
         </nav>
 
         <Link href={`/category/${cat.slug}`} className="detail__cat">
           <span className="dot" style={{ background: cat.color }} aria-hidden />
-          {cat.ko}
+          {cat.ja}
         </Link>
-        <h1 className="detail__title">{term.title_ko}</h1>
+        <h1 className="detail__title">{term.title_ja}</h1>
         <p className="detail__en">{term.title_en}</p>
-        <p className="detail__deck">{term.deck_ko}</p>
+        <p className="detail__deck">{term.deck_ja}</p>
 
-        {term.analogy_ko ? (
+        {term.analogy_ja ? (
           <aside className="analogy">
-            <span className="analogy__label">한 줄 비유</span>
-            <p className="analogy__text">{term.analogy_ko}</p>
+            <span className="analogy__label">一言でいうと</span>
+            <p className="analogy__text">{term.analogy_ja}</p>
           </aside>
         ) : null}
 
         {diagram ? (
           <figure className="figure">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="figure__img" src={diagram} alt={`${term.title_ko} 개념 다이어그램`} loading="lazy" />
+            <img className="figure__img" src={diagram} alt={`${term.title_ja} 概念ダイアグラム`} loading="lazy" />
           </figure>
         ) : null}
 
@@ -71,11 +71,11 @@ export default async function TermPage({
 
         {term.related.length > 0 ? (
           <div className="related">
-            <p className="related__label">함께 보면 좋은 용어</p>
+            <p className="related__label">あわせて読みたい用語</p>
             <div className="related__list">
               {term.related.map((r) => (
                 <Link key={r.slug} href={`/term/${r.slug}`} className="related__item">
-                  {r.title_ko}
+                  {r.title_ja}
                 </Link>
               ))}
             </div>
@@ -86,16 +86,16 @@ export default async function TermPage({
           <nav className="pager">
             {prev ? (
               <Link href={`/term/${prev.slug}`}>
-                <div className="pager__dir">← 이전</div>
-                <div className="pager__t">{prev.title_ko}</div>
+                <div className="pager__dir">← 前へ</div>
+                <div className="pager__t">{prev.title_ja}</div>
               </Link>
             ) : (
               <span />
             )}
             {next ? (
               <Link href={`/term/${next.slug}`} className="pager--next">
-                <div className="pager__dir">다음 →</div>
-                <div className="pager__t">{next.title_ko}</div>
+                <div className="pager__dir">次へ →</div>
+                <div className="pager__t">{next.title_ja}</div>
               </Link>
             ) : (
               <span />

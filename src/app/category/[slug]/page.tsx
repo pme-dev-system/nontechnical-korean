@@ -18,8 +18,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const cat = catBySlug(slug);
-  if (!cat) return { title: "카테고리" };
-  return { title: cat.ko, description: cat.blurb };
+  if (!cat) return { title: "カテゴリー" };
+  return { title: cat.ja, description: cat.blurb };
 }
 
 export default async function CategoryPage({
@@ -38,17 +38,17 @@ export default async function CategoryPage({
       <main className="wrap">
         <header className="cathead">
           <nav className="crumbs">
-            <Link href="/">홈</Link>
+            <Link href="/">ホーム</Link>
             <span aria-hidden>·</span>
-            <span>{cat.ko}</span>
+            <span>{cat.ja}</span>
           </nav>
           <div className="cathead__no">{String(cat.order).padStart(2, "0")}</div>
           <h1 className="cathead__title">
             <span className="swatch" style={{ background: cat.color }} aria-hidden />
-            {cat.ko}
+            {cat.ja}
           </h1>
           <p className="cathead__blurb">
-            {cat.blurb} · 용어 {terms.length}개
+            {cat.blurb} · 用語{terms.length}個
           </p>
         </header>
         <section className="cat" style={{ borderTop: "none", paddingTop: "1.6rem" }}>

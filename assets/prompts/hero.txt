@@ -1,5 +1,5 @@
 # /gi prompt — kind=hero — project=nontechnical-korean
-# 7-axis (photo-prompts-master) enforced. 종횡비 명시 필수. 본 파일을 /gi 에 전달.
+# 7-axis (photo-prompts-master) enforced. アスペクト比の明示必須。本ファイルを/giに渡す。
 
 SUBJECT: hero banner for a software project named 'nontechnical-korean': nontechnical-korean — a project.
 CAMERA/LENS: editorial wide composition, 35mm equivalent, balanced depth
@@ -10,5 +10,5 @@ MOOD: confident, premium, trustworthy open-source aesthetic
 ASPECT_RATIO: 16:9
 DETAIL: crisp vector-like edges, no clutter, print-grade sharpness
 
-NEGATIVE: no fake brand logos, no pixel-copied UI, no distorted korean/latin text,
+NEGATIVE: no fake brand logos, no pixel-copied UI, no distorted japanese/latin text,
   no watermark, no lorem ipsum, no extra fingers/limbs, no gibberish labels, no signature

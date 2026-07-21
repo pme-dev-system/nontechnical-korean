@@ -2,17 +2,17 @@ import fs from "node:fs";
 import path from "node:path";
 import { CATEGORIES, catByEn, type Category } from "./categories";
 
-export type Related = { slug: string; title_ko: string };
+export type Related = { slug: string; title_ja: string };
 
 export type Term = {
   slug: string;
   title_en: string;
-  title_ko: string;
+  title_ja: string;
   category_en: string;
-  category_ko: string;
-  kicker_ko: string;
-  deck_ko: string;
-  analogy_ko: string;
+  category_ja: string;
+  kicker_ja: string;
+  deck_ja: string;
+  analogy_ja: string;
   body_html: string;
   related: Related[];
   prev: string | null;
@@ -37,12 +37,12 @@ export function loadTerms(): Term[] {
     try {
       const raw = fs.readFileSync(path.join(TERMS_DIR, f), "utf-8");
       const t = JSON.parse(raw) as Term;
-      if (t && t.slug && t.title_ko) terms.push(normalize(t));
+      if (t && t.slug && t.title_ja) terms.push(normalize(t));
     } catch {
-      // 손상된 항목은 건너뛴다 — 빌드를 막지 않는다.
+      // 壊れた項目はスキップする — ビルドを止めない。
     }
   }
-  terms.sort((a, b) => a.title_ko.localeCompare(b.title_ko, "ko"));
+  terms.sort((a, b) => a.title_ja.localeCompare(b.title_ja, "ja"));
   _cache = terms;
   return terms;
 }
@@ -85,7 +85,7 @@ export function termCount(): number {
 
 const DIAGRAM_DIR = path.join(process.cwd(), "public", "dictionary", "diagram");
 
-// 용어별 전문 SVG 다이어그램이 있으면 그 경로를, 없으면 null.
+// 用語ごとの専用SVGダイアグラムがあればそのパスを、なければnullを返す。
 export function diagramFor(slug: string): string | null {
   try {
     if (fs.existsSync(path.join(DIAGRAM_DIR, `${slug}.svg`))) {

@@ -1,7 +1,7 @@
-# Code owners — PR 시 자동 리뷰 지정. 자세히: https://docs.github.com/articles/about-code-owners
-# 기본: 저장소 전체를 소유자가 리뷰
+# Code owners — PR時に自動でレビュアーを指定。詳細: https://docs.github.com/articles/about-code-owners
+# デフォルト: リポジトリ全体をオーナーがレビュー
 *       @Son
 
-# 내부/민감 경로는 소유자만
+# 内部/機密パスはオーナーのみ
 /docs-private/   @Son
 /.github/        @Son

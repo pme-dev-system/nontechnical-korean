@@ -1,19 +1,8 @@
 @import "tailwindcss";
-@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
-
-/* ── 에이투지체(AtoZ) : 한글·라틴 단일 보이스 ───────────────────── */
-@font-face { font-family: "AtoZ"; font-weight: 100; font-display: swap; src: url("/fonts/AtoZ-Thin.ttf") format("truetype"); }
-@font-face { font-family: "AtoZ"; font-weight: 200; font-display: swap; src: url("/fonts/AtoZ-ExtraLight.ttf") format("truetype"); }
-@font-face { font-family: "AtoZ"; font-weight: 300; font-display: swap; src: url("/fonts/AtoZ-Light.ttf") format("truetype"); }
-@font-face { font-family: "AtoZ"; font-weight: 400; font-display: swap; src: url("/fonts/AtoZ-Regular.ttf") format("truetype"); }
-@font-face { font-family: "AtoZ"; font-weight: 500; font-display: swap; src: url("/fonts/AtoZ-Medium.ttf") format("truetype"); }
-@font-face { font-family: "AtoZ"; font-weight: 600; font-display: swap; src: url("/fonts/AtoZ-SemiBold.ttf") format("truetype"); }
-@font-face { font-family: "AtoZ"; font-weight: 700; font-display: swap; src: url("/fonts/AtoZ-Bold.ttf") format("truetype"); }
-@font-face { font-family: "AtoZ"; font-weight: 800; font-display: swap; src: url("/fonts/AtoZ-ExtraBold.ttf") format("truetype"); }
-@font-face { font-family: "AtoZ"; font-weight: 900; font-display: swap; src: url("/fonts/AtoZ-Black.ttf") format("truetype"); }
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
 
 :root {
-  /* 따뜻한 종이 뉴트럴 (oklch, hue를 강조색 쪽으로 살짝 틴트) */
+  /* 温かい紙のニュートラル(oklch、色相をアクセントカラー寄りにわずかにティント) */
   --paper:    oklch(0.973 0.009 78);
   --paper-2:  oklch(0.945 0.013 76);
   --surface:  oklch(0.995 0.004 80);
@@ -23,13 +12,13 @@
   --line:     oklch(0.905 0.012 74);
   --line-2:   oklch(0.845 0.015 70);
 
-  /* 시그니처 단일 강조 — 테라코타 */
+  /* シグネチャの単一アクセント — テラコッタ */
   --accent:      oklch(0.585 0.138 41);
   --accent-deep: oklch(0.485 0.130 39);
   --accent-tint: oklch(0.585 0.138 41 / 0.12);
 
-  --font: "AtoZ", "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
-  --mono: "AtoZ", ui-monospace, "SF Mono", Menlo, monospace;
+  --font: "Noto Sans JP", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --mono: "Noto Sans JP", ui-monospace, "SF Mono", Menlo, monospace;
 
   --maxw: 70rem;
   --readw: 40rem;
@@ -51,7 +40,7 @@ body {
   letter-spacing: -0.006em;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  /* 종이 질감: 아주 옅은 가로 괘선 느낌은 배제, 미세 vignette만 */
+  /* 紙の質感: 横罫線のような表現は避け、ごく微かなvignetteのみ */
   background-image: radial-gradient(120% 80% at 50% -10%, oklch(0.99 0.006 80) 0%, var(--paper) 55%);
   background-attachment: fixed;
 }
@@ -60,7 +49,7 @@ a { color: inherit; text-decoration: none; }
 
 .wrap { width: 100%; max-width: var(--maxw); margin-inline: auto; padding-inline: var(--pad); }
 
-/* ── 상단 마스트헤드 ──────────────────────────────────────── */
+/* ── 上部マストヘッド ──────────────────────────────────────── */
 .mast {
   position: sticky; top: 0; z-index: 50;
   background: color-mix(in oklch, var(--paper) 82%, transparent);
@@ -75,7 +64,7 @@ a { color: inherit; text-decoration: none; }
 .mast__count { font-size: .76rem; color: var(--ink-mute); font-variant-numeric: tabular-nums; }
 .mast__count b { color: var(--ink); font-weight: 700; }
 
-/* ── 히어로(에디토리얼, 좌측정렬·비대칭) ─────────────────────── */
+/* ── ヒーロー(エディトリアル、左揃え・非対称) ─────────────────── */
 .hero { padding-top: clamp(3.2rem, 10vw, 7rem); padding-bottom: clamp(2.4rem, 6vw, 4rem); }
 .hero__eyebrow {
   font-size: .8rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
@@ -93,7 +82,7 @@ a { color: inherit; text-decoration: none; }
 }
 .hero__rule { height: 1px; background: var(--line-2); margin-top: 2.6rem; }
 
-/* 카테고리 인덱스(히어로 하단, 번호 매긴 목록) */
+/* カテゴリインデックス(ヒーロー下部、番号付きリスト) */
 .nav-index { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .2rem 2rem; margin-top: 1.6rem; }
 .nav-index__item {
   display: flex; align-items: baseline; gap: .7rem; padding: .55rem 0;
@@ -102,11 +91,11 @@ a { color: inherit; text-decoration: none; }
 .nav-index__item:hover { border-bottom-color: var(--line-2); }
 .nav-index__no { font-variant-numeric: tabular-nums; font-size: .72rem; color: var(--ink-mute); font-weight: 600; width: 1.4rem; }
 .nav-index__dot { width: 7px; height: 7px; border-radius: 50%; transform: translateY(-1px); }
-.nav-index__ko { font-weight: 700; letter-spacing: -0.02em; }
+.nav-index__ja { font-weight: 700; letter-spacing: -0.02em; }
 .nav-index__n { margin-left: auto; font-size: .76rem; color: var(--ink-mute); font-variant-numeric: tabular-nums; }
-.nav-index__item:hover .nav-index__ko { color: var(--accent-deep); }
+.nav-index__item:hover .nav-index__ja { color: var(--accent-deep); }
 
-/* ── 카테고리 섹션 + 용어 인덱스 행(카드 그리드 탈피) ───────────── */
+/* ── カテゴリセクション + 用語インデックス行(カードグリッドから脱却) ── */
 .cat { padding-block: clamp(2.4rem, 5vw, 3.6rem); border-top: 1px solid var(--line); }
 .cat__head { display: grid; grid-template-columns: auto 1fr; align-items: end; gap: .5rem 1.1rem; margin-bottom: 1.4rem; }
 .cat__no {
@@ -145,7 +134,7 @@ a { color: inherit; text-decoration: none; }
 .entry:hover .entry__arrow { opacity: 1; transform: translateX(0); color: var(--accent); }
 @media (max-width: 600px) { .entry__cat { display: none; } .entry { grid-template-columns: 1.8rem 1fr; } }
 
-/* ── 용어 상세(에디토리얼 아티클) ─────────────────────────────── */
+/* ── 用語詳細(エディトリアル記事) ─────────────────────────────── */
 .detail { padding-top: clamp(1.8rem, 4vw, 3rem); padding-bottom: 5rem; }
 .crumbs { font-size: .82rem; color: var(--ink-mute); display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; }
 .crumbs a:hover { color: var(--accent-deep); }
@@ -155,19 +144,19 @@ a { color: inherit; text-decoration: none; }
 .detail__en { font-size: .92rem; color: var(--ink-mute); font-weight: 500; margin-top: .6rem; letter-spacing: .02em; }
 .detail__deck { font-size: clamp(1.15rem, 2.6vw, 1.42rem); color: var(--ink-soft); font-weight: 500; margin-top: 1.3rem; max-width: var(--readw); line-height: 1.55; }
 
-/* 비유 — 풀쿼트 트리트먼트 */
+/* 比喩 — プルクオート仕立て */
 .analogy { max-width: var(--readw); margin-top: 2.2rem; padding-left: 1.4rem; border-left: 3px solid var(--accent); }
 .analogy__label { font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent-deep); }
 .analogy__text { font-size: clamp(1.1rem, 2.4vw, 1.3rem); color: var(--ink); line-height: 1.5; margin-top: .5rem; font-weight: 500; }
 
-/* 개념 다이어그램 */
+/* 概念ダイアグラム */
 .figure { max-width: var(--readw); margin-top: 2.4rem; }
 .figure__img {
   width: 100%; display: block; border: 1px solid var(--line);
   border-radius: 14px; background: var(--surface);
 }
 
-/* 본문 산문 */
+/* 本文 */
 .prose { max-width: var(--readw); margin-top: 2.6rem; font-size: 1.05rem; line-height: 1.82; color: var(--ink-soft); }
 .prose p { margin-bottom: 1.15rem; }
 .prose strong { color: var(--ink); font-weight: 700; }
@@ -178,7 +167,7 @@ a { color: inherit; text-decoration: none; }
 .prose a.dict-xref { color: var(--ink); font-weight: 600; box-shadow: inset 0 -2px 0 var(--line-2); transition: box-shadow .16s ease; }
 .prose a.dict-xref:hover { box-shadow: inset 0 -2px 0 var(--accent); }
 
-/* 관련 + pager */
+/* 関連 + pager */
 .related { max-width: var(--readw); margin-top: 3rem; padding-top: 1.7rem; border-top: 1px solid var(--line); }
 .related__label { font-size: .74rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-mute); }
 .related__list { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .85rem; }
@@ -192,14 +181,14 @@ a { color: inherit; text-decoration: none; }
 .pager__t { font-weight: 700; margin-top: .2rem; letter-spacing: -0.02em; }
 .pager--next { text-align: right; }
 
-/* 카테고리 페이지 헤더 */
+/* カテゴリページヘッダー */
 .cathead { padding-top: clamp(2.4rem, 5vw, 4rem); }
 .cathead__no { font-size: clamp(3rem, 9vw, 5rem); font-weight: 900; color: var(--paper-2); -webkit-text-stroke: 1.5px var(--line-2); line-height: .8; font-variant-numeric: tabular-nums; }
 .cathead__title { font-size: clamp(2rem, 6vw, 3rem); font-weight: 900; letter-spacing: -0.04em; margin-top: .4rem; display: flex; align-items: center; gap: .7rem; }
 .cathead__title .swatch { width: 14px; height: 14px; border-radius: 4px; }
 .cathead__blurb { color: var(--ink-soft); margin-top: .7rem; font-size: 1.05rem; }
 
-/* 푸터 */
+/* フッター */
 .foot { border-top: 1px solid var(--line); padding-block: 2.6rem; margin-top: 1rem; color: var(--ink-mute); font-size: .84rem; }
 .foot__row { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; align-items: baseline; }
 .foot a { font-weight: 600; color: var(--ink-soft); box-shadow: inset 0 -1px 0 var(--line-2); }

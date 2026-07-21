@@ -1,11 +1,11 @@
 {
-  "header": "타이핑으로 명령하면 바로 실행돼요.",
-  "subcaption": "클릭 없이 주방에 직통 전화를 거는 방식이에요.",
+  "header": "タイプして命令すれば、すぐ実行されます。",
+  "subcaption": "クリックなしで厨房に直通電話をかける方式です。",
   "nodes": [
-    {"title": "사용자", "sub": "명령어 입력", "icon": "user", "accent": false},
-    {"title": "CLI", "sub": "터미널 전화선", "icon": "terminal", "accent": true},
-    {"title": "컴퓨터", "sub": "주방·셰프", "icon": "gear", "accent": false}
+    {"title": "ユーザー", "sub": "コマンド入力", "icon": "user", "accent": false},
+    {"title": "CLI", "sub": "ターミナルの電話線", "icon": "terminal", "accent": true},
+    {"title": "コンピュータ", "sub": "厨房・シェフ", "icon": "gear", "accent": false}
   ],
-  "steps": ["명령 전달", "즉시 실행"],
-  "ret": {"label": "결과 · 즉시 출력"}
+  "steps": ["命令を伝達", "即座に実行"],
+  "ret": {"label": "結果・即座に出力"}
 }

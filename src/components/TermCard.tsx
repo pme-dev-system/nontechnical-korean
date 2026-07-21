@@ -17,15 +17,15 @@ export default function TermCard({
       <span className="entry__no">{no != null ? String(no).padStart(2, "0") : ""}</span>
       <span className="entry__main">
         <span className="entry__title">
-          {term.title_ko}
+          {term.title_ja}
           <span className="entry__en">{term.title_en}</span>
         </span>
-        <span className="entry__deck">{term.deck_ko}</span>
+        <span className="entry__deck">{term.deck_ja}</span>
       </span>
       {showCat ? (
         <span className="entry__cat">
           <span className="dot" style={{ background: cat.color }} aria-hidden />
-          {cat.ko}
+          {cat.ja}
           <span className="entry__arrow" aria-hidden>→</span>
         </span>
       ) : (

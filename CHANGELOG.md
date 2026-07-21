@@ -1,11 +1,14 @@
 # Changelog
 
-이 프로젝트의 주요 변경사항을 기록합니다.
-형식: [Keep a Changelog](https://keepachangelog.com/), 버전: [Semantic Versioning](https://semver.org/).
+このプロジェクトの主要な変更点を記録します。
+形式: [Keep a Changelog](https://keepachangelog.com/)、バージョン: [Semantic Versioning](https://semver.org/)。
 
 ## [Unreleased]
 
+### Changed
+- サイト全体を日本語にローカライズ(用語100件・フロー図・QAゲート・ドキュメント一式)
+
 ### Added
-- 초기 프로젝트 구조
+- 初期プロジェクト構造
 
 [Unreleased]: https://github.com/Son/nontechnical-korean/commits/main

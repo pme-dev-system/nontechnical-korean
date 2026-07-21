@@ -3,17 +3,17 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "쉬운 기술 사전 — AI·개발 용어 100개를 비유로",
-    template: "%s — 쉬운 기술 사전",
+    default: "やさしい技術辞典 — AI・開発用語100個を例えで",
+    template: "%s — やさしい技術辞典",
   },
   description:
-    "AI와 개발 용어 100개를 고등학생도 이해할 수 있게 비유와 예시로 풀어 쓴 한국어 사전. 8개 카테고리로 정리.",
-  keywords: ["AI 용어", "개발 용어", "기술 사전", "비전공자", "쉬운 설명", "한국어"],
+    "AIと開発の用語100個を、専門知識がなくても理解できるように例え話と具体例で解説する日本語辞典。8つのカテゴリーに整理。",
+  keywords: ["AI用語", "開発用語", "技術辞典", "非エンジニア", "やさしい解説", "日本語"],
   openGraph: {
-    title: "쉬운 기술 사전 — AI·개발 용어 100개를 비유로",
-    description: "AI와 개발 용어 100개를 비유와 예시로 풀어 쓴 한국어 사전.",
+    title: "やさしい技術辞典 — AI・開発用語100個を例えで",
+    description: "AIと開発の用語100個を例え話と具体例で解説する日本語辞典。",
     type: "website",
-    locale: "ko_KR",
+    locale: "ja_JP",
   },
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="ko">
+    <html lang="ja">
       <body>{children}</body>
     </html>
   );

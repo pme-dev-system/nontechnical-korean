@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-# 흐름형(flow) 다이어그램 SVG 결정론 생성기.
-# 입력: scripts/diagram-specs/<slug>.json  (에이전트가 설계한 스펙)
-# 출력: public/dictionary/diagram/<slug>.svg (일관 비주얼 시스템)
+# フロー型ダイアグラムSVG決定論生成器。
+# 入力: scripts/diagram-specs/<slug>.json (エージェントが設計したスペック)
+# 出力: public/dictionary/diagram/<slug>.svg (一貫したビジュアルシステム)
 #
-# 스펙 스키마:
+# スペックスキーマ:
 # {
-#   "header": "한 줄 헤드라인(≤30자 권장)",
-#   "subcaption": "보조 설명 한 줄",
-#   "nodes": [ {"title":"내 앱","sub":"손님","accent":false,"icon":"app"}, ... ],  # 2~4개
-#   "steps": ["요청","처리"],            # 노드수-1, 화살표 위 단계 라벨
-#   "ret":   {"label":"응답 · 정해진 형식"}  # 선택: 결과 반환 화살표(아래, 테라코타). null 가능
+#   "header": "1行のヘッドライン(30文字以内推奨)",
+#   "subcaption": "補足説明1行",
+#   "nodes": [ {"title":"自分のアプリ","sub":"お客さん","accent":false,"icon":"app"}, ... ],  # 2〜4個
+#   "steps": ["リクエスト","処理"],            # ノード数-1、矢印上の段階ラベル
+#   "ret":   {"label":"レスポンス・決まった形式"}  # 任意: 結果を返す矢印(下側、テラコッタ)。null可
 # }
 import json, os, sys
 
@@ -91,13 +91,13 @@ def build(spec):
     centers=lin(200,1000,n)
     nw=WID.get(n,200)
 
-    out=['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" width="1200" height="660" role="img" font-family="AtoZ, Pretendard, sans-serif">']
+    out=['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" width="1200" height="660" role="img" font-family="Noto Sans JP, sans-serif">']
     out.append(DEFS)
     out.append('<rect width="1200" height="660" fill="%s"/>'%PAPER)
     out.append('<rect width="1200" height="660" fill="url(#dots)"/>')
     # header
     out.append('<rect x="80" y="62" width="30" height="3" rx="1.5" fill="%s"/>'%ACC)
-    out.append('<text x="122" y="70" font-size="15" font-weight="700" letter-spacing="2" fill="%s">FLOW · 흐름</text>'%ACC)
+    out.append('<text x="122" y="70" font-size="15" font-weight="700" letter-spacing="2" fill="%s">FLOW · フロー</text>'%ACC)
     out.append('<text x="80" y="118" font-size="%d" font-weight="800" fill="%s" letter-spacing="-0.5">%s</text>'%(hsize,INK,esc(header)))
     out.append('<text x="80" y="150" font-size="18" font-weight="500" fill="%s">%s</text>'%(INKSOFT,esc(sub)))
 
@@ -131,7 +131,7 @@ def build(spec):
     if ret:
         cx_f=centers[0]; cx_l=centers[-1]
         out.append('<path d="M%g 450 V540 H%g V450" fill="none" stroke="%s" stroke-width="2.6" marker-end="url(#aa)"/>'%(cx_l,cx_f,ACC))
-        mid=(cx_f+cx_l)/2; lab=esc(ret.get("label","응답"))
+        mid=(cx_f+cx_l)/2; lab=esc(ret.get("label","レスポンス"))
         cw=max(150, len(ret.get("label",""))*15+70)
         out.append('<g transform="translate(%g 540)"><rect x="%g" y="-19" width="%g" height="38" rx="19" fill="%s" stroke="%s" stroke-width="1.5"/>'%(mid,-cw/2,cw,ACCTINT,ACCLINE))
         out.append('<circle cx="%g" r="11" fill="%s"/><text x="%g" y="5" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">%d</text>'%(-cw/2+24,ACC,-cw/2+24,n))

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# terms_gate — HARD. R1/R2/R3: 100개 용어 한국어 JSON 존재 + 필수필드 + 8카테고리.
+# terms_gate — HARD. R1/R2/R3: 100個の用語の日本語JSONが存在 + 必須フィールド + 8カテゴリ。
 # macOS bash 3.2 safe, fail-closed. JUDGE only.
 set -u
 ROOT="${1:-$(pwd)}"; case "$ROOT" in --*) ROOT="$(pwd)";; esac
@@ -10,7 +10,7 @@ if [ ! -d "$DIR" ]; then
   echo "FAIL[terms]: terms dir missing: $DIR"; exit 1
 fi
 
-# python으로 결정론 검증 (한글 출력 안전). 없으면 fail-closed.
+# pythonで決定論的に検証(日本語出力を安全に扱うため)。無ければfail-closed。
 if ! command -v python3 >/dev/null 2>&1; then
   echo "FAIL[terms]: python3 not found (cannot verify)"; exit 1
 fi
@@ -18,7 +18,7 @@ fi
 OUT="$(python3 - "$DIR" <<'PY'
 import json, os, sys
 d = sys.argv[1]
-req = ["slug","title_ko","deck_ko","analogy_ko","body_html","category_en"]
+req = ["slug","title_ja","deck_ja","analogy_ja","body_html","category_en"]
 cats_expected = {"The Basics","How AI Works","Building With AI","Code & Collaboration",
                  "Shipping & Running","APIs & Connections","How Developers Think","More"}
 files = [f for f in os.listdir(d) if f.endswith(".json")]

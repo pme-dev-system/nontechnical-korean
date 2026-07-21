@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# img_gate — HARD. R9: 용어별 이미지가 참조 경로에 존재.
-# 각 term JSON의 img 경로(public 기준)가 실제 파일로 존재하는지 검증.
+# img_gate — HARD. R9: 用語ごとの画像が参照パスに存在すること。
+# 各term JSONのimgパス(public基準)が実際のファイルとして存在するか検証する。
 # macOS bash 3.2 safe, fail-closed. JUDGE only.
 set -u
 ROOT="${1:-$(pwd)}"; case "$ROOT" in --*) ROOT="$(pwd)";; esac

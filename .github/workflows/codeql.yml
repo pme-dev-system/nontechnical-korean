@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # 프로젝트 언어에 맞게 조정: javascript-typescript / python / go / ruby / java-kotlin / c-cpp
+        # プロジェクトの言語に合わせて調整: javascript-typescript / python / go / ruby / java-kotlin / c-cpp
         language: ["javascript-typescript"]
     steps:
       - uses: actions/checkout@v4

@@ -1,28 +1,28 @@
 {
-  "header": "브라우저가 명단을 확인한 뒤 요청을 허용해요.",
-  "subcaption": "다른 사이트 문지기가 입장 여부를 결정해요.",
+  "header": "ブラウザが名簿を確認してから、リクエストを許可します。",
+  "subcaption": "他のサイトの門番が入場の可否を決めます。",
   "nodes": [
     {
-      "title": "내 앱",
-      "sub": "브라우저 실행",
+      "title": "自分のアプリ",
+      "sub": "ブラウザで実行",
       "icon": "app",
       "accent": false
     },
     {
       "title": "CORS",
-      "sub": "명단 확인",
+      "sub": "名簿を確認",
       "icon": "shield",
       "accent": true
     },
     {
-      "title": "다른 서버",
-      "sub": "데이터 보유",
+      "title": "他のサーバー",
+      "sub": "データを保持",
       "icon": "server",
       "accent": false
     }
   ],
-  "steps": ["명단 조회", "허용·차단"],
+  "steps": ["名簿を照会", "許可・遮断"],
   "ret": {
-    "label": "허용 시 데이터 반환"
+    "label": "許可されればデータを返す"
   }
 }
