@@ -1,11 +1,11 @@
 {
-  "header": "클릭부터 응답까지, 첫 신호가 도착하는 대기 시간이에요.",
-  "subcaption": "클릭했을 때 반응 전 잠깐 멈추는 그 순간이에요.",
+  "header": "クリックから応答まで、最初の信号が届くまでの待ち時間です。",
+  "subcaption": "クリックした後、反応の前にほんの一瞬止まる、あの瞬間です。",
   "nodes": [
-    {"title": "내 앱", "sub": "요청 발생", "icon": "app", "accent": false},
-    {"title": "대기", "sub": "레이턴시 구간", "icon": "clock", "accent": true},
-    {"title": "서버", "sub": "처리 완료", "icon": "server", "accent": false}
+    {"title": "自分のアプリ", "sub": "リクエスト発生", "icon": "app", "accent": false},
+    {"title": "待機", "sub": "レイテンシ区間", "icon": "clock", "accent": true},
+    {"title": "サーバー", "sub": "処理完了", "icon": "server", "accent": false}
   ],
-  "steps": ["신호 이동", "응답 생성"],
-  "ret": {"label": "첫 응답 · 대기 끝"}
+  "steps": ["信号の移動", "応答の生成"],
+  "ret": {"label": "最初の応答 · 待機終了"}
 }

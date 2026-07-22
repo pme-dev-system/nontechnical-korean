@@ -1,11 +1,11 @@
 {
-  "header": "답하기 전에 연습지를 꺼내 단계별로 풀어봐요.",
-  "subcaption": "추론은 더 많은 토큰과 시간을 써서 정확도를 높여요.",
+  "header": "答える前に計算用紙を取り出し、段階を追って解きます。",
+  "subcaption": "リーズニングは、より多くのトークンと時間を使って正確さを高めます。",
   "nodes": [
-    { "title": "질문", "sub": "사용자 입력", "icon": "user", "accent": false },
-    { "title": "추론", "sub": "단계별 풀이", "icon": "layers", "accent": true },
-    { "title": "최종 답", "sub": "검증된 결과", "icon": "check", "accent": false }
+    { "title": "質問", "sub": "ユーザーの入力", "icon": "user", "accent": false },
+    { "title": "リーズニング", "sub": "段階的な解き方", "icon": "layers", "accent": true },
+    { "title": "最終的な答え", "sub": "検証済みの結果", "icon": "check", "accent": false }
   ],
-  "steps": ["풀이 시작", "답 도출"],
+  "steps": ["解き始め", "答えを導出"],
   "ret": null
 }

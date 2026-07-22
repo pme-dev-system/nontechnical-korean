@@ -1,26 +1,26 @@
 {
-  "header": "필요한 순간에만 꺼내 쓰는 절차예요",
-  "subcaption": "선반에 저장해두고, 호출 시 AI가 로드해요",
+  "header": "必要な瞬間にだけ取り出す手順です",
+  "subcaption": "棚に保存しておき、呼び出すとAIが読み込みます",
   "nodes": [
     {
-      "title": "절차 저장",
-      "sub": "선반에 올려둠",
+      "title": "手順を保存",
+      "sub": "棚に置いておく",
       "icon": "folder",
       "accent": false
     },
     {
-      "title": "스킬",
-      "sub": "파일 로드됨",
+      "title": "スキル",
+      "sub": "ファイルが読み込まれる",
       "icon": "layers",
       "accent": true
     },
     {
-      "title": "에이전트",
-      "sub": "내 방식으로 실행",
+      "title": "エージェント",
+      "sub": "私たちのやり方で実行",
       "icon": "gear",
       "accent": false
     }
   ],
-  "steps": ["호출", "수행"],
+  "steps": ["呼び出し", "実行"],
   "ret": null
 }

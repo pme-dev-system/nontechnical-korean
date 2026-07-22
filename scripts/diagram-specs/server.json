@@ -1,26 +1,26 @@
 {
-  "header": "잠들지 않는 요청 처리기예요",
-  "subcaption": "브라우저 요청을 받아 응답을 돌려보내요",
+  "header": "眠らない、リクエスト処理係です",
+  "subcaption": "ブラウザのリクエストを受け取り、応答を送り返します",
   "nodes": [
     {
-      "title": "사용자",
-      "sub": "URL 입력",
+      "title": "ユーザー",
+      "sub": "URLを入力",
       "icon": "user",
       "accent": false
     },
     {
-      "title": "서버",
-      "sub": "24시간 대기",
+      "title": "サーバー",
+      "sub": "24時間待機",
       "icon": "server",
       "accent": true
     },
     {
-      "title": "응답 반환",
-      "sub": "화면에 그려짐",
+      "title": "応答を返す",
+      "sub": "画面に描画される",
       "icon": "globe",
       "accent": false
     }
   ],
-  "steps": ["요청 전송", "처리 후 반환"],
+  "steps": ["リクエスト送信", "処理して返却"],
   "ret": null
 }
