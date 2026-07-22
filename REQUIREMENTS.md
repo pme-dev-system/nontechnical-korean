@@ -10,7 +10,7 @@
 | R3 | 8つのカテゴリーに分類、空カテゴリーなし | terms_gate.sh |
 | R4 | AIらしさの排除: 絵文字・誇張自画自賛語・メタ文言・`TLDR:`残存なし | slop_gate.sh |
 | R5 | 本文の日本語比率が十分(翻訳漏れ・英文本文残存を遮断) | slop_gate.sh |
-| R6 | Noto Sans JP フォントの適用 | build_gate.sh |
+| R6 | Noto Sans JP フォントの適用(next/font/googleで自己ホスト) | build_gate.sh |
 | R7 | ホーム・カテゴリー・用語詳細のルートファイルが存在 | build_gate.sh |
 | R8 | `next build` 成功(静的100用語 + 8カテゴリーページ生成) | build_gate.sh |
 | R9 | 用語ごとの画像100件が存在(`public/dictionary/img/`) | img_gate.sh |

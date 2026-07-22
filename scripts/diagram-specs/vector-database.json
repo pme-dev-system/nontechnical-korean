@@ -1,36 +1,36 @@
 {
-  "header": "의미로 찾는 저장소입니다",
-  "subcaption": "흥얼거려도 맞는 레코드를 꺼내드려요",
+  "header": "意味で探すデータの保管庫です",
+  "subcaption": "鼻歌を聞かせるだけで、ぴったりのレコードを出します",
   "nodes": [
     {
-      "title": "질문 입력",
-      "sub": "단어가 달라도",
+      "title": "質問を入力",
+      "sub": "単語が違っても",
       "icon": "user",
       "accent": false
     },
     {
-      "title": "벡터 변환",
-      "sub": "의미 좌표화",
+      "title": "ベクトル変換",
+      "sub": "意味を座標に",
       "icon": "layers",
       "accent": false
     },
     {
-      "title": "벡터 데이터베이스",
-      "sub": "가까운 점 탐색",
+      "title": "ベクトルデータベース",
+      "sub": "近い点を探索",
       "icon": "db",
       "accent": true
     },
     {
-      "title": "관련 결과",
-      "sub": "의미 기반 반환",
+      "title": "関連する結果",
+      "sub": "意味をもとに返す",
       "icon": "search",
       "accent": false
     }
   ],
   "steps": [
-    "변환",
-    "검색",
-    "반환"
+    "変換",
+    "検索",
+    "返却"
   ],
   "ret": null
 }

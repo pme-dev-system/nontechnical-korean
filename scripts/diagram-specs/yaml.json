@@ -1,29 +1,29 @@
 {
-  "header": "같은 데이터, 사람이 읽기 편한 형식으로",
-  "subcaption": "들여쓰기가 의미를 담는 설정 메모 형식",
+  "header": "同じデータを、人に読みやすい形式で",
+  "subcaption": "インデントが意味を持つ、設定メモの形式",
   "nodes": [
     {
       "title": "JSON",
-      "sub": "기계용 형식",
+      "sub": "機械向けの形式",
       "icon": "code",
       "accent": false
     },
     {
       "title": "YAML",
-      "sub": "사람용 메모",
+      "sub": "人向けのメモ",
       "icon": "doc",
       "accent": true
     },
     {
-      "title": "설정 파일",
-      "sub": "도구 동작 지정",
+      "title": "設定ファイル",
+      "sub": "ツールの動作を指定",
       "icon": "gear",
       "accent": false
     }
   ],
   "steps": [
-    "사람용으로",
-    "설정에 활용"
+    "人向けに",
+    "設定に活用"
   ],
   "ret": null
 }

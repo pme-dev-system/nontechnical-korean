@@ -1,36 +1,36 @@
 {
-  "header": "말을 걸면 알아서 처리해 드려요",
-  "subcaption": "귀→두뇌→입, 드라이브스루처럼 한 번에 해결돼요",
+  "header": "話しかければ、勝手に処理してくれます",
+  "subcaption": "耳→頭脳→口、ドライブスルーのように一度で片付きます",
   "nodes": [
     {
-      "title": "귀(음성 입력)",
-      "sub": "말을 텍스트로",
+      "title": "耳(音声入力)",
+      "sub": "話をテキストに",
       "icon": "user",
       "accent": false
     },
     {
-      "title": "음성 에이전트",
-      "sub": "이해·판단·실행",
+      "title": "音声エージェント",
+      "sub": "理解・判断・実行",
       "icon": "bolt",
       "accent": true
     },
     {
-      "title": "실제 처리",
-      "sub": "예약·결제·조회",
+      "title": "実際の処理",
+      "sub": "予約・決済・照会",
       "icon": "gear",
       "accent": false
     },
     {
-      "title": "입(음성 출력)",
-      "sub": "결과를 목소리로",
+      "title": "口(音声出力)",
+      "sub": "結果を声に",
       "icon": "check",
       "accent": false
     }
   ],
   "steps": [
-    "변환",
-    "실행",
-    "응답"
+    "変換",
+    "実行",
+    "応答"
   ],
   "ret": null
 }

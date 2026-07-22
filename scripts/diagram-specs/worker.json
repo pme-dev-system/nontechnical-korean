@@ -1,26 +1,26 @@
 {
-  "header": "큐에서 일감을 받아 조용히 처리합니다",
-  "subcaption": "라인 쿡처럼 한 가지 일만 집중해서 해냅니다",
+  "header": "キューから仕事を受け取り、静かに処理します",
+  "subcaption": "ラインクックのように、ひとつの仕事だけに集中してこなします",
   "nodes": [
     {
-      "title": "큐",
-      "sub": "작업 대기줄",
+      "title": "キュー",
+      "sub": "作業の待ち行列",
       "icon": "queue",
       "accent": false
     },
     {
-      "title": "워커",
-      "sub": "일감 처리기",
+      "title": "ワーカー",
+      "sub": "仕事をこなす係",
       "icon": "gear",
       "accent": true
     },
     {
-      "title": "결과",
-      "sub": "처리 완료",
+      "title": "結果",
+      "sub": "処理完了",
       "icon": "check",
       "accent": false
     }
   ],
-  "steps": ["일감 꺼내기", "처리 후 반환"],
+  "steps": ["仕事を取り出す", "処理して返す"],
   "ret": null
 }

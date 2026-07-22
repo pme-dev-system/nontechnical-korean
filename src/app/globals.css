@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
 
 :root {
   /* 温かい紙のニュートラル(oklch、色相をアクセントカラー寄りにわずかにティント) */
@@ -17,8 +16,8 @@
   --accent-deep: oklch(0.485 0.130 39);
   --accent-tint: oklch(0.585 0.138 41 / 0.12);
 
-  --font: "Noto Sans JP", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
-  --mono: "Noto Sans JP", ui-monospace, "SF Mono", Menlo, monospace;
+  --font: var(--font-noto-sans-jp), -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --mono: var(--font-noto-sans-jp), ui-monospace, "SF Mono", Menlo, monospace;
 
   --maxw: 70rem;
   --readw: 40rem;

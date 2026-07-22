@@ -1,29 +1,29 @@
 {
-  "header": "지금 필요한 것만 만드세요.",
-  "subcaption": "상상 속 기능은 짐만 늘릴 뿐이에요.",
+  "header": "今必要なものだけを作りましょう。",
+  "subcaption": "想像上の機能は、荷物を増やすだけです。",
   "nodes": [
     {
-      "title": "기능 요청",
-      "sub": "지금 할 일",
+      "title": "機能の要望",
+      "sub": "今やるべきこと",
       "icon": "doc",
       "accent": false
     },
     {
       "title": "YAGNI",
-      "sub": "필요 여부 판단",
+      "sub": "必要かどうかを判断",
       "icon": "filter",
       "accent": true
     },
     {
-      "title": "최소 구현",
-      "sub": "지금 필요한 것",
+      "title": "最小限の実装",
+      "sub": "今必要なもの",
       "icon": "check",
       "accent": false
     }
   ],
   "steps": [
-    "필요한가?",
-    "지금만 구현"
+    "必要か?",
+    "今の分だけ実装"
   ],
   "ret": null
 }

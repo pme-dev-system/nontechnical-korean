@@ -5,10 +5,11 @@ set -u
 ROOT="${1:-$(pwd)}"; case "$ROOT" in --*) ROOT="$(pwd)";; esac
 RC=0
 
-# R6 フォント
+# R6 フォント(next/font/googleで自己ホスト — CDN依存の@importは使わない)
 G="$ROOT/src/app/globals.css"
-if [ -f "$G" ] && grep -q 'Noto+Sans+JP' "$G" && grep -q '"Noto Sans JP"' "$G"; then :; else
-  echo "FAIL[build]: Noto Sans JP font not applied in globals.css"; RC=1
+L="$ROOT/src/app/layout.tsx"
+if [ -f "$L" ] && grep -q 'Noto_Sans_JP' "$L" && [ -f "$G" ] && grep -q 'font-noto-sans-jp' "$G"; then :; else
+  echo "FAIL[build]: Noto Sans JP (next/font/google) not applied in layout.tsx/globals.css"; RC=1
 fi
 
 # R7 ルート

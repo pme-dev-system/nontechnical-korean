@@ -1,36 +1,36 @@
 {
-  "header": "일이 생기면 앱이 먼저 알려드려요",
-  "subcaption": "기다리지 않아도 되는 자동 알림 방식이에요",
+  "header": "何かが起きたら、アプリの方から知らせます",
+  "subcaption": "待たなくていい、自動通知の仕組みです",
   "nodes": [
     {
-      "title": "이벤트 발생",
-      "sub": "결제·주문 등",
+      "title": "イベント発生",
+      "sub": "決済・注文など",
       "icon": "bolt",
       "accent": false
     },
     {
-      "title": "웹훅",
-      "sub": "즉시 발동해요",
+      "title": "Webhook",
+      "sub": "即座に発火します",
       "icon": "link",
       "accent": true
     },
     {
-      "title": "내 서버",
-      "sub": "알림 수신",
+      "title": "自分のサーバー",
+      "sub": "通知を受信",
       "icon": "server",
       "accent": false
     },
     {
-      "title": "자동 처리",
-      "sub": "Slack·메일 등",
+      "title": "自動処理",
+      "sub": "Slack・メールなど",
       "icon": "gear",
       "accent": false
     }
   ],
   "steps": [
-    "신호 전송",
-    "데이터 전달",
-    "작업 실행"
+    "信号を送信",
+    "データを伝達",
+    "処理を実行"
   ],
   "ret": null
 }

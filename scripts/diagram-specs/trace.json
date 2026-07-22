@@ -1,29 +1,29 @@
 {
-  "header": "요청 하나를 처음부터 끝까지 따라갑니다",
-  "subcaption": "어느 단계에서 시간이 사라졌는지 찾아냅니다",
+  "header": "ひとつのリクエストを最初から最後まで追いかけます",
+  "subcaption": "どの段階で時間が消えたのかを突き止めます",
   "nodes": [
     {
-      "title": "요청 접수",
-      "sub": "카운터 입장",
+      "title": "リクエスト受付",
+      "sub": "カウンターへ",
       "icon": "user",
       "accent": false
     },
     {
-      "title": "트레이스",
-      "sub": "전 구간 추적",
+      "title": "トレース",
+      "sub": "全区間を追跡",
       "icon": "search",
       "accent": true
     },
     {
-      "title": "병목 발견",
-      "sub": "느린 구간 특정",
+      "title": "ボトルネック発見",
+      "sub": "遅い区間を特定",
       "icon": "check",
       "accent": false
     }
   ],
   "steps": [
-    "티켓 따라가기",
-    "시간 측정"
+    "チケットを追う",
+    "時間を測定"
   ],
   "ret": null
 }
