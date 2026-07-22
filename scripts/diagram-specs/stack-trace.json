@@ -1,29 +1,29 @@
 {
-  "header": "충돌 순간의 비행 기록장치입니다",
-  "subcaption": "멈추기 직전 단계를 역순으로 기록해 둬요",
+  "header": "クラッシュした瞬間の飛行記録装置です",
+  "subcaption": "止まる直前までの段階を逆順に記録しています",
   "nodes": [
     {
-      "title": "앱 실행",
-      "sub": "기능을 호출해요",
+      "title": "アプリの実行",
+      "sub": "機能を呼び出します",
       "icon": "app",
       "accent": false
     },
     {
-      "title": "함수 연쇄",
-      "sub": "스택에 쌓여요",
+      "title": "関数の連鎖",
+      "sub": "スタックに積み重なります",
       "icon": "layers",
       "accent": false
     },
     {
-      "title": "스택 트레이스",
-      "sub": "자백서를 남겨요",
+      "title": "スタックトレース",
+      "sub": "自白調書を残します",
       "icon": "terminal",
       "accent": true
     }
   ],
   "steps": [
-    "호출",
-    "충돌"
+    "呼び出し",
+    "クラッシュ"
   ],
   "ret": null
 }
