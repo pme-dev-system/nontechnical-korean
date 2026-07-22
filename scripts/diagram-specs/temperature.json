@@ -1,36 +1,36 @@
 {
-  "header": "즉흥 연주 다이얼을 조절하세요",
-  "subcaption": "낮추면 정답, 올리면 창의적 답변이 나와요",
+  "header": "即興演奏のダイヤルを調節しましょう",
+  "subcaption": "下げれば正解、上げれば創造的な答えが出ます",
   "nodes": [
     {
-      "title": "확률 순위",
-      "sub": "다음 단어 예측",
+      "title": "確率のランキング",
+      "sub": "次の単語を予測",
       "icon": "layers",
       "accent": false
     },
     {
       "title": "Temperature",
-      "sub": "즉흥 다이얼",
+      "sub": "即興のダイヤル",
       "icon": "gear",
       "accent": true
     },
     {
-      "title": "단어 선택",
-      "sub": "대담함 조절",
+      "title": "単語の選択",
+      "sub": "大胆さを調整",
       "icon": "filter",
       "accent": false
     },
     {
-      "title": "최종 답변",
-      "sub": "일관 또는 창의",
+      "title": "最終的な答え",
+      "sub": "一貫性か創造性か",
       "icon": "doc",
       "accent": false
     }
   ],
   "steps": [
-    "입력",
-    "조정",
-    "출력"
+    "入力",
+    "調整",
+    "出力"
   ],
   "ret": null
 }
