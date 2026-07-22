@@ -39,7 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-# --- github harness: 공통 무시 패턴 ---
+# --- github harness: 共通の無視パターン ---
 node_modules/
 dist/
 build/
@@ -49,23 +49,23 @@ __pycache__/
 .venv/
 venv/
 target/
-# 환경/시크릿
+# 環境変数/シークレット
 .env
 .env.*
 *.secret
 secrets.*
 *.key
-# 내부 문서 (공개 금지)
+# 内部ドキュメント(公開禁止)
 docs-private/
 .private/
 internal/
-# public 누출 차단 내부어 목록(로컬 유지 — 공개 repo에 올리지 않음)
+# public漏洩防止用の内部語リスト(ローカル保持 — 公開repoには上げない)
 .github/publish-denylist.txt
-# OS/에디터
+# OS/エディタ
 Thumbs.db
 *.log
 .idea/
 .vscode/
 
-# 영어 원문(nontechnical.dev) verbatim — 공개 제외, 한국어 번역본만 배포
+# 英語原文(nontechnical.dev)verbatim — 公開対象外、日本語翻訳版のみ配布
 src/data/terms-src/
