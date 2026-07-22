@@ -1,11 +1,11 @@
 {
-  "header": "가까운 곳에 사본을 두면, 매번 멀리 갈 필요 없어요.",
-  "subcaption": "요청마다 원본 대신 캐시가 먼저 응답해요.",
+  "header": "近くに複製を置いておけば、毎回遠くまで行く必要はありません。",
+  "subcaption": "リクエストのたびに、原本の代わりにキャッシュが先に応答します。",
   "nodes": [
-    {"title": "내 앱", "sub": "요청 발생", "icon": "app", "accent": false},
-    {"title": "캐시", "sub": "작업대 그릇", "icon": "layers", "accent": true},
-    {"title": "원본 서버", "sub": "냉장고", "icon": "db", "accent": false}
+    {"title": "自分のアプリ", "sub": "リクエスト発生", "icon": "app", "accent": false},
+    {"title": "キャッシュ", "sub": "作業台の器", "icon": "layers", "accent": true},
+    {"title": "原本サーバー", "sub": "冷蔵庫", "icon": "db", "accent": false}
   ],
-  "steps": ["조회 요청", "없을 때만"],
-  "ret": {"label": "있으면 바로 반환"}
+  "steps": ["照会リクエスト", "ない時だけ"],
+  "ret": {"label": "あれば即座に返す"}
 }

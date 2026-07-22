@@ -1,11 +1,11 @@
 {
-  "header": "고정된 재료는 미리 손질해, 매번 새로 다지지 않아요.",
-  "subcaption": "변하지 않는 부분은 한 번만 처리해 저장해둬요.",
+  "header": "変わらない材料はあらかじめ仕込んでおき、毎回一から刻み直しません。",
+  "subcaption": "変わらない部分は一度だけ処理してキャッシュしておきます。",
   "nodes": [
-    {"title": "내 앱", "sub": "새 질문", "icon": "app", "accent": false},
-    {"title": "캐시", "sub": "미리 손질된 재료", "icon": "layers", "accent": true},
-    {"title": "AI 서버", "sub": "주방·추론 처리", "icon": "server", "accent": false}
+    {"title": "自分のアプリ", "sub": "新しい質問", "icon": "app", "accent": false},
+    {"title": "キャッシュ", "sub": "仕込み済みの材料", "icon": "layers", "accent": true},
+    {"title": "AIサーバー", "sub": "厨房・推論処理", "icon": "server", "accent": false}
   ],
-  "steps": ["고정 컨텍스트 조회", "새 내용만 전달"],
-  "ret": {"label": "캐싱분 재사용 · 빠르고 저렴"}
+  "steps": ["固定コンテキストを参照", "新しい内容だけを送信"],
+  "ret": {"label": "キャッシュ分を再利用 · 速くて安い"}
 }

@@ -1,26 +1,26 @@
 {
-  "header": "단순한 쪽이 나중에도 이해돼요.",
-  "subcaption": "영리함보다 명백함을 택하는 설계 원칙이에요.",
+  "header": "シンプルな方が、後になっても理解できます。",
+  "subcaption": "巧妙さより分かりやすさを選ぶ設計原則です。",
   "nodes": [
     {
-      "title": "요구사항",
-      "sub": "해결할 문제",
+      "title": "要件",
+      "sub": "解決すべき問題",
       "icon": "doc",
       "accent": false
     },
     {
-      "title": "KISS 적용",
-      "sub": "단순한 해결책 선택",
+      "title": "KISSを適用",
+      "sub": "シンプルな解決策を選ぶ",
       "icon": "check",
       "accent": true
     },
     {
-      "title": "결과물",
-      "sub": "6개월 후도 읽힘",
+      "title": "成果物",
+      "sub": "6ヶ月後も読める",
       "icon": "code",
       "accent": false
     }
   ],
-  "steps": ["단순하게", "바로 이해"],
+  "steps": ["シンプルに", "すぐ理解できる"],
   "ret": null
 }

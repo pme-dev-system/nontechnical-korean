@@ -1,29 +1,29 @@
 {
-  "header": "격리된 공간에서 안전하게 실행됩니다",
-  "subcaption": "엉망이 나도 진짜 컴퓨터는 안전합니다",
+  "header": "隔離された空間で安全に実行されます",
+  "subcaption": "大暴れしても、本物のコンピュータは無事です",
   "nodes": [
     {
-      "title": "AI 에이전트",
-      "sub": "실행 주체",
+      "title": "AIエージェント",
+      "sub": "実行の主体",
       "icon": "gear",
       "accent": false
     },
     {
-      "title": "샌드박스",
-      "sub": "격리 공간",
+      "title": "サンドボックス",
+      "sub": "隔離空間",
       "icon": "box",
       "accent": true
     },
     {
-      "title": "진짜 컴퓨터",
-      "sub": "벽 너머 보호",
+      "title": "本物のコンピュータ",
+      "sub": "壁の向こうで保護",
       "icon": "shield",
       "accent": false
     }
   ],
   "steps": [
-    "안에서 실행",
-    "차단·격리"
+    "中で実行",
+    "遮断・隔離"
   ],
   "ret": null
 }

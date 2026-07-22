@@ -1,29 +1,29 @@
 {
-  "header": "SDK는 미리 재단된 부품 상자입니다",
-  "subcaption": "원자재 대신 IKEA 박스를 여세요",
+  "header": "SDKはあらかじめ裁断された部品箱です",
+  "subcaption": "原材料の代わりに、IKEAの箱を開けましょう",
   "nodes": [
     {
-      "title": "개발자",
-      "sub": "기능 추가 필요",
+      "title": "開発者",
+      "sub": "機能追加が必要",
       "icon": "user",
       "accent": false
     },
     {
       "title": "SDK",
-      "sub": "도구 모음 박스",
+      "sub": "道具一式の箱",
       "icon": "box",
       "accent": true
     },
     {
-      "title": "완성 기능",
-      "sub": "3줄로 연결",
+      "title": "完成した機能",
+      "sub": "3行でつながる",
       "icon": "check",
       "accent": false
     }
   ],
   "steps": [
-    "박스 열기",
-    "조립 완료"
+    "箱を開ける",
+    "組み立て完了"
   ],
   "ret": null
 }

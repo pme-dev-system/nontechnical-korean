@@ -1,11 +1,11 @@
 {
-  "header": "티켓 한 장이 레일 위를 타고 처리돼요.",
-  "subcaption": "잡은 딱 하나의 독립된 작업 단위예요.",
+  "header": "一枚の伝票がレールに乗って処理されます。",
+  "subcaption": "ジョブはたった一つの独立した作業単位です。",
   "nodes": [
-    {"title": "큐", "sub": "티켓 레일", "icon": "queue", "accent": false},
-    {"title": "잡", "sub": "티켓 한 장", "icon": "doc", "accent": true},
-    {"title": "완료", "sub": "성공·실패 기록", "icon": "check", "accent": false}
+    {"title": "キュー", "sub": "伝票レール", "icon": "queue", "accent": false},
+    {"title": "ジョブ", "sub": "伝票一枚", "icon": "doc", "accent": true},
+    {"title": "完了", "sub": "成功・失敗の記録", "icon": "check", "accent": false}
   ],
-  "steps": ["등록", "처리"],
-  "ret": {"label": "실패 시 재시도"}
+  "steps": ["登録", "処理"],
+  "ret": {"label": "失敗したら再試行"}
 }

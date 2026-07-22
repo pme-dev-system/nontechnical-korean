@@ -1,11 +1,11 @@
 {
-  "header": "데이터를 뒤섞어 열쇠 없이는 읽을 수 없게 해요.",
-  "subcaption": "가로채도 잡음만 보여요. 열쇠가 있어야 원본이 보여요.",
+  "header": "データをかき混ぜて、鍵がないと読めないようにします。",
+  "subcaption": "横取りされても雑音しか見えません。鍵があって初めて元のデータが見えます。",
   "nodes": [
-    {"title": "원본 데이터", "sub": "평문", "icon": "doc", "accent": false},
-    {"title": "암호화", "sub": "자물쇠 통과", "icon": "lock", "accent": true},
-    {"title": "수신자", "sub": "열쇠 보유", "icon": "key", "accent": false}
+    {"title": "元のデータ", "sub": "平文", "icon": "doc", "accent": false},
+    {"title": "暗号化", "sub": "錠を通す", "icon": "lock", "accent": true},
+    {"title": "受信者", "sub": "鍵を保有", "icon": "key", "accent": false}
   ],
-  "steps": ["뒤섞기", "복호화"],
+  "steps": ["かき混ぜる", "復号する"],
   "ret": null
 }

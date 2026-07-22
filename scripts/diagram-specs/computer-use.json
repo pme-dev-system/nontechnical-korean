@@ -1,11 +1,11 @@
 {
-  "header": "창구 없으면 AI가 직접 정문으로 들어가 버튼을 눌러요.",
-  "subcaption": "사람처럼 클릭하고 타이핑하는 AI예요.",
+  "header": "窓口がなければ、AIが直接正面玄関から入ってボタンを押します。",
+  "subcaption": "人間のようにクリックし、タイピングするAIです。",
   "nodes": [
-    { "title": "사용자", "sub": "지시하는 사람", "icon": "user", "accent": false },
-    { "title": "컴퓨터 사용", "sub": "화면 보고 클릭", "icon": "terminal", "accent": true },
-    { "title": "앱·화면", "sub": "API 없는 소프트웨어", "icon": "globe", "accent": false }
+    { "title": "ユーザー", "sub": "指示する人", "icon": "user", "accent": false },
+    { "title": "コンピュータ操作", "sub": "画面を見てクリック", "icon": "terminal", "accent": true },
+    { "title": "アプリ・画面", "sub": "APIのないソフトウェア", "icon": "globe", "accent": false }
   ],
-  "steps": ["지시", "클릭·타이핑"],
-  "ret": { "label": "결과 · 화면 변화" }
+  "steps": ["指示", "クリック・タイピング"],
+  "ret": { "label": "結果・画面の変化" }
 }

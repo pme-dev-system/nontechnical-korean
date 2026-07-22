@@ -1,26 +1,26 @@
 {
-  "header": "빈 양식이 데이터 모양을 결정합니다",
-  "subcaption": "스키마는 규칙이고, 데이터는 그 답입니다",
+  "header": "空の用紙がデータの形を決めます",
+  "subcaption": "スキーマはルールで、データはその答えです",
   "nodes": [
     {
-      "title": "빈 양식",
-      "sub": "칸·타입 정의",
+      "title": "空の用紙",
+      "sub": "枠・型の定義",
       "icon": "doc",
       "accent": false
     },
     {
-      "title": "스키마",
-      "sub": "구조 약속",
+      "title": "スキーマ",
+      "sub": "構造の約束",
       "icon": "layers",
       "accent": true
     },
     {
-      "title": "모양 검증",
-      "sub": "불일치 튕김",
+      "title": "形の検証",
+      "sub": "不一致ははじく",
       "icon": "check",
       "accent": false
     }
   ],
-  "steps": ["규칙 정의", "데이터 대조"],
+  "steps": ["ルール定義", "データ照合"],
   "ret": null
 }

@@ -1,11 +1,11 @@
 {
-  "header": "AI는 모를 때도 자신 있게 답해요.",
-  "subcaption": "AI가 자신 있게 말하는데 그냥 틀린 경우예요.",
+  "header": "AIは知らないときも自信満々に答えます。",
+  "subcaption": "AIが自信たっぷりに話しているのに、実はただ間違っているケースです。",
   "nodes": [
-    { "title": "사용자", "sub": "질문 전달", "icon": "user", "accent": false },
-    { "title": "환각", "sub": "그럴듯한 예측 생성", "icon": "layers", "accent": true },
-    { "title": "답변", "sub": "직접 확인 필요", "icon": "check", "accent": false }
+    { "title": "ユーザー", "sub": "質問を送る", "icon": "user", "accent": false },
+    { "title": "ハルシネーション", "sub": "もっともらしい予測を生成", "icon": "layers", "accent": true },
+    { "title": "回答", "sub": "自分で確認が必要", "icon": "check", "accent": false }
   ],
-  "steps": ["질문 입력", "자신감 있는 출력"],
+  "steps": ["質問を入力", "自信満々な出力"],
   "ret": null
 }

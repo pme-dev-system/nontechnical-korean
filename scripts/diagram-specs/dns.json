@@ -1,11 +1,11 @@
 {
-  "header": "이름을 입력하면, 실제 주소로 바꿔드려요.",
-  "subcaption": "인터넷의 전화번호부, DNS가 번역해요.",
+  "header": "名前を入力すると、本当の住所に変換してくれます。",
+  "subcaption": "インターネットの電話帳、DNSが翻訳します。",
   "nodes": [
-    {"title": "브라우저", "sub": "도메인 입력", "icon": "globe", "accent": false},
-    {"title": "DNS", "sub": "이름→번호 변환", "icon": "search", "accent": true},
-    {"title": "서버", "sub": "실제 IP 주소", "icon": "server", "accent": false}
+    {"title": "ブラウザ", "sub": "ドメインを入力", "icon": "globe", "accent": false},
+    {"title": "DNS", "sub": "名前→番号の変換", "icon": "search", "accent": true},
+    {"title": "サーバー", "sub": "本当のIPアドレス", "icon": "server", "accent": false}
   ],
-  "steps": ["이름 조회", "주소 반환"],
-  "ret": {"label": "IP 주소 · 응답"}
+  "steps": ["名前の照会", "住所を返す"],
+  "ret": {"label": "IPアドレス・応答"}
 }

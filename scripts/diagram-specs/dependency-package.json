@@ -1,11 +1,11 @@
 {
-  "header": "남이 만든 조각을 골라 쓰면, 핵심에 집중할 수 있어요.",
-  "subcaption": "오픈 소스 덕분에 처음부터 다시 만들 필요 없어요.",
+  "header": "誰かが作った部品を選んで使えば、核心に集中できます。",
+  "subcaption": "オープンソースのおかげで、ゼロから作り直す必要はありません。",
   "nodes": [
-    {"title":"내 프로젝트","sub":"파이 속 재료","icon":"code","accent":false},
-    {"title":"패키지","sub":"마트 크러스트","icon":"box","accent":true},
-    {"title":"패키지 저장소","sub":"npm / PyPI","icon":"cloud","accent":false}
+    {"title":"自分のプロジェクト","sub":"パイの具材","icon":"code","accent":false},
+    {"title":"パッケージ","sub":"スーパーの生地","icon":"box","accent":true},
+    {"title":"パッケージリポジトリ","sub":"npm / PyPI","icon":"cloud","accent":false}
   ],
-  "steps": ["목록 요청","다운로드"],
+  "steps": ["一覧をリクエスト","ダウンロード"],
   "ret": null
 }

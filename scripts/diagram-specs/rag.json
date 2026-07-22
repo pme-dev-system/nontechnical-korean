@@ -1,28 +1,28 @@
 {
-  "header": "먼저 찾아보고, 그다음에 답해드려요.",
-  "subcaption": "AI에게 오픈북 시험을 허용하는 방법이에요.",
+  "header": "まず調べてから、答えます。",
+  "subcaption": "AIに持ち込み可の試験を許す方法です。",
   "nodes": [
     {
-      "title": "질문",
-      "sub": "사용자",
+      "title": "質問",
+      "sub": "ユーザー",
       "icon": "user",
       "accent": false
     },
     {
       "title": "RAG",
-      "sub": "관련 페이지 검색",
+      "sub": "関連ページを検索",
       "icon": "search",
       "accent": true
     },
     {
-      "title": "AI 모델",
-      "sub": "근거 있는 답변",
+      "title": "AIモデル",
+      "sub": "根拠のある答え",
       "icon": "bolt",
       "accent": false
     }
   ],
-  "steps": ["검색 요청", "문서 전달"],
+  "steps": ["検索リクエスト", "文書を受け渡し"],
   "ret": {
-    "label": "답변 · 문서 기반 응답"
+    "label": "答え · 文書に基づく応答"
   }
 }

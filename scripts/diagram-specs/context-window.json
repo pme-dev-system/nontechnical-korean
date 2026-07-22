@@ -1,11 +1,11 @@
 {
-  "header": "AI가 한 번에 담을 수 있는 방의 크기예요.",
-  "subcaption": "방이 꽉 차면 초반 내용부터 밀려나요.",
+  "header": "AIが一度に収められる部屋の大きさです。",
+  "subcaption": "部屋がいっぱいになると、序盤の内容から押し出されます。",
   "nodes": [
-    {"title": "대화·파일", "sub": "쌓이는 내용", "icon": "doc", "accent": false},
-    {"title": "컨텍스트 윈도우", "sub": "한 번에 담는 방", "icon": "box", "accent": true},
-    {"title": "AI 처리", "sub": "위→아래 전부 읽기", "icon": "gear", "accent": false}
+    {"title": "会話・ファイル", "sub": "積み上がる内容", "icon": "doc", "accent": false},
+    {"title": "コンテキストウィンドウ", "sub": "一度に収める部屋", "icon": "box", "accent": true},
+    {"title": "AIの処理", "sub": "上→下まで全部読む", "icon": "gear", "accent": false}
   ],
-  "steps": ["방에 쌓임", "전체 재읽기"],
-  "ret": {"label": "응답 · 매 전송마다 반복"}
+  "steps": ["部屋に積み上がる", "全体を読み直す"],
+  "ret": {"label": "応答・送信のたびに繰り返す"}
 }

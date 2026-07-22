@@ -1,11 +1,11 @@
 {
-  "header": "방이 꽉 차면 AI가 대화를 갈아버려요.",
-  "subcaption": "대화가 길어지면 앞부분을 요약해 압축해요.",
+  "header": "部屋がいっぱいになると、AIは会話をミキサーにかけます。",
+  "subcaption": "会話が長くなると、前半部分を要約して圧縮します。",
   "nodes": [
-    { "title": "대화", "sub": "누적된 기록", "icon": "doc", "accent": false },
-    { "title": "컨텍스트", "sub": "AI의 방", "icon": "layers", "accent": false },
-    { "title": "컴팩션", "sub": "압축·요약", "icon": "filter", "accent": true }
+    { "title": "会話", "sub": "積み上がった記録", "icon": "doc", "accent": false },
+    { "title": "コンテキスト", "sub": "AIの部屋", "icon": "layers", "accent": false },
+    { "title": "コンパクション", "sub": "圧縮・要約", "icon": "filter", "accent": true }
   ],
-  "steps": ["쌓임", "가득 차면"],
+  "steps": ["積み上がる", "いっぱいになると"],
   "ret": null
 }

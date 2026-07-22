@@ -1,11 +1,11 @@
 {
-  "header": "작업이 줄을 서면, 순서대로 처리돼요.",
-  "subcaption": "동시에 다 할 수 없으니, 차례대로 기다려요.",
+  "header": "作業が列を作れば、順番通りに処理されます。",
+  "subcaption": "同時には全部できないから、順番に待ちます。",
   "nodes": [
-    {"title": "요청자", "sub": "손님 · 앱", "icon": "user", "accent": false},
-    {"title": "큐", "sub": "주문 레일", "icon": "queue", "accent": true},
-    {"title": "워커", "sub": "요리사", "icon": "gear", "accent": false}
+    {"title": "依頼する側", "sub": "客・アプリ", "icon": "user", "accent": false},
+    {"title": "キュー", "sub": "注文レール", "icon": "queue", "accent": true},
+    {"title": "ワーカー", "sub": "料理人", "icon": "gear", "accent": false}
   ],
-  "steps": ["작업 추가", "순서대로 전달"],
+  "steps": ["作業を追加", "順番に引き渡し"],
   "ret": null
 }

@@ -1,11 +1,11 @@
 {
-  "header": "원하는 문을 두드리면, 딱 그 답이 돌아와요.",
-  "subcaption": "엔드포인트는 API 건물 안의 특정 문이에요.",
+  "header": "目当てのドアをノックすれば、その答えがちゃんと返ってきます。",
+  "subcaption": "エンドポイントは、API建物の中の特定のドアです。",
   "nodes": [
-    {"title": "내 앱", "sub": "요청자", "icon": "app", "accent": false},
-    {"title": "엔드포인트", "sub": "특정 문 하나", "icon": "link", "accent": true},
-    {"title": "서버", "sub": "건물 내부", "icon": "server", "accent": false}
+    {"title": "自分のアプリ", "sub": "リクエストする側", "icon": "app", "accent": false},
+    {"title": "エンドポイント", "sub": "特定のドア一つ", "icon": "link", "accent": true},
+    {"title": "サーバー", "sub": "建物の内部", "icon": "server", "accent": false}
   ],
-  "steps": ["문 두드리기", "처리"],
-  "ret": {"label": "응답 · 정해진 형식으로 반환"}
+  "steps": ["ドアをノック", "処理"],
+  "ret": {"label": "応答・決まった形式で返す"}
 }

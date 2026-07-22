@@ -1,26 +1,26 @@
 {
-  "header": "화면도 점원도 없이, 혼자 알아서 돌아가요.",
-  "subcaption": "화면 없이 일만 하는 소프트웨어예요.",
+  "header": "画面も店員もなく、勝手に動きます。",
+  "subcaption": "画面なしで仕事だけをこなすソフトウェアです。",
   "nodes": [
     {
-      "title": "트리거",
-      "sub": "일정·이벤트",
+      "title": "トリガー",
+      "sub": "スケジュール・イベント",
       "icon": "clock",
       "accent": false
     },
     {
-      "title": "헤드리스",
-      "sub": "화면 없는 실행",
+      "title": "ヘッドレス",
+      "sub": "画面のない実行",
       "icon": "gear",
       "accent": true
     },
     {
-      "title": "결과물",
-      "sub": "처리된 산출물",
+      "title": "成果物",
+      "sub": "処理済みの結果",
       "icon": "check",
       "accent": false
     }
   ],
-  "steps": ["자동 실행", "처리 완료"],
+  "steps": ["自動実行", "処理完了"],
   "ret": null
 }

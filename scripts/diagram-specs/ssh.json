@@ -1,31 +1,31 @@
 {
-  "header": "다른 컴퓨터에 문자로 명령을 내리는 수단이에요",
-  "subcaption": "화면 공유 없이 원격 기계를 제어합니다",
+  "header": "別のコンピュータに文字で命令を送る手段です",
+  "subcaption": "画面共有なしでリモートのマシンを操作します",
   "nodes": [
     {
-      "title": "내 노트북",
-      "sub": "명령 입력",
+      "title": "自分のノートパソコン",
+      "sub": "命令を入力",
       "icon": "terminal",
       "accent": false
     },
     {
       "title": "SSH",
-      "sub": "보안 연결",
+      "sub": "安全な接続",
       "icon": "lock",
       "accent": true
     },
     {
-      "title": "원격 컴퓨터",
-      "sub": "명령 실행",
+      "title": "リモートコンピュータ",
+      "sub": "命令を実行",
       "icon": "server",
       "accent": false
     }
   ],
   "steps": [
-    "명령 전송",
-    "실행 요청"
+    "命令送信",
+    "実行リクエスト"
   ],
   "ret": {
-    "label": "결과를 텍스트로 돌려받아요"
+    "label": "結果をテキストで受け取ります"
   }
 }

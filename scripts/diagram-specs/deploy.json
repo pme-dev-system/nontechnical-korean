@@ -1,12 +1,12 @@
 {
-  "header": "로컬에서 만들고, 배포하면 세상이 볼 수 있어요.",
-  "subcaption": "작업물을 서버에 올려 누구나 접근 가능하게 해요.",
+  "header": "手元で作って、デプロイすれば世界が見られます。",
+  "subcaption": "作った成果物をサーバーに載せて、誰でもアクセスできるようにします。",
   "nodes": [
-    {"title": "내 컴퓨터", "sub": "로컬 환경", "icon": "terminal", "accent": false},
-    {"title": "배포", "sub": "공개 전환", "icon": "bolt", "accent": true},
-    {"title": "서버", "sub": "실제 운영 중", "icon": "cloud", "accent": false},
-    {"title": "관객(세상)", "sub": "누구나 접근", "icon": "users", "accent": false}
+    {"title": "自分のパソコン", "sub": "ローカル環境", "icon": "terminal", "accent": false},
+    {"title": "デプロイ", "sub": "公開への切り替え", "icon": "bolt", "accent": true},
+    {"title": "サーバー", "sub": "実際に稼働中", "icon": "cloud", "accent": false},
+    {"title": "観客(世界)", "sub": "誰でもアクセス可能", "icon": "users", "accent": false}
   ],
-  "steps": ["명령어 실행", "업로드·빌드", "공개 활성화"],
+  "steps": ["コマンドの実行", "アップロード・ビルド", "公開の有効化"],
   "ret": null
 }
