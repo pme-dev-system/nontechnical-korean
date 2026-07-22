@@ -1,11 +1,11 @@
 {
-  "header": "비밀은 서랍에, 코드는 무대에 올려요.",
-  "subcaption": "비밀 키를 코드 밖에 보관하는 파일이에요.",
+  "header": "秘密は引き出しに、コードは舞台に。",
+  "subcaption": "秘密の鍵をコードの外に保管しておくファイルです。",
   "nodes": [
-    {"title": "코드", "sub": "공개 대본", "icon": "code", "accent": false},
-    {"title": ".env", "sub": "잠긴 서랍", "icon": "lock", "accent": true},
-    {"title": "앱 실행", "sub": "비밀값 주입", "icon": "app", "accent": false}
+    {"title": "コード", "sub": "公開された台本", "icon": "code", "accent": false},
+    {"title": ".env", "sub": "鍵付きの引き出し", "icon": "lock", "accent": true},
+    {"title": "アプリ実行", "sub": "秘密の値を注入", "icon": "app", "accent": false}
   ],
-  "steps": ["비밀 요청", "값 전달"],
+  "steps": ["秘密を要求", "値を渡す"],
   "ret": null
 }

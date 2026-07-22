@@ -1,11 +1,29 @@
 {
-  "header": "세션 시작 전, AI가 먼저 읽는 규칙서예요.",
-  "subcaption": "AI가 작업을 시작하기 전에 먼저 읽는 프로젝트 규칙서예요.",
+  "header": "セッションを始める前に、AIがまず読むルールブックです。",
+  "subcaption": "AIが作業を始める前に、真っ先に目を通すプロジェクトのルールブックです。",
   "nodes": [
-    {"title": "전역 규칙", "sub": "모든 프로젝트", "icon": "folder", "accent": false},
-    {"title": "CLAUDE.md", "sub": "프로젝트 규칙", "icon": "doc", "accent": true},
-    {"title": "AI 에이전트", "sub": "규칙을 쌓아 읽음", "icon": "gear", "accent": false}
+    {
+      "title": "グローバルルール",
+      "sub": "すべてのプロジェクト",
+      "icon": "folder",
+      "accent": false
+    },
+    {
+      "title": "CLAUDE.md",
+      "sub": "プロジェクトのルール",
+      "icon": "doc",
+      "accent": true
+    },
+    {
+      "title": "AIエージェント",
+      "sub": "ルールを積み重ねて読む",
+      "icon": "gear",
+      "accent": false
+    }
   ],
-  "steps": ["먼저 읽기", "위에 쌓기"],
+  "steps": [
+    "先に読む",
+    "上に積み重ねる"
+  ],
   "ret": null
 }

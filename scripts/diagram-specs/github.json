@@ -1,26 +1,26 @@
 {
-  "header": "내 기기에서 올리면, 클라우드 차고에 안전하게 보관돼요.",
-  "subcaption": "코드가 저장되고 공유되는 온라인 공간이에요.",
+  "header": "自分の端末からアップロードすれば、クラウドの車庫に安全に保管されます。",
+  "subcaption": "コードが保存され、共有されるオンラインの場所です。",
   "nodes": [
     {
-      "title": "내 기기",
-      "sub": "Git 스냅샷",
+      "title": "自分の端末",
+      "sub": "Gitのスナップショット",
       "icon": "terminal",
       "accent": false
     },
     {
       "title": "GitHub",
-      "sub": "클라우드 차고",
+      "sub": "クラウドの車庫",
       "icon": "cloud",
       "accent": true
     },
     {
-      "title": "팀원들",
-      "sub": "Pull로 내려받기",
+      "title": "チームメンバー",
+      "sub": "Pullでダウンロード",
       "icon": "users",
       "accent": false
     }
   ],
-  "steps": ["Push 업로드", "Pull 공유"],
+  "steps": ["Pushでアップロード", "Pullで共有"],
   "ret": null
 }

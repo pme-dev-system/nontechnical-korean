@@ -1,11 +1,29 @@
 {
-  "header": "원본은 그대로, 복사본에서 마음껏 실험해요.",
-  "subcaption": "변경을 안전하게 시도할 수 있는 복사본이에요.",
+  "header": "原本はそのまま、コピーの中で好きなだけ実験します。",
+  "subcaption": "変更を安全に試せるコピーのことです。",
   "nodes": [
-    {"title":"main","sub":"운영 중인 원본","icon":"branch","accent":false},
-    {"title":"브랜치","sub":"복사본·실험 공간","icon":"layers","accent":true},
-    {"title":"머지","sub":"성공 시 반영","icon":"check","accent":false}
+    {
+      "title": "main",
+      "sub": "稼働中の原本",
+      "icon": "branch",
+      "accent": false
+    },
+    {
+      "title": "ブランチ",
+      "sub": "コピー・実験の場",
+      "icon": "layers",
+      "accent": true
+    },
+    {
+      "title": "マージ",
+      "sub": "成功したら反映",
+      "icon": "check",
+      "accent": false
+    }
   ],
-  "steps": ["브랜치 생성","실험 완료"],
+  "steps": [
+    "ブランチを作成",
+    "実験が完了"
+  ],
   "ret": null
 }

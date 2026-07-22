@@ -1,11 +1,29 @@
 {
-  "header": "작업을 맡겨두고, 완료 알림을 받으면 처리해요.",
-  "subcaption": "줄 서서 기다리지 않고 실행되는 방식이에요.",
+  "header": "作業を任せておき、完了通知を受け取ったら処理します。",
+  "subcaption": "列に並んで待たずに実行される方式です。",
   "nodes": [
-    {"title": "내 앱", "sub": "요청자", "icon": "app", "accent": false},
-    {"title": "비동기", "sub": "느린 작업 위임", "icon": "clock", "accent": true},
-    {"title": "결과 처리", "sub": "완료 후 실행", "icon": "check", "accent": false}
+    {
+      "title": "自分のアプリ",
+      "sub": "依頼する側",
+      "icon": "app",
+      "accent": false
+    },
+    {
+      "title": "非同期",
+      "sub": "時間のかかる処理を委ねる",
+      "icon": "clock",
+      "accent": true
+    },
+    {
+      "title": "結果を処理",
+      "sub": "完了後に実行",
+      "icon": "check",
+      "accent": false
+    }
   ],
-  "steps": ["작업 맡김", "완료 알림"],
+  "steps": [
+    "処理を任せる",
+    "完了通知"
+  ],
   "ret": null
 }

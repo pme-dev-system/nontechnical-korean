@@ -1,11 +1,11 @@
 {
-  "header": "같은 시험지로 채점해야 점수가 숫자가 돼요.",
-  "subcaption": "AI 모델을 감이 아닌 점수로 비교하는 방법이에요.",
+  "header": "同じ問題で採点するから、点数が意味を持ちます。",
+  "subcaption": "AIモデルを勘ではなく点数で比較する方法です。",
   "nodes": [
-    {"title": "AI 모델", "sub": "응시자", "icon": "code", "accent": false},
-    {"title": "벤치마크", "sub": "공통 시험지", "icon": "check", "accent": true},
-    {"title": "채점 결과", "sub": "점수·성적표", "icon": "doc", "accent": false}
+    {"title": "AIモデル", "sub": "受験者", "icon": "code", "accent": false},
+    {"title": "ベンチマーク", "sub": "共通の試験問題", "icon": "check", "accent": true},
+    {"title": "採点結果", "sub": "点数・成績表", "icon": "doc", "accent": false}
   ],
-  "steps": ["문제 풀기", "자동 채점"],
+  "steps": ["問題を解く", "自動採点"],
   "ret": null
 }

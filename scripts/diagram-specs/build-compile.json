@@ -1,26 +1,29 @@
 {
-  "header": "원고를 인쇄소에 넘기면, 책이 완성돼요.",
-  "subcaption": "코드는 원고, 빌드는 그 인쇄 공정이에요.",
+  "header": "原稿を印刷所に渡すと、本が完成します。",
+  "subcaption": "コードは原稿、ビルドはその印刷工程です。",
   "nodes": [
     {
-      "title": "소스 코드",
-      "sub": "사람이 쓴 원고",
+      "title": "ソースコード",
+      "sub": "人間が書いた原稿",
       "icon": "code",
       "accent": false
     },
     {
-      "title": "빌드",
-      "sub": "번역·검사·묶음",
+      "title": "ビルド",
+      "sub": "翻訳・検査・まとめ",
       "icon": "gear",
       "accent": true
     },
     {
-      "title": "실행 파일",
-      "sub": "컴퓨터가 읽는 책",
+      "title": "実行ファイル",
+      "sub": "コンピュータが読む本",
       "icon": "box",
       "accent": false
     }
   ],
-  "steps": ["인쇄 요청", "변환 완료"],
+  "steps": [
+    "印刷を依頼",
+    "変換が完了"
+  ],
   "ret": null
 }

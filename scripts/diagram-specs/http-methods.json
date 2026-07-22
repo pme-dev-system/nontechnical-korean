@@ -1,11 +1,11 @@
 {
-  "header": "동사 하나로 의도를 전달해요.",
-  "subcaption": "조회·생성·수정·삭제, 네 동사가 웹을 움직여요.",
+  "header": "動詞一つで意図を伝えます。",
+  "subcaption": "照会・作成・変更・削除、四つの動詞がウェブを動かします。",
   "nodes": [
-    {"title": "내 앱", "sub": "요청 주체", "icon": "app", "accent": false},
-    {"title": "HTTP 메서드", "sub": "GET·POST·PUT·DELETE", "icon": "code", "accent": true},
-    {"title": "서버", "sub": "데이터 처리", "icon": "server", "accent": false}
+    {"title": "自分のアプリ", "sub": "リクエストの主体", "icon": "app", "accent": false},
+    {"title": "HTTPメソッド", "sub": "GET・POST・PUT・DELETE", "icon": "code", "accent": true},
+    {"title": "サーバー", "sub": "データを処理", "icon": "server", "accent": false}
   ],
-  "steps": ["동사 지정", "동작 수행"],
-  "ret": {"label": "결과 응답 · 상태 코드"}
+  "steps": ["動詞を指定", "動作を実行"],
+  "ret": {"label": "結果を返す・ステータスコード"}
 }

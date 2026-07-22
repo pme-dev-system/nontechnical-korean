@@ -1,11 +1,31 @@
 {
-  "header": "목표를 주면, 단계마다 직접 행동해요.",
-  "subcaption": "답만 하는 게 아니라 직접 일을 해내요.",
+  "header": "目標を渡すと、段階ごとに自分で行動します。",
+  "subcaption": "答えるだけでなく、実際に仕事をやり遂げます。",
   "nodes": [
-    {"title": "목표 전달", "sub": "사용자 지시", "icon": "user", "accent": false},
-    {"title": "에이전트", "sub": "루프 실행", "icon": "gear", "accent": true},
-    {"title": "도구 실행", "sub": "API·파일·터미널", "icon": "bolt", "accent": false}
+    {
+      "title": "目標を伝える",
+      "sub": "ユーザーの指示",
+      "icon": "user",
+      "accent": false
+    },
+    {
+      "title": "エージェント",
+      "sub": "ループを実行",
+      "icon": "gear",
+      "accent": true
+    },
+    {
+      "title": "ツールを実行",
+      "sub": "API・ファイル・ターミナル",
+      "icon": "bolt",
+      "accent": false
+    }
   ],
-  "steps": ["목표 전달", "도구 호출"],
-  "ret": {"label": "결과 확인 후 루프 반복"}
+  "steps": [
+    "目標を伝える",
+    "ツールを呼び出す"
+  ],
+  "ret": {
+    "label": "結果を確認してループを繰り返す"
+  }
 }

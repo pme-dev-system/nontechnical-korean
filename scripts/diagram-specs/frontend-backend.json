@@ -1,12 +1,12 @@
 {
-  "header": "홀이 주문받고, 주방이 실제로 일해요.",
-  "subcaption": "눈에 보이는 것과 실제로 일하는 것이에요.",
+  "header": "ホールが注文を受け、厨房が実際に働きます。",
+  "subcaption": "目に見えるものと、実際に働いているものです。",
   "nodes": [
-    { "title": "사용자", "sub": "손님", "icon": "user", "accent": false },
-    { "title": "프론트엔드", "sub": "홀 · 화면", "icon": "app", "accent": false },
-    { "title": "백엔드", "sub": "주방 · 처리", "icon": "server", "accent": true },
-    { "title": "데이터베이스", "sub": "재료 창고", "icon": "db", "accent": false }
+    { "title": "ユーザー", "sub": "お客さん", "icon": "user", "accent": false },
+    { "title": "フロントエンド", "sub": "ホール・画面", "icon": "app", "accent": false },
+    { "title": "バックエンド", "sub": "厨房・処理", "icon": "server", "accent": true },
+    { "title": "データベース", "sub": "食材の倉庫", "icon": "db", "accent": false }
   ],
-  "steps": ["클릭 · 요청", "처리 위임", "데이터 조회"],
-  "ret": { "label": "결과 · 화면에 표시" }
+  "steps": ["クリック・リクエスト", "処理を依頼", "データ照会"],
+  "ret": { "label": "結果・画面に表示" }
 }

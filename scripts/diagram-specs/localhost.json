@@ -1,11 +1,11 @@
 {
-  "header": "내 컴퓨터가 서버가 되어 나에게만 응답해요.",
-  "subcaption": "내 컴퓨터에서만 돌아가는 비공개 웹사이트예요.",
+  "header": "自分のパソコンがサーバーになって、自分にだけ応答します。",
+  "subcaption": "自分のパソコンの中だけで動く、非公開のウェブサイトです。",
   "nodes": [
-    {"title": "내 앱", "sub": "코드 작성 중", "icon": "code", "accent": false},
-    {"title": "로컬호스트", "sub": "내 컴퓨터 서버", "icon": "server", "accent": true},
-    {"title": "브라우저", "sub": "나만 볼 수 있음", "icon": "globe", "accent": false}
+    {"title": "自分のアプリ", "sub": "コードを作成中", "icon": "code", "accent": false},
+    {"title": "ローカルホスト", "sub": "自分のパソコンのサーバー", "icon": "server", "accent": true},
+    {"title": "ブラウザ", "sub": "自分だけが見られる", "icon": "globe", "accent": false}
   ],
-  "steps": ["실행 요청", "페이지 제공"],
-  "ret": {"label": "응답 · 나에게만 반환"}
+  "steps": ["実行リクエスト", "ページ提供"],
+  "ret": {"label": "応答 · 自分にだけ返る"}
 }

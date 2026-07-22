@@ -1,11 +1,11 @@
 {
-  "header": "AI가 달리는 차선, 가드레일이 거터를 막아요.",
-  "subcaption": "나쁜 입력·출력을 AI 양쪽에서 걸러내요.",
+  "header": "AIが走る車線を、ガードレールがガターから守ります。",
+  "subcaption": "悪い入力・出力をAIの両側でふるい落とします。",
   "nodes": [
-    {"title": "입력 필터", "sub": "요청 차단", "icon": "filter", "accent": false},
-    {"title": "가드레일", "sub": "범퍼·차선", "icon": "shield", "accent": true},
-    {"title": "사용자", "sub": "결과 수신", "icon": "user", "accent": false}
+    {"title": "入力フィルター", "sub": "リクエストを遮断", "icon": "filter", "accent": false},
+    {"title": "ガードレール", "sub": "バンパー・車線", "icon": "shield", "accent": true},
+    {"title": "ユーザー", "sub": "結果を受け取る", "icon": "user", "accent": false}
   ],
-  "steps": ["입력 검사", "출력 검사"],
+  "steps": ["入力チェック", "出力チェック"],
   "ret": null
 }

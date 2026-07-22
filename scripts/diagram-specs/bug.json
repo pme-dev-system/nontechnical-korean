@@ -1,26 +1,29 @@
 {
-  "header": "작은 결함 하나가 전체 동작을 어긋나게 해요.",
-  "subcaption": "소프트웨어가 의도와 다르게 동작하는 결함이에요.",
+  "header": "小さな欠陥ひとつが、全体の動作を狂わせます。",
+  "subcaption": "ソフトウェアが意図と違う動きをする欠陥です。",
   "nodes": [
     {
-      "title": "코드 작성",
-      "sub": "의도된 명령",
+      "title": "コードを書く",
+      "sub": "意図した命令",
       "icon": "code",
       "accent": false
     },
     {
-      "title": "버그",
-      "sub": "숨겨진 결함",
+      "title": "バグ",
+      "sub": "隠れた欠陥",
       "icon": "bolt",
       "accent": true
     },
     {
-      "title": "오작동",
-      "sub": "잘못된 결과",
+      "title": "誤作動",
+      "sub": "誤った結果",
       "icon": "check",
       "accent": false
     }
   ],
-  "steps": ["결함 발생", "동작 어긋남"],
+  "steps": [
+    "欠陥が発生",
+    "動作が狂う"
+  ],
   "ret": null
 }
