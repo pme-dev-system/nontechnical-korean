@@ -1,26 +1,26 @@
 {
-  "header": "두 줄기가 만날 때, 사람이 판단해요.",
-  "subcaption": "기계가 혼자 내리지 않는 딱 하나의 결정.",
+  "header": "二つの流れが出会うとき、人が判断します。",
+  "subcaption": "機械がひとりでは下さない、唯一の決定。",
   "nodes": [
     {
-      "title": "두 브랜치",
-      "sub": "각자의 수정본",
+      "title": "二つのブランチ",
+      "sub": "それぞれの修正版",
       "icon": "branch",
       "accent": false
     },
     {
-      "title": "머지",
-      "sub": "합치기 시도",
+      "title": "マージ",
+      "sub": "合流の試み",
       "icon": "layers",
       "accent": true
     },
     {
-      "title": "충돌 해결",
-      "sub": "사람이 선택",
+      "title": "コンフリクト解決",
+      "sub": "人が選ぶ",
       "icon": "check",
       "accent": false
     }
   ],
-  "steps": ["합치기 요청", "컨플릭트 감지"],
+  "steps": ["合流のリクエスト", "コンフリクトの検出"],
   "ret": null
 }

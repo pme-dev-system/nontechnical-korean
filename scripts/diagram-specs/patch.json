@@ -1,11 +1,11 @@
 {
-  "header": "구멍 난 자리만 꿰매는 작은 수정이에요.",
-  "subcaption": "버그를 고쳐 그 부분만 배포해요.",
+  "header": "穴の空いたところだけを繕う、小さな修正です。",
+  "subcaption": "バグを直して、その部分だけを配布します。",
   "nodes": [
-    {"title": "소프트웨어", "sub": "구멍 난 옷", "icon": "code", "accent": false},
-    {"title": "패치", "sub": "헝겊 한 조각", "icon": "file-img", "accent": true},
-    {"title": "배포", "sub": "수선 완료", "icon": "check", "accent": false}
+    {"title": "ソフトウェア", "sub": "穴の空いた服", "icon": "code", "accent": false},
+    {"title": "パッチ", "sub": "一枚の布切れ", "icon": "file-img", "accent": true},
+    {"title": "デプロイ", "sub": "繕い完了", "icon": "check", "accent": false}
   ],
-  "steps": ["수정 생성", "적용 · 배포"],
+  "steps": ["修正の作成", "適用・デプロイ"],
   "ret": null
 }

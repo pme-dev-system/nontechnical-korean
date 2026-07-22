@@ -1,11 +1,11 @@
 {
-  "header": "표준 플러그 하나로, 모든 도구가 연결돼요.",
-  "subcaption": "AI의 도구를 연결하는 범용 플러그예요.",
+  "header": "標準プラグひとつで、あらゆるツールがつながります。",
+  "subcaption": "AIの道具をつなぐ、汎用のプラグです。",
   "nodes": [
-    {"title": "내 AI", "sub": "연결 요청자", "icon": "app", "accent": false},
-    {"title": "MCP", "sub": "표준 플러그", "icon": "link", "accent": true},
-    {"title": "도구 서버", "sub": "캘린더·파일·DB", "icon": "server", "accent": false}
+    {"title": "自分のAI", "sub": "接続の依頼者", "icon": "app", "accent": false},
+    {"title": "MCP", "sub": "標準プラグ", "icon": "link", "accent": true},
+    {"title": "ツールサーバー", "sub": "カレンダー・ファイル・DB", "icon": "server", "accent": false}
   ],
-  "steps": ["표준 규격으로", "즉시 연결"],
-  "ret": {"label": "정해진 형식으로 결과 반환"}
+  "steps": ["標準規格で", "即座に接続"],
+  "ret": {"label": "決まった形式で結果を返す"}
 }

@@ -1,11 +1,11 @@
 {
-  "header": "레시피가 공개되면, 모두가 함께 개선해요.",
-  "subcaption": "누구나 읽고, 쓰고, 더 나아지게 돌려보내요.",
+  "header": "レシピが公開されると、みんなで一緒に改善します。",
+  "subcaption": "誰でも読んで、使って、より良くして送り返します。",
   "nodes": [
-    {"title": "사용자", "sub": "누구든", "icon": "users", "accent": false},
-    {"title": "오픈 소스", "sub": "공개 레시피", "icon": "code", "accent": true},
-    {"title": "개선 제안", "sub": "풀 리퀘스트", "icon": "branch", "accent": false}
+    {"title": "ユーザー", "sub": "誰でも", "icon": "users", "accent": false},
+    {"title": "オープンソース", "sub": "公開されたレシピ", "icon": "code", "accent": true},
+    {"title": "改善の提案", "sub": "プルリクエスト", "icon": "branch", "accent": false}
   ],
-  "steps": ["사용·발견", "기여·수정"],
-  "ret": {"label": "모두에게 반영"}
+  "steps": ["使用・発見", "貢献・修正"],
+  "ret": {"label": "みんなに反映"}
 }

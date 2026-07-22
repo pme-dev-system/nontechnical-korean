@@ -1,28 +1,28 @@
 {
-  "header": "파일은 대본이고, 프로세스는 살아있는 공연이에요.",
-  "subcaption": "실행하는 순간, 파일이 프로세스로 태어나요.",
+  "header": "ファイルは台本で、プロセスは生きている上演です。",
+  "subcaption": "実行した瞬間、ファイルはプロセスとして生まれます。",
   "nodes": [
     {
-      "title": "파일",
-      "sub": "대본 · 정적",
+      "title": "ファイル",
+      "sub": "台本・静的",
       "icon": "doc",
       "accent": false
     },
     {
-      "title": "프로세스",
-      "sub": "실행 인스턴스",
+      "title": "プロセス",
+      "sub": "実行中のインスタンス",
       "icon": "gear",
       "accent": true
     },
     {
-      "title": "자원",
-      "sub": "메모리 · CPU",
+      "title": "リソース",
+      "sub": "メモリ・CPU",
       "icon": "server",
       "accent": false
     }
   ],
-  "steps": ["실행", "점유"],
+  "steps": ["実行", "占有"],
   "ret": {
-    "label": "종료 · 파일은 그대로"
+    "label": "終了・ファイルはそのまま"
   }
 }

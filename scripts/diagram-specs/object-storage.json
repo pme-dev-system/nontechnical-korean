@@ -1,11 +1,11 @@
 {
-  "header": "번호표만 있으면 언제든 파일을 돌려받아요.",
-  "subcaption": "인터넷 위의 거대한 파일 보관함이에요.",
+  "header": "番号札さえあれば、いつでもファイルを取り戻せます。",
+  "subcaption": "インターネット上の、巨大なファイル保管庫です。",
   "nodes": [
-    {"title": "내 앱", "sub": "파일 요청자", "icon": "app", "accent": false},
-    {"title": "스토리지", "sub": "파일 보관소", "icon": "cloud", "accent": true},
-    {"title": "파일", "sub": "사진·영상·PDF", "icon": "folder", "accent": false}
+    {"title": "自分のアプリ", "sub": "ファイルの依頼者", "icon": "app", "accent": false},
+    {"title": "ストレージ", "sub": "ファイルの保管庫", "icon": "cloud", "accent": true},
+    {"title": "ファイル", "sub": "写真・動画・PDF", "icon": "folder", "accent": false}
   ],
-  "steps": ["번호표로 요청", "파일 꺼내기"],
-  "ret": {"label": "번호표(URL) 발급 · 반환"}
+  "steps": ["番号札でリクエスト", "ファイルを取り出す"],
+  "ret": {"label": "番号札(URL)を発行・返す"}
 }
